@@ -1,0 +1,555 @@
+herdID,county,salmonellaRes,mycoplasmaRes,animalType,animalBreed,animalNumber
+1,21,0,,Youngstock bull,Swedish Red,9
+1,21,0,,Weaned calves less than 6 mo female,Swedish Holstein,4
+1,21,0,,Weaned calves less than 6 mo female,Angus,11
+2,6,0,1,Bull,Swedish Polled,4
+2,6,0,1,Youngstock steer,Swedish Jersey,15
+3,1,0,0,Youngstock bull,Swedish Holstein,10
+4,12,1,,Youngstock heifer pregnant,Simmental,13
+5,5,1,,Youngstock steer,Limousin,1
+6,22,0,0,Youngstock heifer unknown pregnancy status,Simmental,8
+6,22,0,0,Weaned calves less than 6 mo female,Swedish Polled,1
+6,22,0,0,Calves on milk female,Charolais,10
+6,22,0,0,Bull,Simmental,12
+7,21,1,1,Ox,Simmental,7
+7,21,1,1,Ox,Limousin,4
+8,19,0,,Cow,Swedish Polled,3
+8,19,0,,Youngstock heifer not pregnant,Swedish Red,10
+8,19,0,,Weaned calves less than 6 mo male,Angus,11
+9,8,1,0,Weaned calves less than 6 mo female,Swedish Jersey,9
+10,5,0,0,Calves on milk male,Swedish Jersey,6
+10,5,0,0,Cow,Swedish Red,12
+11,6,0,1,Weaned calves less than 6 mo female,Simmental,12
+11,6,0,1,Youngstock steer,Angus,15
+11,6,0,1,Cow,Angus,12
+12,18,1,0,Weaned calves less than 6 mo male,Limousin,2
+12,18,1,0,Weaned calves less than 6 mo male,Swedish Jersey,9
+12,18,1,0,Youngstock heifer unknown pregnancy status,Simmental,4
+13,24,0,,Youngstock heifer unknown pregnancy status,Charolais,13
+13,24,0,,Calves on milk male,Angus,8
+14,22,1,1,Youngstock heifer unknown pregnancy status,Swedish Polled,14
+14,22,1,1,Youngstock steer,Swedish Jersey,12
+14,22,1,1,Youngstock heifer unknown pregnancy status,Charolais,13
+15,19,1,,Youngstock steer,Simmental,14
+15,19,1,,Youngstock steer,Limousin,1
+16,4,0,0,Weaned calves less than 6 mo female,Angus,7
+17,10,0,1,Bull,Swedish Red,15
+17,10,0,1,Weaned calves less than 6 mo male,Swedish Jersey,7
+18,5,1,1,Cow,Hereford,7
+18,5,1,1,Youngstock bull,Limousin,9
+19,6,0,1,Youngstock heifer pregnant,Charolais,2
+19,6,0,1,Weaned calves less than 6 mo female,Simmental,12
+20,17,1,1,Ox,Simmental,6
+21,6,1,0,Calves on milk male,Hereford,2
+21,6,1,0,Youngstock heifer unknown pregnancy status,Simmental,5
+22,24,1,,Calves on milk female,Angus,11
+22,24,1,,Youngstock heifer not pregnant,Hereford,9
+23,3,1,1,Cow,Hereford,13
+24,9,1,,Youngstock steer,Simmental,4
+25,4,0,,Ox,Swedish Red,13
+26,1,0,0,Youngstock heifer pregnant,Limousin,12
+26,1,0,0,Youngstock heifer pregnant,Swedish Polled,6
+27,12,0,1,Ox,Swedish Jersey,1
+28,13,1,1,Weaned calves less than 6 mo female,Limousin,10
+29,19,0,,Youngstock heifer pregnant,Swedish Jersey,7
+30,9,0,0,Bull,Simmental,9
+31,5,1,1,Ox,Simmental,14
+32,5,1,,Youngstock heifer pregnant,Swedish Holstein,8
+32,5,1,,Bull,Swedish Polled,12
+33,22,1,0,Youngstock bull,Angus,6
+33,22,1,0,Cow,Simmental,6
+34,17,0,0,Youngstock heifer not pregnant,Hereford,2
+35,6,1,,Youngstock heifer pregnant,Swedish Red,1
+36,5,0,1,Weaned calves less than 6 mo male,Charolais,13
+36,5,0,1,Youngstock heifer not pregnant,Charolais,8
+37,3,0,1,Youngstock heifer pregnant,Swedish Holstein,1
+37,3,0,1,Cow,Simmental,2
+38,22,1,0,Youngstock bull,Charolais,14
+38,22,1,0,Cow,Swedish Jersey,10
+39,4,0,,Cow,Hereford,1
+40,21,0,1,Bull,Simmental,1
+41,25,0,1,Calves on milk male,Simmental,1
+41,25,0,1,Calves on milk male,Swedish Polled,4
+42,22,1,0,Youngstock heifer unknown pregnancy status,Charolais,6
+42,22,1,0,Weaned calves less than 6 mo male,Limousin,12
+43,7,0,,Bull,Swedish Holstein,12
+43,7,0,,Youngstock heifer unknown pregnancy status,Swedish Jersey,3
+43,7,0,,Cow,Swedish Red,14
+44,7,1,,Cow,Swedish Red,5
+45,3,1,0,Youngstock steer,Swedish Jersey,13
+46,24,0,1,Weaned calves less than 6 mo male,Hereford,2
+47,4,0,,Calves on milk male,Angus,2
+47,4,0,,Calves on milk male,Swedish Red,13
+48,25,0,,Bull,Swedish Jersey,13
+48,25,0,,Weaned calves less than 6 mo male,Charolais,11
+49,3,1,0,Calves on milk female,Hereford,14
+49,3,1,0,Weaned calves less than 6 mo male,Swedish Polled,11
+50,7,1,,Bull,Charolais,8
+50,7,1,,Weaned calves less than 6 mo male,Simmental,12
+51,12,1,0,Weaned calves less than 6 mo male,Limousin,1
+51,12,1,0,Youngstock heifer not pregnant,Swedish Polled,9
+52,9,0,0,Bull,Charolais,4
+52,9,0,0,Calves on milk female,Charolais,6
+53,6,0,,Calves on milk female,Swedish Holstein,9
+54,1,0,1,Calves on milk female,Limousin,10
+54,1,0,1,Calves on milk female,Swedish Jersey,2
+55,21,0,0,Calves on milk female,Swedish Holstein,8
+55,21,0,0,Cow,Swedish Polled,11
+56,8,0,,Calves on milk female,Swedish Holstein,8
+56,8,0,,Bull,Limousin,13
+57,5,1,1,Cow,Hereford,1
+57,5,1,1,Weaned calves less than 6 mo male,Angus,5
+58,17,1,1,Weaned calves less than 6 mo female,Angus,8
+59,12,1,1,Calves on milk female,Simmental,15
+60,10,1,0,Weaned calves less than 6 mo male,Angus,4
+61,14,1,0,Youngstock steer,Charolais,3
+61,14,1,0,Youngstock bull,Swedish Holstein,4
+62,24,0,1,Ox,Hereford,1
+62,24,0,1,Calves on milk male,Swedish Red,7
+63,10,1,0,Youngstock heifer unknown pregnancy status,Swedish Jersey,13
+63,10,1,0,Ox,Swedish Polled,15
+63,10,1,0,Weaned calves less than 6 mo male,Simmental,12
+64,13,1,,Cow,Swedish Holstein,5
+65,4,0,1,Youngstock heifer unknown pregnancy status,Hereford,3
+66,20,0,,Weaned calves less than 6 mo female,Limousin,5
+67,6,1,,Bull,Swedish Polled,5
+68,18,1,1,Calves on milk male,Angus,11
+69,6,1,1,Youngstock heifer pregnant,Swedish Jersey,10
+69,6,1,1,Bull,Limousin,9
+69,6,1,1,Youngstock steer,Charolais,15
+70,3,1,,Cow,Swedish Jersey,13
+71,22,0,,Ox,Angus,4
+72,21,0,0,Youngstock heifer pregnant,Limousin,4
+72,21,0,0,Weaned calves less than 6 mo male,Simmental,9
+73,22,1,1,Weaned calves less than 6 mo male,Charolais,14
+73,22,1,1,Calves on milk male,Swedish Jersey,8
+74,6,1,0,Weaned calves less than 6 mo female,Swedish Jersey,11
+75,18,0,0,Youngstock bull,Swedish Jersey,10
+76,9,0,,Youngstock bull,Charolais,15
+77,9,0,1,Weaned calves less than 6 mo female,Swedish Red,11
+77,9,0,1,Calves on milk female,Swedish Holstein,13
+78,25,1,0,Youngstock heifer unknown pregnancy status,Swedish Polled,11
+79,5,0,,Youngstock steer,Swedish Jersey,5
+79,5,0,,Youngstock bull,Swedish Polled,11
+80,5,1,,Youngstock heifer unknown pregnancy status,Charolais,9
+81,8,0,0,Youngstock heifer pregnant,Swedish Red,11
+81,8,0,0,Calves on milk female,Swedish Jersey,5
+82,12,0,,Bull,Swedish Holstein,11
+82,12,0,,Youngstock heifer unknown pregnancy status,Swedish Holstein,2
+83,22,0,0,Weaned calves less than 6 mo male,Hereford,3
+84,17,0,,Youngstock steer,Swedish Holstein,14
+84,17,0,,Weaned calves less than 6 mo female,Angus,7
+85,25,1,0,Cow,Charolais,13
+86,23,0,,Cow,Swedish Polled,9
+87,20,1,,Weaned calves less than 6 mo female,Limousin,4
+87,20,1,,Youngstock steer,Swedish Holstein,6
+88,21,1,1,Youngstock heifer unknown pregnancy status,Swedish Red,5
+88,21,1,1,Cow,Swedish Jersey,8
+89,14,0,0,Youngstock heifer not pregnant,Simmental,9
+89,14,0,0,Weaned calves less than 6 mo male,Hereford,6
+90,10,1,1,Calves on milk female,Charolais,12
+91,25,1,0,Ox,Simmental,1
+91,25,1,0,Calves on milk male,Hereford,10
+91,25,1,0,Youngstock steer,Angus,3
+92,13,0,1,Cow,Swedish Holstein,6
+92,13,0,1,Calves on milk male,Swedish Polled,12
+93,20,0,1,Weaned calves less than 6 mo male,Angus,2
+94,9,0,1,Cow,Swedish Holstein,6
+94,9,0,1,Calves on milk male,Swedish Red,3
+95,7,1,1,Weaned calves less than 6 mo male,Swedish Polled,10
+96,1,0,1,Bull,Limousin,15
+97,17,1,,Weaned calves less than 6 mo male,Swedish Polled,15
+98,18,0,1,Bull,Swedish Jersey,12
+99,6,1,0,Weaned calves less than 6 mo female,Hereford,1
+100,10,0,1,Calves on milk male,Simmental,10
+100,10,0,1,Calves on milk male,Swedish Polled,2
+101,20,0,,Weaned calves less than 6 mo female,Swedish Holstein,7
+101,20,0,,Calves on milk female,Swedish Red,8
+102,13,0,0,Bull,Charolais,11
+102,13,0,0,Cow,Hereford,10
+103,12,1,,Weaned calves less than 6 mo female,Swedish Red,10
+103,12,1,,Bull,Limousin,3
+104,12,0,1,Weaned calves less than 6 mo male,Limousin,15
+105,1,1,,Youngstock heifer unknown pregnancy status,Charolais,12
+106,23,1,1,Youngstock heifer not pregnant,Swedish Jersey,13
+106,23,1,1,Bull,Hereford,9
+106,23,1,1,Weaned calves less than 6 mo female,Swedish Red,11
+107,21,0,0,Cow,Charolais,5
+107,21,0,0,Weaned calves less than 6 mo male,Simmental,13
+108,18,0,1,Cow,Charolais,4
+109,18,1,0,Youngstock heifer not pregnant,Swedish Red,3
+109,18,1,0,Weaned calves less than 6 mo female,Charolais,9
+109,18,1,0,Weaned calves less than 6 mo female,Charolais,2
+109,18,1,0,Weaned calves less than 6 mo female,Swedish Jersey,12
+109,18,1,0,Youngstock heifer unknown pregnancy status,Swedish Red,5
+109,18,1,0,Youngstock heifer unknown pregnancy status,Swedish Red,14
+110,19,1,0,Ox,Angus,11
+110,19,1,0,Youngstock heifer pregnant,Hereford,3
+110,19,1,0,Ox,Swedish Holstein,6
+111,7,1,0,Calves on milk female,Swedish Holstein,14
+112,19,0,1,Cow,Charolais,13
+113,13,1,0,Cow,Angus,3
+114,6,0,1,Weaned calves less than 6 mo female,Swedish Polled,9
+115,20,1,1,Youngstock heifer pregnant,Simmental,1
+115,20,1,1,Calves on milk female,Swedish Polled,12
+116,21,1,,Youngstock steer,Hereford,7
+116,21,1,,Youngstock heifer unknown pregnancy status,Limousin,11
+117,21,1,1,Cow,Charolais,7
+118,22,0,0,Ox,Swedish Red,4
+118,22,0,0,Calves on milk female,Limousin,2
+119,3,1,,Ox,Swedish Jersey,14
+119,3,1,,Youngstock heifer not pregnant,Swedish Polled,5
+120,7,0,0,Calves on milk female,Angus,6
+121,7,0,1,Calves on milk female,Charolais,5
+121,7,0,1,Calves on milk male,Swedish Jersey,6
+121,7,0,1,Ox,Swedish Jersey,2
+122,7,0,,Ox,Swedish Polled,10
+123,24,0,,Calves on milk female,Hereford,7
+124,19,1,,Weaned calves less than 6 mo male,Angus,6
+125,3,0,0,Weaned calves less than 6 mo female,Simmental,14
+125,3,0,0,Bull,Swedish Jersey,10
+125,3,0,0,Youngstock heifer pregnant,Swedish Polled,6
+126,12,1,0,Youngstock heifer unknown pregnancy status,Angus,4
+126,12,1,0,Calves on milk male,Swedish Red,9
+127,14,1,1,Weaned calves less than 6 mo female,Hereford,13
+127,14,1,1,Weaned calves less than 6 mo female,Swedish Holstein,5
+128,10,1,0,Youngstock heifer unknown pregnancy status,Swedish Polled,1
+128,10,1,0,Youngstock heifer pregnant,Swedish Jersey,4
+129,1,0,,Ox,Angus,8
+130,3,1,,Calves on milk female,Angus,3
+130,3,1,,Youngstock steer,Simmental,14
+131,3,1,0,Weaned calves less than 6 mo female,Swedish Jersey,9
+131,3,1,0,Weaned calves less than 6 mo male,Swedish Jersey,10
+132,13,0,,Weaned calves less than 6 mo female,Angus,4
+133,18,1,,Youngstock heifer unknown pregnancy status,Limousin,15
+134,3,0,1,Youngstock heifer not pregnant,Swedish Red,13
+135,3,1,0,Calves on milk female,Swedish Holstein,7
+136,12,0,,Youngstock heifer not pregnant,Swedish Red,10
+137,6,1,,Youngstock heifer not pregnant,Swedish Polled,9
+137,6,1,,Youngstock heifer pregnant,Charolais,7
+138,12,0,,Calves on milk female,Swedish Holstein,14
+138,12,0,,Youngstock heifer unknown pregnancy status,Hereford,5
+139,21,0,0,Weaned calves less than 6 mo male,Charolais,15
+139,21,0,0,Calves on milk female,Hereford,9
+140,21,1,0,Weaned calves less than 6 mo male,Swedish Holstein,3
+141,6,0,,Youngstock bull,Swedish Red,2
+141,6,0,,Weaned calves less than 6 mo male,Swedish Holstein,1
+141,6,0,,Youngstock heifer not pregnant,Charolais,5
+142,4,0,,Youngstock steer,Swedish Holstein,6
+142,4,0,,Cow,Swedish Polled,3
+143,18,0,,Weaned calves less than 6 mo male,Limousin,13
+144,18,0,,Youngstock heifer unknown pregnancy status,Swedish Polled,3
+145,1,1,0,Weaned calves less than 6 mo male,Simmental,11
+145,1,1,0,Youngstock bull,Hereford,13
+146,6,1,,Cow,Swedish Jersey,10
+146,6,1,,Calves on milk female,Swedish Polled,9
+147,4,1,1,Youngstock heifer unknown pregnancy status,Swedish Polled,9
+147,4,1,1,Calves on milk male,Hereford,5
+148,17,1,1,Ox,Limousin,3
+148,17,1,1,Youngstock heifer not pregnant,Swedish Red,14
+148,17,1,1,Youngstock steer,Swedish Jersey,8
+149,13,0,0,Calves on milk female,Limousin,7
+150,24,0,0,Calves on milk female,Simmental,11
+150,24,0,0,Youngstock steer,Hereford,7
+151,21,0,0,Cow,Simmental,1
+151,21,0,0,Bull,Angus,3
+152,24,1,1,Youngstock heifer unknown pregnancy status,Swedish Holstein,2
+153,5,0,0,Weaned calves less than 6 mo female,Charolais,10
+154,24,1,1,Youngstock bull,Swedish Holstein,14
+155,13,0,1,Youngstock steer,Swedish Polled,14
+155,13,0,1,Bull,Simmental,14
+156,21,1,0,Ox,Simmental,9
+157,10,1,,Cow,Hereford,13
+158,21,0,1,Ox,Swedish Polled,9
+159,17,0,0,Bull,Angus,15
+160,21,0,,Calves on milk male,Swedish Jersey,5
+161,24,0,1,Calves on milk male,Simmental,1
+161,24,0,1,Youngstock heifer unknown pregnancy status,Swedish Red,1
+161,24,0,1,Youngstock heifer not pregnant,Angus,15
+162,1,1,0,Cow,Swedish Red,13
+163,21,0,,Youngstock bull,Simmental,2
+164,1,1,1,Bull,Swedish Holstein,7
+164,1,1,1,Youngstock bull,Charolais,15
+165,3,1,,Youngstock heifer unknown pregnancy status,Hereford,5
+165,3,1,,Weaned calves less than 6 mo female,Hereford,8
+165,3,1,,Bull,Charolais,14
+166,9,0,1,Youngstock heifer unknown pregnancy status,Swedish Polled,8
+167,20,0,0,Youngstock heifer pregnant,Swedish Holstein,9
+168,4,1,0,Youngstock bull,Swedish Red,4
+168,4,1,0,Weaned calves less than 6 mo female,Swedish Polled,7
+169,6,1,,Youngstock heifer unknown pregnancy status,Swedish Red,10
+170,17,0,1,Youngstock heifer pregnant,Charolais,14
+170,17,0,1,Youngstock heifer pregnant,Swedish Jersey,1
+171,14,1,,Bull,Limousin,10
+172,1,0,1,Bull,Simmental,13
+173,23,0,1,Youngstock heifer not pregnant,Angus,4
+174,6,1,0,Youngstock heifer pregnant,Swedish Holstein,11
+175,19,0,1,Calves on milk female,Swedish Polled,15
+175,19,0,1,Calves on milk male,Charolais,3
+175,19,0,1,Ox,Charolais,1
+176,7,1,,Youngstock heifer pregnant,Swedish Polled,6
+176,7,1,,Bull,Swedish Jersey,10
+177,20,1,,Youngstock heifer unknown pregnancy status,Swedish Jersey,11
+177,20,1,,Calves on milk female,Charolais,11
+178,12,1,,Youngstock heifer pregnant,Angus,14
+179,8,1,0,Youngstock heifer not pregnant,Simmental,14
+180,10,0,,Bull,Swedish Polled,13
+180,10,0,,Calves on milk male,Hereford,5
+181,10,0,1,Youngstock heifer pregnant,Angus,8
+181,10,0,1,Calves on milk female,Simmental,9
+182,4,1,1,Calves on milk female,Charolais,2
+182,4,1,1,Youngstock bull,Limousin,5
+183,22,0,,Youngstock heifer not pregnant,Swedish Red,4
+184,25,0,,Weaned calves less than 6 mo male,Swedish Red,2
+185,19,0,0,Youngstock heifer pregnant,Simmental,1
+185,19,0,0,Ox,Angus,12
+186,19,1,0,Calves on milk male,Hereford,14
+187,24,0,0,Youngstock heifer pregnant,Hereford,4
+188,20,0,1,Weaned calves less than 6 mo female,Charolais,7
+188,20,0,1,Weaned calves less than 6 mo female,Hereford,15
+189,1,0,0,Calves on milk female,Hereford,1
+189,1,0,0,Weaned calves less than 6 mo female,Simmental,5
+190,7,0,,Youngstock heifer not pregnant,Simmental,8
+190,7,0,,Youngstock heifer not pregnant,Swedish Jersey,11
+191,13,1,0,Ox,Swedish Polled,8
+191,13,1,0,Calves on milk male,Swedish Holstein,4
+192,10,1,,Bull,Charolais,10
+192,10,1,,Bull,Limousin,14
+192,10,1,,Ox,Swedish Jersey,1
+192,10,1,,Calves on milk male,Swedish Red,1
+193,24,1,0,Weaned calves less than 6 mo female,Simmental,8
+194,17,0,0,Calves on milk female,Hereford,11
+195,6,0,1,Youngstock bull,Swedish Red,12
+196,13,1,,Calves on milk female,Swedish Jersey,7
+197,19,0,1,Weaned calves less than 6 mo female,Swedish Polled,14
+198,25,1,0,Calves on milk female,Swedish Holstein,12
+198,25,1,0,Ox,Limousin,10
+199,3,1,,Calves on milk male,Charolais,3
+200,7,0,1,Bull,Swedish Jersey,15
+201,1,1,0,Ox,Simmental,7
+202,18,1,0,Youngstock heifer not pregnant,Swedish Polled,13
+202,18,1,0,Cow,Charolais,8
+202,18,1,0,Ox,Hereford,6
+202,18,1,0,Weaned calves less than 6 mo male,Charolais,9
+203,20,0,,Youngstock heifer unknown pregnancy status,Angus,12
+203,20,0,,Youngstock heifer pregnant,Angus,10
+204,21,0,,Youngstock heifer not pregnant,Swedish Jersey,12
+204,21,0,,Calves on milk female,Simmental,5
+205,13,1,1,Youngstock heifer not pregnant,Swedish Red,4
+206,22,0,1,Youngstock heifer unknown pregnancy status,Swedish Red,10
+207,3,1,1,Bull,Swedish Holstein,12
+207,3,1,1,Youngstock heifer not pregnant,Limousin,3
+208,12,1,1,Ox,Simmental,15
+208,12,1,1,Calves on milk female,Charolais,3
+209,5,1,,Youngstock heifer not pregnant,Hereford,10
+210,24,0,1,Calves on milk female,Charolais,7
+211,19,1,0,Weaned calves less than 6 mo female,Simmental,7
+211,19,1,0,Bull,Swedish Polled,13
+211,19,1,0,Calves on milk female,Simmental,8
+211,19,1,0,Bull,Swedish Jersey,9
+212,8,1,0,Weaned calves less than 6 mo female,Swedish Red,1
+213,21,1,1,Youngstock steer,Angus,14
+213,21,1,1,Ox,Simmental,13
+214,6,1,,Youngstock steer,Simmental,13
+215,24,0,,Youngstock bull,Swedish Holstein,14
+215,24,0,,Youngstock heifer unknown pregnancy status,Simmental,11
+215,24,0,,Youngstock bull,Charolais,3
+216,22,0,,Youngstock heifer not pregnant,Swedish Jersey,3
+216,22,0,,Bull,Hereford,5
+217,10,0,,Youngstock steer,Charolais,6
+218,13,0,1,Youngstock heifer unknown pregnancy status,Swedish Holstein,3
+218,13,0,1,Youngstock heifer unknown pregnancy status,Swedish Holstein,7
+219,7,0,0,Youngstock heifer pregnant,Simmental,2
+219,7,0,0,Calves on milk female,Swedish Holstein,10
+220,12,0,1,Ox,Swedish Holstein,8
+221,10,0,,Youngstock bull,Charolais,7
+222,23,0,,Weaned calves less than 6 mo female,Limousin,7
+222,23,0,,Cow,Hereford,6
+223,10,1,1,Weaned calves less than 6 mo female,Hereford,10
+223,10,1,1,Weaned calves less than 6 mo male,Swedish Polled,7
+224,13,0,0,Bull,Hereford,4
+225,23,0,1,Calves on milk female,Charolais,10
+226,25,1,0,Youngstock steer,Swedish Holstein,2
+226,25,1,0,Weaned calves less than 6 mo female,Simmental,4
+227,5,0,,Calves on milk female,Limousin,11
+227,5,0,,Weaned calves less than 6 mo female,Hereford,14
+228,12,1,1,Cow,Angus,8
+229,21,1,1,Youngstock steer,Swedish Polled,6
+229,21,1,1,Weaned calves less than 6 mo male,Swedish Red,13
+230,25,0,1,Calves on milk female,Swedish Holstein,2
+231,14,1,,Youngstock heifer unknown pregnancy status,Swedish Polled,11
+232,25,1,,Bull,Hereford,8
+232,25,1,,Ox,Angus,15
+233,7,0,1,Ox,Angus,10
+233,7,0,1,Ox,Swedish Jersey,8
+234,19,1,0,Bull,Swedish Red,2
+234,19,1,0,Weaned calves less than 6 mo female,Simmental,7
+234,19,1,0,Ox,Swedish Holstein,1
+234,19,1,0,Youngstock heifer pregnant,Hereford,14
+235,10,0,,Ox,Hereford,11
+235,10,0,,Weaned calves less than 6 mo female,Angus,14
+235,10,0,,Cow,Hereford,4
+236,12,1,1,Youngstock heifer pregnant,Limousin,12
+236,12,1,1,Youngstock heifer pregnant,Hereford,13
+237,22,0,1,Ox,Simmental,2
+238,8,0,1,Youngstock heifer pregnant,Limousin,2
+239,18,1,1,Bull,Swedish Red,7
+240,14,1,0,Youngstock heifer pregnant,Swedish Polled,13
+241,25,1,1,Youngstock heifer pregnant,Simmental,14
+242,23,0,0,Youngstock heifer pregnant,Limousin,13
+242,23,0,0,Youngstock heifer pregnant,Charolais,4
+243,12,1,0,Youngstock bull,Limousin,9
+243,12,1,0,Weaned calves less than 6 mo male,Charolais,15
+244,6,1,0,Weaned calves less than 6 mo female,Swedish Red,14
+245,3,0,1,Cow,Simmental,8
+246,4,1,1,Ox,Swedish Jersey,9
+247,3,1,,Ox,Limousin,1
+247,3,1,,Youngstock heifer pregnant,Swedish Red,3
+248,18,1,1,Cow,Limousin,9
+248,18,1,1,Youngstock heifer unknown pregnancy status,Swedish Holstein,10
+249,20,0,1,Calves on milk male,Simmental,7
+249,20,0,1,Calves on milk male,Swedish Jersey,3
+249,20,0,1,Cow,Limousin,6
+250,5,1,0,Ox,Limousin,15
+250,5,1,0,Weaned calves less than 6 mo female,Swedish Polled,2
+250,5,1,0,Calves on milk female,Simmental,3
+251,25,0,1,Bull,Swedish Jersey,13
+252,7,1,0,Weaned calves less than 6 mo male,Swedish Holstein,15
+253,24,1,,Bull,Hereford,11
+253,24,1,,Youngstock heifer not pregnant,Swedish Holstein,4
+254,25,0,,Youngstock heifer unknown pregnancy status,Hereford,13
+255,24,1,0,Bull,Swedish Holstein,14
+255,24,1,0,Weaned calves less than 6 mo female,Hereford,4
+256,13,1,1,Weaned calves less than 6 mo female,Angus,1
+257,1,1,0,Cow,Swedish Polled,2
+257,1,1,0,Bull,Swedish Red,11
+258,18,1,,Cow,Angus,12
+259,1,1,0,Calves on milk female,Swedish Red,2
+260,5,0,,Youngstock steer,Charolais,4
+261,17,1,1,Weaned calves less than 6 mo female,Limousin,3
+262,7,1,0,Youngstock bull,Hereford,9
+263,14,0,1,Calves on milk female,Limousin,9
+264,8,1,1,Bull,Charolais,1
+264,8,1,1,Youngstock heifer pregnant,Swedish Red,4
+265,14,1,,Youngstock steer,Charolais,4
+266,6,1,1,Youngstock heifer unknown pregnancy status,Limousin,10
+267,22,1,0,Youngstock steer,Hereford,10
+268,8,0,,Calves on milk male,Limousin,6
+269,17,0,0,Ox,Swedish Red,14
+270,3,1,1,Youngstock heifer pregnant,Swedish Red,9
+271,4,0,1,Bull,Swedish Holstein,7
+272,1,1,,Calves on milk male,Swedish Polled,10
+272,1,1,,Youngstock bull,Charolais,11
+273,19,1,,Bull,Hereford,5
+274,24,1,0,Youngstock heifer not pregnant,Charolais,13
+275,13,0,0,Bull,Charolais,6
+275,13,0,0,Cow,Simmental,9
+275,13,0,0,Calves on milk female,Angus,1
+276,10,1,,Ox,Swedish Jersey,8
+277,12,1,,Youngstock steer,Charolais,4
+277,12,1,,Youngstock bull,Simmental,13
+278,8,0,1,Youngstock steer,Swedish Holstein,5
+279,23,1,1,Weaned calves less than 6 mo female,Swedish Red,11
+280,22,0,,Youngstock bull,Swedish Polled,5
+280,22,0,,Youngstock heifer unknown pregnancy status,Simmental,10
+281,14,0,1,Bull,Hereford,10
+282,12,0,1,Cow,Limousin,3
+282,12,0,1,Weaned calves less than 6 mo male,Swedish Holstein,4
+283,10,1,0,Youngstock steer,Swedish Polled,12
+283,10,1,0,Weaned calves less than 6 mo male,Swedish Red,5
+283,10,1,0,Cow,Swedish Red,8
+283,10,1,0,Youngstock bull,Swedish Red,15
+284,23,0,0,Calves on milk female,Simmental,14
+284,23,0,0,Youngstock heifer not pregnant,Swedish Jersey,2
+285,19,0,0,Ox,Swedish Red,13
+286,18,1,1,Weaned calves less than 6 mo female,Swedish Polled,10
+287,4,1,0,Bull,Swedish Jersey,12
+288,24,1,1,Youngstock bull,Simmental,9
+289,12,1,0,Youngstock heifer not pregnant,Swedish Holstein,3
+289,12,1,0,Calves on milk female,Swedish Holstein,3
+289,12,1,0,Youngstock heifer not pregnant,Swedish Jersey,4
+290,3,0,,Bull,Simmental,9
+291,21,1,,Weaned calves less than 6 mo male,Swedish Polled,11
+291,21,1,,Bull,Angus,10
+292,22,1,1,Youngstock heifer unknown pregnancy status,Swedish Polled,8
+293,23,1,0,Youngstock heifer not pregnant,Angus,4
+294,18,0,,Weaned calves less than 6 mo male,Swedish Jersey,5
+295,21,0,1,Youngstock heifer pregnant,Angus,14
+296,12,1,0,Weaned calves less than 6 mo male,Angus,8
+297,6,0,,Weaned calves less than 6 mo male,Limousin,3
+297,6,0,,Calves on milk male,Charolais,13
+298,17,1,0,Calves on milk female,Swedish Holstein,9
+298,17,1,0,Youngstock heifer pregnant,Swedish Jersey,9
+299,22,0,,Youngstock steer,Swedish Jersey,15
+300,23,0,0,Youngstock steer,Charolais,1
+300,23,0,0,Weaned calves less than 6 mo female,Hereford,14
+301,23,0,0,Youngstock heifer not pregnant,Swedish Polled,9
+302,12,0,0,Ox,Hereford,3
+302,12,0,0,Youngstock heifer unknown pregnancy status,Limousin,7
+302,12,0,0,Ox,Swedish Polled,8
+303,20,1,1,Youngstock steer,Swedish Holstein,5
+303,20,1,1,Bull,Charolais,6
+304,3,0,,Calves on milk male,Swedish Holstein,4
+305,5,0,1,Ox,Hereford,9
+306,8,0,1,Youngstock steer,Angus,13
+307,1,0,0,Bull,Charolais,1
+308,18,0,1,Youngstock bull,Hereford,1
+308,18,0,1,Weaned calves less than 6 mo female,Angus,5
+309,24,1,1,Bull,Hereford,11
+309,24,1,1,Weaned calves less than 6 mo female,Simmental,11
+310,23,0,1,Calves on milk male,Limousin,10
+311,14,1,,Bull,Limousin,1
+312,23,1,,Cow,Limousin,13
+312,23,1,,Calves on milk male,Swedish Red,8
+313,7,0,,Youngstock heifer unknown pregnancy status,Charolais,13
+313,7,0,,Bull,Swedish Polled,10
+314,14,0,1,Bull,Swedish Holstein,14
+315,12,1,,Bull,Charolais,5
+315,12,1,,Calves on milk male,Swedish Jersey,8
+315,12,1,,Ox,Angus,6
+316,8,0,1,Youngstock bull,Swedish Holstein,5
+317,23,0,1,Calves on milk male,Angus,14
+318,3,0,0,Ox,Hereford,11
+319,7,1,0,Calves on milk male,Charolais,5
+320,10,0,1,Youngstock heifer unknown pregnancy status,Swedish Holstein,14
+320,10,0,1,Bull,Charolais,12
+321,13,1,1,Weaned calves less than 6 mo male,Swedish Polled,9
+322,7,0,,Youngstock heifer pregnant,Simmental,2
+322,7,0,,Weaned calves less than 6 mo male,Swedish Polled,13
+323,6,1,,Youngstock heifer pregnant,Swedish Holstein,4
+323,6,1,,Bull,Charolais,13
+324,18,0,1,Calves on milk female,Charolais,11
+325,12,0,0,Weaned calves less than 6 mo male,Swedish Holstein,3
+326,19,1,0,Youngstock heifer unknown pregnancy status,Hereford,4
+327,1,0,1,Youngstock heifer unknown pregnancy status,Hereford,11
+328,10,0,,Youngstock heifer pregnant,Swedish Holstein,12
+328,10,0,,Weaned calves less than 6 mo female,Simmental,6
+328,10,0,,Youngstock bull,Swedish Holstein,5
+329,12,1,,Calves on milk male,Swedish Red,12
+330,21,0,,Bull,Hereford,12
+330,21,0,,Youngstock heifer unknown pregnancy status,Swedish Jersey,11
+330,21,0,,Bull,Simmental,4
+331,14,1,1,Bull,Hereford,13
+331,14,1,1,Calves on milk male,Swedish Holstein,1
+332,1,0,,Weaned calves less than 6 mo male,Simmental,13
+333,13,1,,Youngstock heifer unknown pregnancy status,Swedish Holstein,5
+333,13,1,,Calves on milk male,Swedish Jersey,10
+334,5,0,0,Youngstock heifer not pregnant,Limousin,1
+334,5,0,0,Bull,Swedish Red,10
+335,4,1,,Calves on milk male,Simmental,3
+336,25,0,0,Youngstock heifer unknown pregnancy status,Swedish Holstein,8
+337,7,0,1,Youngstock heifer unknown pregnancy status,Hereford,2
+337,7,0,1,Calves on milk female,Swedish Jersey,4
+337,7,0,1,Ox,Swedish Holstein,5
+338,6,1,0,Bull,Swedish Polled,9
+339,12,1,,Cow,Charolais,9
+339,12,1,,Calves on milk male,Swedish Jersey,3
+340,24,1,0,Youngstock heifer pregnant,Simmental,9
+341,3,1,,Youngstock bull,Swedish Holstein,2
+342,5,0,1,Youngstock heifer not pregnant,Swedish Polled,2
+343,24,0,1,Calves on milk male,Swedish Red,4
+344,10,1,0,Weaned calves less than 6 mo female,Charolais,8
+345,18,0,0,Youngstock steer,Hereford,12
+345,18,0,0,Cow,Swedish Jersey,10
+345,18,0,0,Youngstock heifer pregnant,Swedish Polled,4
+346,18,1,,Bull,Swedish Jersey,3

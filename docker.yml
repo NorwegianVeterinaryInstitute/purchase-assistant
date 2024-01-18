@@ -1,0 +1,34 @@
+variables:
+  R_LIBS_SITE: '/usr/share/R/library'
+  R_LIBS_USER: '$(Agent.BuildDirectory)/R/library'
+
+trigger:
+  branches:
+    include:
+      - main
+  batch: true
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+
+- bash: |
+    if ! [[ -f Dockerfile ]]; then
+      wget https://svastatichosting.z6.web.core.windows.net/shinyTemplate/Dockerfile
+    fi
+  displayName: 'Fetch remote Dockerfile if there is none in the repo'
+
+- bash: |
+    echo "##vso[task.setvariable variable=packageName;isOutput=true]$(grep -i ^package DESCRIPTION | cut -d : -d \  -f 2 | tr -d '\r')"
+
+  name: "getPackage"
+  displayName: 'Get package name from DESCRIPTION file'
+
+- task: Docker@2
+  inputs:
+    containerRegistry: 'ACR'
+    repository: $(getPackage.packageName)
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
+    tags: 'latest'

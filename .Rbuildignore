@@ -1,0 +1,6 @@
+Makefile
+^.*\.Rproj$
+^\.Rproj\.user$
+docker.yml
+.vscode
+.lintr
