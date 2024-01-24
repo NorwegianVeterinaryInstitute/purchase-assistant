@@ -35,7 +35,6 @@
 #' @importFrom shiny req
 #' @importFrom shiny runApp
 #' @importFrom shiny selectInput
-#' @importFrom shiny shinyApp
 #' @importFrom shiny span
 #' @importFrom shiny strong
 #' @importFrom shiny tableOutput
