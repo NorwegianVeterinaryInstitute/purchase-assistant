@@ -3,6 +3,7 @@
 #' @importFrom data.table merge.data.table
 #' @importFrom data.table set
 #' @importFrom data.table setDT
+#' @importFrom data.table setorder
 #' @importFrom DT datatable
 #' @importFrom DT DTOutput
 #' @importFrom DT formatStyle

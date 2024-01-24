@@ -19,18 +19,37 @@ greenlist_status <- function(res, personal = FALSE) {
 
 #' @noRd
 agent_table <- function(a_d, p_t) {
-    data.table::set(
-        a_d,
-        j = "result",
-        value = greenlist_status(a_d$result)
-    )
-
     p_t <- data.table::merge.data.table(
         p_t, a_d[, c("id", "date", "result")],
         by.x = "herd_id",
         by.y = "id",
         all.x = TRUE
     )
+
+    data.table::setorderv(p_t, cols = c("herd_id", "date"), order = c(1, -1))
+
+    agent_status <- function(x) {
+        if (length(x) < 4)
+            return("Ok\u00e4nd")
+        x <- x[1:4]
+
+        if (all(x == 0))
+            return("Fri fr\u00e5n infektion")
+
+        "Ok\u00e4nd"
+    }
+
+    date <- result <- NULL
+
+    p_t <- p_t[,
+        list(
+            county = county[1],
+            n_animals = n_animals[1],
+            last_date = date[1],
+            result = agent_status(result)
+        ),
+        by = "herd_id"
+    ]
 
     p_t$result[is.na(p_t$result)] <- "Ok\u00e4nd"
 
@@ -65,11 +84,11 @@ agent_table <- function(a_d, p_t) {
     ) |> DT::formatStyle(
         "result",
         backgroundColor = DT::styleEqual(
-            c("Gr\u00f6na listan", "Ok\u00e4nd"),
+            c("Fri fr\u00e5n infektion", "Ok\u00e4nd"),
             c("green", "white")
         ),
         color = DT::styleEqual(
-            c("Gr\u00f6na listan", "Ok\u00e4nd"),
+            c("Fri fr\u00e5n infektion", "Ok\u00e4nd"),
             c("white", "black")
         )
     )
