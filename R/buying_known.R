@@ -128,7 +128,7 @@ buying_known_server <- function(id, user_id, greenlist,
         output$my_status <- shiny::renderTable({
             shiny::req(user_id() %in% greenlist()$id)
 
-            friskko_status(disease_data(), user_id())
+            farm_status(disease_data(), user_id())
         }, sanitize.text.function = function(t) t, align = "c")
 
         output$county_select <- shiny::renderUI({
@@ -148,7 +148,7 @@ buying_known_server <- function(id, user_id, greenlist,
             shiny::selectInput(
                 inputId = shiny::NS(id)("county_select_pick"),
                 label = paste(
-                    "Bes\u00e4ttnings-ID:t finns ej i FriskKo-",
+                    "Bes\u00e4ttnings-ID:t finns ej i anv\u00e4ndar",
                     "listan, v\u00e4lj l\u00e4n varifr\u00e5n",
                     "k\u00f6pet skedde:"
                 ),

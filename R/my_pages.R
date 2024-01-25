@@ -1,5 +1,5 @@
 #' @noRd
-my_friskko_ui <- function(id) {
+my_pages_ui <- function(id) {
     ns <- shiny::NS(id)
     shiny::div(
         shiny::fluidRow(
@@ -19,7 +19,7 @@ my_friskko_ui <- function(id) {
                                         "Gr\u00f6na listan visar ",
                                         "bes\u00e4ttningar med ",
                                         "godk\u00e4nd provtagning inom ",
-                                        "FriskKo. N\u00e4r du har fyra ",
+                                        "programmet. N\u00e4r du har fyra ",
                                         "smittfria provtagningsom",
                                         "g\u00e5ngar i rad, \u00e4r din ",
                                         "bes\u00e4ttning kvalificerad."
@@ -30,7 +30,7 @@ my_friskko_ui <- function(id) {
                         ),
                         shiny::fluidRow(
                             shiny::column(
-                                my_friskko_status(ns),
+                                my_farm_status(ns),
                                 width = 12
                             )
                         ),
@@ -114,7 +114,7 @@ my_friskko_ui <- function(id) {
 }
 
 #' @noRd
-my_friskko_server <- function(id, user_id, greenlist, disease_data) {
+my_pages_server <- function(id, user_id, greenlist, disease_data) {
     shiny::moduleServer(id, function(input, output, session) {
         output$my_herd_id <- shiny::renderUI({
             shiny::h6(
@@ -136,7 +136,7 @@ my_friskko_server <- function(id, user_id, greenlist, disease_data) {
         output$my_status <- shiny::renderTable({
             shiny::req(user_id() %in% greenlist()$id)
 
-            friskko_status(disease_data(), user_id())
+            farm_status(disease_data(), user_id())
         }, sanitize.text.function = function(t) t, align = "c")
 
         output$my_greenlist <- shiny::renderUI({

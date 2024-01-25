@@ -13,7 +13,7 @@ run_app <- function(...) {
 #' @noRd
 app_ui <- function() {
     home <- home_ui("/")
-    my_friskko <- my_friskko_ui("mitt_friskko")
+    my_pages <- my_pages_ui("my_pages")
     animal_market <- animal_market_ui("djurmarknad")
     buying_known <- buying_known_ui("kopa_djur")
     selling <- selling_ui("salja_djur")
@@ -63,7 +63,7 @@ app_ui <- function() {
 
         shiny.router::router_ui(
             default = shiny.router::route("/", home),
-            shiny.router::route("mitt_friskko", my_friskko),
+            shiny.router::route("my_pages", my_pages),
             shiny.router::route("djurmarknad", animal_market),
             shiny.router::route("kopa_djur", buying_known),
             shiny.router::route("salja_djur", selling),
@@ -106,10 +106,10 @@ app_server <- function(input, output, session) {
         page <- current_page()
         text <- switch(
             page,
-            "/" = "FriskKo",
-            "mitt_friskko" = "Mitt FriskKo",
+            "/" = "Purchase Assistant",
+            "my_pages" = "My pages",
             "kopa_djur" = paste0(
-                "FriskKo - k\u00f6pa djur (k\u00e4nda bes\u00e4ttningar)"
+                "K\u00f6pa djur (k\u00e4nda bes\u00e4ttningar)"
             ),
             "djurmarknad" = "K\u00f6pa djur",
             "salja_djur" = "S\u00e4lja djur"
@@ -123,7 +123,7 @@ app_server <- function(input, output, session) {
         text <- switch(
             page,
             "/" = "",
-            "mitt_friskko" = paste0(
+            "my_pages" = paste0(
                 "F\u00e5 en \u00f6versikt \u00f6ver statusen ",
                 "i din egen bes\u00e4ttning"
             ),
@@ -179,7 +179,7 @@ app_server <- function(input, output, session) {
     shiny.router::router_server()
 
     home_server("/", my_name, my_herd_id)
-    my_friskko_server("mitt_friskko", my_herd_id, greenlist, disease_data)
+    my_pages_server("my_pages", my_herd_id, greenlist, disease_data)
     animal_market_server(
         "djurmarknad", my_herd_id, greenlist, disease_data, sellers
     )

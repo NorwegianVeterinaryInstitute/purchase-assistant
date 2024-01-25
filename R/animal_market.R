@@ -204,7 +204,7 @@ animal_market_server <- function(
         output$my_status <- shiny::renderTable({
             shiny::req(user_id() %in% greenlist()$id)
 
-            friskko_status(disease_data(), user_id())
+            farm_status(disease_data(), user_id())
         }, sanitize.text.function = function(t) t, align = "c")
 
         shiny::observeEvent(input$select_diseases, {

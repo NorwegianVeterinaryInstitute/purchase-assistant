@@ -14,7 +14,7 @@ home_ui <- function(id) {
                 shiny::br(),
                 shiny::includeMarkdown(
                     system.file(
-                        "markdown/friskko_home.md",
+                        "markdown/home.md",
                         package = "purchaseAssistant"
                     )
                 ),
@@ -24,14 +24,15 @@ home_ui <- function(id) {
                 shiny::fluidRow(
                     shiny::column(
                         home_box(
-                            title = "Mitt FriskKo",
+                            title = "My pages",
                             description = paste0(
-                                "H\u00e4r kan du som \u00e4r medlem i FriskKo-",
-                                "programmet f\u00e5 en \u00f6versikt \u00f6ver",
-                                " dina egna provresultat och smittl\u00e4get i",
-                                " din bes\u00e4ttning."
+                                "H\u00e4r kan du som \u00e4r medlem i",
+                                "provtagningsprogrammet f\u00e5 en ",
+                                "\u00f6versikt \u00f6ver dina egna ",
+                                "provresultat och smittl\u00e4get i din ",
+                                "bes\u00e4ttning."
                             ),
-                            page = "mitt_friskko",
+                            page = "my_pages",
                             icon = "cow"
                         ),
                         width = 6
@@ -62,7 +63,7 @@ home_ui <- function(id) {
                             description = paste0(
                                 "Om du vet vilka bes\u00e4ttningar du vill ",
                                 "k\u00f6pa djur fr\u00e5n och vill kontrollera",
-                                " deras FriskKo-status f\u00f6rst."
+                                " deras status f\u00f6rst."
                             ),
                             page = "kopa_djur",
                             icon = "clipboard-check"

@@ -61,7 +61,7 @@ selling_ui <- function(id) {
                                         paste0(
                                             "Genom att klicka p\u00e5 ",
                                             "\"L\u00e4gg till\" godk\u00e4nner",
-                                            " du att din FriskKo-status delas ",
+                                            " du att din gårds status delas ",
                                             "med potentiella k\u00f6pare."
                                         )
                                     )), width = 12
@@ -135,7 +135,7 @@ selling_server <- function(id, user_id, greenlist, disease_data) {
         output$my_status <- shiny::renderTable({
             shiny::req(user_id() %in% greenlist()$id)
 
-            friskko_status(disease_data(), user_id())
+            farm_status(disease_data(), user_id())
         }, sanitize.text.function = function(t) t, align = "c")
 
         output$selling_table <- DT::renderDataTable(DT::datatable(

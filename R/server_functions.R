@@ -95,7 +95,7 @@ agent_table <- function(a_d, p_t) {
 }
 
 #' @noRd
-friskko_status <- function(d_d, uid) {
+farm_status <- function(d_d, uid) {
     names(d_d) <- stringr::str_to_sentence(names(d_d))
 
     as.data.frame(lapply(

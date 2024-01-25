@@ -45,7 +45,7 @@ my_herd_panel <- function(ns, include_status = TRUE) {
         tags <- shiny::tagAppendChild(
             tags,
             shiny::p(
-                shiny::h6("Min FriskKo-status:"),
+                shiny::h6("Min g\u00e5rds status:"),
                 shiny::tableOutput(outputId = ns("my_status")),
                 shiny::tags$ul(
                     shiny::tags$li(
@@ -82,7 +82,7 @@ my_herd_panel <- function(ns, include_status = TRUE) {
 }
 
 #' @noRd
-my_friskko_status <- function(ns) {
+my_farm_status <- function(ns) {
     tags <- shiny::tagList(
         shiny::uiOutput(ns("my_greenlist")),
         shiny::div(
