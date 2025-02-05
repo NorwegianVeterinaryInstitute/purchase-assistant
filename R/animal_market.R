@@ -105,7 +105,7 @@ animal_market_ui <- function(id) {
                     shiny::column(
                         shiny::h3("Djur till salu"),
                         shiny::br(),
-                        shiny::dataTableOutput(
+                        DT::dataTableOutput(
                             outputId = ns("market_table")
                         ),
                         width = 11
