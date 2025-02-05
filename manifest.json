@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "locale": "en_US",
+  "locale": "mk_MK",
   "platform": "4.4.2",
   "metadata": {
     "appmode": "shiny",
@@ -1183,14 +1183,29 @@
         "Package": "purchaseAssistant",
         "Title": "Safe Trade Tool",
         "Version": "1.0",
-        "Authors@R": "c(person(given = \"Wiktor\",\nfamily = \"Gustafsson\",\nemail = \"wiktor.gustafsson@sva.se\",\nrole = c(\"aut\")),\nperson(given = \"Gema\",\nfamily = \"Vidal\",\nemail = \"gema.vidal@sva.se\",\nrole = c(\"aut\", \"cre\")),\nperson(given = \"Jenny\",\nfamily = \"Fr\\u00f6ssling\",\nemail = \"jenny.frossling@sva.se\",\nrole = c(\"ctb\")))",
-        "Description": "An app to determine the risk for various diseases when trading\ncattle with other farms.",
+        "Authors@R": "\n    c(person(given = \"Wiktor\",\n    family = \"Gustafsson\",\n    email = \"wiktor.gustafsson@sva.se\",\n    role = c(\"aut\")),\n    person(given = \"Gema\",\n    family = \"Vidal\",\n    email = \"gema.vidal@sva.se\",\n    role = c(\"aut\", \"cre\")),\n    person(given = \"Jenny\",\n    family = \"Fr\\u00f6ssling\",\n    email = \"jenny.frossling@sva.se\",\n    role = c(\"ctb\")))",
+        "Description": "An app to determine the risk for various diseases when trading\n    cattle with other farms.",
         "License": "GPL (>= 3)",
         "Encoding": "UTF-8",
         "Roxygen": "list(markdown = TRUE)",
         "RoxygenNote": "7.3.2",
         "Depends": "R (>= 4.0.0)",
-        "Imports": "bslib,\ndata.table,\nDT,\nmarkdown,\nshiny,\nshinyjs,\nshinyWidgets,\nshiny.router,\nstringr,\nutils,\npkgload,\ngolem"
+        "Imports": "bslib, data.table, DT, markdown, shiny, shinyjs, shinyWidgets,\nshiny.router, stringr, utils, pkgload, golem",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "purchase-assistant",
+        "RemoteUsername": "NorwegianVeterinaryInstitute",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "4560d7d5c7303256ddee65231653fa6f69f78424",
+        "GithubRepo": "purchase-assistant",
+        "GithubUsername": "NorwegianVeterinaryInstitute",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "4560d7d5c7303256ddee65231653fa6f69f78424",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-02-05 10:56:10 UTC; novica",
+        "Author": "Wiktor Gustafsson [aut],\n  Gema Vidal [aut, cre],\n  Jenny Frössling [ctb]",
+        "Maintainer": "Gema Vidal <gema.vidal@sva.se>",
+        "Built": "R 4.4.2; ; 2025-02-05 10:56:10 UTC; unix"
       }
     },
     "rappdirs": {
