@@ -32,4 +32,5 @@ Imports:
     shiny.router,
     stringr,
     utils,
-    pkgload
+    pkgload,
+    golem
