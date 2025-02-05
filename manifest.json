@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "locale": "en-US",
+  "locale": "en_US",
   "platform": "4.4.2",
   "metadata": {
     "appmode": "shiny",
@@ -86,6 +86,32 @@
         "Repository": "CRAN",
         "Date/Publication": "2025-01-12 16:10:02 UTC",
         "Built": "R 4.4.2; x86_64-pc-linux-gnu; 2025-02-05 09:41:56 UTC; unix"
+      }
+    },
+    "attempt": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "attempt",
+        "Title": "Tools for Defensive Programming",
+        "Version": "0.3.1",
+        "Authors@R": "person(\"Colin\", \"Fay\", email = \"contact@colinfay.me\", role = c(\"aut\", \"cre\"), comment=c(ORCID=\"0000-0001-7343-1846\"))",
+        "Description": "Tools for defensive programming, inspired by 'purrr' mappers and \n    based on 'rlang'.'attempt' extends and facilitates defensive programming by \n    providing a consistent grammar, and provides a set of easy to use functions \n    for common tests and conditions. 'attempt' only depends on 'rlang', and \n    focuses on speed, so it can be easily integrated in other functions and \n    used in data analysis. ",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "URL": "https://github.com/ColinFay/attempt",
+        "LazyData": "true",
+        "Suggests": "testthat, knitr, rmarkdown, curl",
+        "VignetteBuilder": "knitr",
+        "Imports": "rlang",
+        "RoxygenNote": "7.1.0",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-05-03 20:24:38 UTC; colin",
+        "Author": "Colin Fay [aut, cre] (<https://orcid.org/0000-0001-7343-1846>)",
+        "Maintainer": "Colin Fay <contact@colinfay.me>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-05-03 20:50:02 UTC",
+        "Built": "R 4.4.0; ; 2024-05-08 08:00:13 UTC; unix"
       }
     },
     "base64enc": {
@@ -560,6 +586,65 @@
         "Repository": "CRAN",
         "Date/Publication": "2024-09-30 22:30:01 UTC",
         "Built": "R 4.4.2; x86_64-pc-linux-gnu; 2025-02-05 09:39:54 UTC; unix"
+      }
+    },
+    "golem": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "golem",
+        "Title": "A Framework for Robust Shiny Applications",
+        "Version": "0.5.1",
+        "Authors@R": "c(\n    person(\"Colin\", \"Fay\", , \"contact@colinfay.me\", role = c(\"cre\", \"aut\"),\n           comment = c(ORCID = \"0000-0001-7343-1846\")),\n    person(\"Vincent\", \"Guyader\", , \"vincent@thinkr.fr\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-0671-9270\", \"previous maintainer\")),\n    person(\"Sébastien\", \"Rochette\", , \"sebastien@thinkr.fr\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-1565-9313\")),\n    person(\"Cervan\", \"Girard\", , \"cervan@thinkr.fr\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-4816-4624\")),\n    person(\"Novica\", \"Nakov\", , \"nnovica@gmail.com\", role = \"ctb\"),\n    person(\"David\", \"Granjon\", , \"dgranjon@ymail.com\", role = \"ctb\"),\n    person(\"Arthur\", \"Bréant\", , \"arthur@thinkr.fr\", role = \"ctb\"),\n    person(\"Antoine\", \"Languillaume\", , \"antoine@thinkr.fr\", role = \"ctb\"),\n    person(\"Ilya\", \"Zarubin\", , \"zarubin@wiso.uni-koeln.de\", role = \"ctb\"),\n    person(\"ThinkR\", role = \"cph\")\n  )",
+        "Description": "An opinionated framework for building a production-ready\n    'Shiny' application. This package contains a series of tools for\n    building a robust 'Shiny' application from start to finish.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://thinkr-open.github.io/golem/,\nhttps://github.com/ThinkR-open/golem",
+        "BugReports": "https://github.com/ThinkR-open/golem/issues",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "attempt (>= 0.3.0), config, here, htmltools, rlang (>= 1.0.0),\nshiny (>= 1.5.0), utils, yaml",
+        "Suggests": "attachment (>= 0.3.2), callr, cli (>= 2.0.0), covr, crayon,\ndesc, devtools, dockerfiler (>= 0.2.0), fs, httpuv, knitr,\nmockery, pkgbuild, pkgdown, pkgload (>= 1.3.0), processx,\npurrr, rcmdcheck, remotes, renv, rmarkdown, roxygen2,\nrsconnect, rstudioapi, sass, spelling, stringr, testthat (>=\n3.0.0), tools, usethis (>= 1.6.0), withr",
+        "VignetteBuilder": "knitr",
+        "Config/testthat/edition": "3",
+        "Config/testthat/parallel": "true",
+        "Encoding": "UTF-8",
+        "Language": "en-US",
+        "RoxygenNote": "7.3.2",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-08-27 10:11:51 UTC; colinfay",
+        "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  Arthur Bréant [ctb],\n  Antoine Languillaume [ctb],\n  Ilya Zarubin [ctb],\n  ThinkR [cph]",
+        "Maintainer": "Colin Fay <contact@colinfay.me>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-08-27 10:50:32 UTC",
+        "Built": "R 4.4.2; ; 2025-02-05 10:00:58 UTC; unix"
+      }
+    },
+    "here": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "here",
+        "Title": "A Simpler Way to Find Your Files",
+        "Version": "1.0.1",
+        "Date": "2020-12-13",
+        "Authors@R": "\n    c(person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = c(\"aut\", \"cre\"),\n             email = \"krlmlr+r@mailbox.org\",\n             comment = c(ORCID = \"0000-0002-1416-3412\")),\n      person(given = \"Jennifer\",\n             family = \"Bryan\",\n             role = \"ctb\",\n             email = \"jenny@rstudio.com\",\n             comment = c(ORCID = \"0000-0002-6983-2759\")))",
+        "Description": "Constructs paths to your project's files.\n    Declare the relative path of a file within your project with 'i_am()'.\n    Use the 'here()' function as a drop-in replacement for 'file.path()',\n    it will always locate the files relative to your project root.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://here.r-lib.org/, https://github.com/r-lib/here",
+        "BugReports": "https://github.com/r-lib/here/issues",
+        "Imports": "rprojroot (>= 2.0.2)",
+        "Suggests": "conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,\nrlang, rmarkdown, testthat, uuid, withr",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.1.1.9000",
+        "Config/testthat/edition": "3",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-12-13 06:59:33 UTC; kirill",
+        "Author": "Kirill Müller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>),\n  Jennifer Bryan [ctb] (<https://orcid.org/0000-0002-6983-2759>)",
+        "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-12-13 07:30:02 UTC",
+        "Built": "R 4.4.0; ; 2024-05-08 08:00:14 UTC; unix"
       }
     },
     "highr": {
@@ -1098,29 +1183,14 @@
         "Package": "purchaseAssistant",
         "Title": "Safe Trade Tool",
         "Version": "1.0",
-        "Authors@R": "\n    c(person(given = \"Wiktor\",\n    family = \"Gustafsson\",\n    email = \"wiktor.gustafsson@sva.se\",\n    role = c(\"aut\")),\n    person(given = \"Gema\",\n    family = \"Vidal\",\n    email = \"gema.vidal@sva.se\",\n    role = c(\"aut\", \"cre\")),\n    person(given = \"Jenny\",\n    family = \"Fr\\u00f6ssling\",\n    email = \"jenny.frossling@sva.se\",\n    role = c(\"ctb\")))",
-        "Description": "An app to determine the risk for various diseases when trading\n    cattle with other farms.",
+        "Authors@R": "c(person(given = \"Wiktor\",\nfamily = \"Gustafsson\",\nemail = \"wiktor.gustafsson@sva.se\",\nrole = c(\"aut\")),\nperson(given = \"Gema\",\nfamily = \"Vidal\",\nemail = \"gema.vidal@sva.se\",\nrole = c(\"aut\", \"cre\")),\nperson(given = \"Jenny\",\nfamily = \"Fr\\u00f6ssling\",\nemail = \"jenny.frossling@sva.se\",\nrole = c(\"ctb\")))",
+        "Description": "An app to determine the risk for various diseases when trading\ncattle with other farms.",
         "License": "GPL (>= 3)",
         "Encoding": "UTF-8",
         "Roxygen": "list(markdown = TRUE)",
-        "RoxygenNote": "7.3.1",
+        "RoxygenNote": "7.3.2",
         "Depends": "R (>= 4.0.0)",
-        "Imports": "bslib, data.table, DT, markdown, shiny, shinyjs, shinyWidgets,\nshiny.router, stringr, utils, pkgload",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "purchase-assistant",
-        "RemoteUsername": "NorwegianVeterinaryInstitute",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "51a60d2b8f0d0cab2b5c5cc6481518fc9e77adb6",
-        "GithubRepo": "purchase-assistant",
-        "GithubUsername": "NorwegianVeterinaryInstitute",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "51a60d2b8f0d0cab2b5c5cc6481518fc9e77adb6",
-        "NeedsCompilation": "no",
-        "Packaged": "2025-02-05 10:07:45 UTC; novica",
-        "Author": "Wiktor Gustafsson [aut],\n  Gema Vidal [aut, cre],\n  Jenny Frössling [ctb]",
-        "Maintainer": "Gema Vidal <gema.vidal@sva.se>",
-        "Built": "R 4.4.2; ; 2025-02-05 10:07:46 UTC; unix"
+        "Imports": "bslib,\ndata.table,\nDT,\nmarkdown,\nshiny,\nshinyjs,\nshinyWidgets,\nshiny.router,\nstringr,\nutils,\npkgload,\ngolem"
       }
     },
     "rappdirs": {
@@ -1655,7 +1725,7 @@
       "checksum": "c327ba0c5690d026ec891adb1ab385f4"
     },
     "DESCRIPTION": {
-      "checksum": "3027dcfd71ed0ca98dbff735d5638ab5"
+      "checksum": "3d40bc2a6415fc6fb76cdd8507dbc6a3"
     },
     "docker.yml": {
       "checksum": "ffbebc1b864aa78d74acba2cc82851fd"
@@ -1688,22 +1758,25 @@
       "checksum": "6b15c6f2cda8a0fc2aa6c32ae5ec36e4"
     },
     "man/run_app.Rd": {
-      "checksum": "219d22f9971dc13fa0434cc7ebda8511"
+      "checksum": "634c12f88fd618bdc1780d585c8102b7"
     },
     "NAMESPACE": {
-      "checksum": "d30c26b6f893b17b28262c37711eeed8"
+      "checksum": "6d706c145eb7ca66bf98ea3dcef495f3"
     },
     "R/_disable_autoload.R": {
       "checksum": "1178c335d6c11555fd1c4ec6098dfee6"
     },
     "R/animal_market.R": {
-      "checksum": "da86b872fa279b31e361694d50070cdd"
+      "checksum": "a2288294b28ca6867118cb54738a64a8"
     },
     "R/app_config.R": {
       "checksum": "0f0e2c051b613c6d3933a202654e3d9c"
     },
-    "R/app.R": {
-      "checksum": "134b8be634d4c30f4da3aa17fdb1b9b8"
+    "R/app_server.R": {
+      "checksum": "c5d7eb315b0b0c6a9ad20a59474abed7"
+    },
+    "R/app_ui.R": {
+      "checksum": "c5148602861eceef2777c715bf5ffbc8"
     },
     "R/buying_known.R": {
       "checksum": "41c88cf07c50b5c503db2c5b30466905"
@@ -1719,6 +1792,9 @@
     },
     "R/purchaseAssistant_package.R": {
       "checksum": "dbd287987344703c6733aba46462c933"
+    },
+    "R/run_app.R": {
+      "checksum": "f844e593846a73a6513ff1e72e46328f"
     },
     "R/selling.R": {
       "checksum": "692a32912db115760dccb49f99ebd8da"
