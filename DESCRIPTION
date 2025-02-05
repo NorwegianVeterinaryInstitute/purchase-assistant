@@ -31,4 +31,5 @@ Imports:
     shinyWidgets,
     shiny.router,
     stringr,
-    utils
+    utils,
+    pkgload
