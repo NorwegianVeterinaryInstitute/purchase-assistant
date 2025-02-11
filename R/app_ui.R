@@ -33,7 +33,7 @@ app_ui <- function() {
                         shiny::column(
                             shiny::actionButton(
                                 inputId = "logout",
-                                label = " Logga ut",
+                                label = " Logg ut",
                                 icon = shiny::icon("right-from-bracket"),
                                 onclick = "location.href='/logout'"
                             ),
@@ -59,11 +59,11 @@ app_ui <- function() {
             shiny.router::route("kopa_djur", buying_known),
             shiny.router::route("salja_djur", selling),
             page_404 = shiny::div(
-                shiny::h1("Sidan kan ej hittas"),
+                shiny::h1("Siden kan ikke finnes"),
                 shiny::br(),
                 shiny::actionButton(
                     inputId = "link_hem",
-                    label = shiny::h5("Hem"),
+                    label = shiny::h5("Hjem"),
                     onclick = sprintf(
                         "location.href='%s'",
                         shiny.router::route_link("/")

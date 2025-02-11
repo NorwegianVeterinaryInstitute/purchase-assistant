@@ -22,12 +22,12 @@ app_server <- function(input, output, session) {
     text <- switch(
       page,
       "/" = "Purchase Assistant",
-      "my_pages" = "My pages",
+      "my_pages" = "Mine sider",
       "kopa_djur" = paste0(
-        "K\u00f6pa djur (k\u00e4nda bes\u00e4ttningar)"
+        "Kjøpe dyr (kjente besetninger)"
       ),
-      "djurmarknad" = "K\u00f6pa djur",
-      "salja_djur" = "S\u00e4lja djur"
+      "djurmarknad" = "Kjøpe dyr",
+      "salja_djur" = "Selge dyr"
     )
     
     shiny::titlePanel(text)
@@ -39,15 +39,15 @@ app_server <- function(input, output, session) {
       page,
       "/" = "",
       "my_pages" = paste0(
-        "F\u00e5 en \u00f6versikt \u00f6ver statusen ",
-        "i din egen bes\u00e4ttning"
+        "Få en oversikt over statusen ",
+        "i din egen besetning"
       ),
       "kopa_djur" = paste0(
-        "Kontrollera andra bes\u00e4ttningars ",
-        "status innan du k\u00f6per"
+        "Kontroller andre besetningers ",
+        "status før du kjøper"
       ),
-      "djurmarknad" = "Hitta djur till salu",
-      "salja_djur" = "L\u00e4gg ut djur till f\u00f6rs\u00e4ljning"
+      "djurmarknad" = "Finn dyr til salgs",
+      "salja_djur" = "Legg ut dyr til salgs"
     )
     
     shiny::h5(text)
@@ -63,7 +63,7 @@ app_server <- function(input, output, session) {
       shiny::column(
         shiny::actionButton(
           inputId = "link_hem",
-          label = "Hem",
+          label = "Hjem",
           onclick = sprintf(
             "location.href='%s'",
             shiny.router::route_link("/")
@@ -78,13 +78,13 @@ app_server <- function(input, output, session) {
   output$header_user <- shiny::renderUI({
     shiny::div(shiny::fluidRow(
       shiny::column(
-        "V\u00e4lkommen ", shiny::span(my_name(), style = "color:blue"),
+        "Velkommen ", shiny::span(my_name(), style = "color:blue"),
         width = 12
       )
     ),
     shiny::fluidRow(
       shiny::column(
-        "Din bes\u00e4ttning: ",
+        "Din besetning: ",
         shiny::span(my_herd_id(), style = "color:blue"),
         width = 12
       )

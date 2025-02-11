@@ -45,22 +45,22 @@ my_herd_panel <- function(ns, include_status = TRUE) {
         tags <- shiny::tagAppendChild(
             tags,
             shiny::p(
-                shiny::h6("Min g\u00e5rds status:"),
+                shiny::h6("Min gårds status:"),
                 shiny::tableOutput(outputId = ns("my_status")),
                 shiny::tags$ul(
                     shiny::tags$li(
                         shiny::span(
                             shiny::HTML("&check;"), style = "color:green"
                         ),
-                        ": De fyra senaste provtagningarna har varit smittfria."
+                        ": De fire siste prøvetakingene har vært smittefrie."
                     ),
                     shiny::tags$li(
                         shiny::span(
                             shiny::HTML("&#9679;"), style = "color:red"
                         ),
                         paste0(
-                            ": Minst en av de fyra senaste provtagningarna ",
-                            "\u00e4r ej smittfri."
+                            ": Minst en av de fire siste prøvetakingene ",
+                            "er ikke smittefri."
                         )
                     ),
                     shiny::tags$li(
@@ -68,8 +68,8 @@ my_herd_panel <- function(ns, include_status = TRUE) {
                             shiny::HTML("&#9679;"), style = "color:gray"
                         ),
                         paste0(
-                            ": Fyra p\u00e5 varandra f\u00f6ljande ",
-                            "provtagningar har \u00e4nnu inte gjorts."
+                            ": Fire påfølgende prøvetakinger ",
+                            "har ennå ikke blitt utført."
                         )
                     ),
                     style = "list-style-type: none; font-size: 10px;"
@@ -89,21 +89,21 @@ my_farm_status <- function(ns) {
             shiny::tableOutput(outputId = ns("my_status")),
             style = "font-size: 24px;"
         ),
-        shiny::h6("Teckenf\u00f6rklaring"),
+        shiny::h6("Tegnforklaring"),
         shiny::tags$ul(
             shiny::tags$li(
                 shiny::span(
                     shiny::HTML("&check;"), style = "color:green"
                 ),
-                ": De fyra senaste provtagningarna har varit smittfria."
+                ": De fire siste prøvetakingene har vært smittefrie."
             ),
             shiny::tags$li(
                 shiny::span(
                     shiny::HTML("&#9679;"), style = "color:red"
                 ),
                 paste0(
-                    ": Minst en av de fyra senaste provtagningarna \u00e4r ej ",
-                    "smittfri."
+                    ": Minst en av de fire siste prøvetakingene er ikke ",
+                    "smittefri."
                 )
             ),
             shiny::tags$li(
@@ -111,8 +111,8 @@ my_farm_status <- function(ns) {
                     shiny::HTML("&#9679;"), style = "color:gray"
                 ),
                 paste0(
-                    ": Fyra p\u00e5 varandra f\u00f6ljande provtagningar ",
-                    " har \u00e4nnu inte gjorts."
+                    ": Fire påfølgende prøvetakinger ",
+                    "har ennå ikke blitt utført."
                 )
             ),
             style = "list-style-type: none; font-size: 14px;"

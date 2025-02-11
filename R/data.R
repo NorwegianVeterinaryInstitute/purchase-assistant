@@ -1,18 +1,18 @@
 #' @noRd
 all_animal_types <- function() {
-    c("Avvand kvigkalv yngre \u00e4n 6 m\u00e5n",
-      "Avvand tjurkalv yngre \u00e4n 6 m\u00e5n", "Diande kvigkalv",
-      "Diande tjurkalv", "Ko", "Kviga (dr\u00e4ktig)",
-      "Kviga (dr\u00e4ktighet ok\u00e4nd)", "Kviga (ej dr\u00e4ktig)", "Oxe",
-      "Stut", "Tjur", "Ungtjur")
+    c("Avvent kvigekalv yngre enn 6 måneder",
+      "Avvent oksekalv yngre enn 6 måneder", "Diekvigekalv",
+      "Dieoksekalv", "Ku", "Kvige (drektig)",
+      "Kvige (drektighet ukjent)", "Kvige (ikke drektig)", "Okse",
+      "Stut", "Tjur", "Ungokse")
 }
 
 #' @noRd
 all_animal_breeds <- function() {
     c("Angus", "Charolais", "Hereford", "Limousin", "Simmental",
       "Svensk Jersey-boskap (SJB)", "Svensk kullig boskap (SKB)",
-      "Svensk l\u00e5glandsboskap (SLB)",
-      "Svensk r\u00f6d och vit boskap (SRB)")
+      "Svensk lavlandsboskap (SLB)",
+      "Svensk rød og hvit boskap (SRB)")
 }
 
 #' valid_agents

@@ -6,9 +6,9 @@ animal_market_ui <- function(id) {
 
     picker_options <- shinyWidgets::pickerOptions(
         actionsBox = TRUE,
-        selectAllText = "Markera alla",
-        deselectAllText = "Avmarkera alla",
-        noneSelectedText = "Inget markerat"
+        selectAllText = "Merk alle",
+        deselectAllText = "Avmerk alle",
+        noneSelectedText = "Ingenting valgt"
     )
 
     shiny::div(
@@ -24,13 +24,13 @@ animal_market_ui <- function(id) {
                 shiny::fluidRow(
                     shiny::column(
                         shiny::wellPanel(
-                            shiny::h4("S\u00f6k djur"),
-                            shiny::p("(*) = obligatoriskt val"),
+                            shiny::h4("Søk dyr"),
+                            shiny::p("(*) = obligatorisk valg"),
                             shinyWidgets::pickerInput(
                                 inputId = ns("select_counties"),
                                 label = paste0(
-                                    "V\u00e4lj l\u00e4n du vill k\u00f6pa ",
-                                    "fr\u00e5n (*)"
+                                    "Velg fylke du vil kjøpe ",
+                                    "fra (*)"
                                 ),
                                 multiple = TRUE,
                                 choices = county_names,
@@ -40,8 +40,8 @@ animal_market_ui <- function(id) {
                             shinyWidgets::pickerInput(
                                 inputId = ns("select_types"),
                                 label = paste0(
-                                    "V\u00e4lj vilka djurtyper du vill ",
-                                    "k\u00f6pa (*)"
+                                    "Velg hvilke dyretyper du vil ",
+                                    "kjøpe (*)"
                                 ),
                                 multiple = TRUE,
                                 choices = all_animal_types(),
@@ -51,8 +51,8 @@ animal_market_ui <- function(id) {
                             shinyWidgets::pickerInput(
                                 inputId = ns("select_breeds"),
                                 label = paste0(
-                                    "V\u00e4lj vilka raser du vill ",
-                                    "k\u00f6pa"
+                                    "Velg hvilke raser du vil ",
+                                    "kjøpe"
                                 ),
                                 multiple = TRUE,
                                 choices = all_animal_breeds(),
@@ -61,10 +61,10 @@ animal_market_ui <- function(id) {
                             ),
                             shiny::p(
                                 paste0(
-                                    "K\u00f6p djur som \u00e4r fria fr\u00e5n ",
-                                    "(de g\u00e5rdar som visas kan, men ",
-                                    "beh\u00f6ver inte vara, fria fr\u00e5n ",
-                                    "icke-valda smittor):"
+                                    "Kjøp dyr som er fri fra ",
+                                    "(de gårdene som vises kan, men ",
+                                    "trenger ikke være, fri fra ",
+                                    "ikke-valgte sykdommer):"
                                 )
                             ),
                             shiny::checkboxGroupInput(
@@ -79,9 +79,9 @@ animal_market_ui <- function(id) {
                                     shiny::column(
                                         shiny::span(
                                             shiny::strong(
-                                                "OBS! Du riskerar att ",
-                                                "inf\u00f6ra salmonella ",
-                                                "p\u00e5 din g\u00e5rd.",
+                                                "OBS! Du risikerer å ",
+                                                "innføre salmonella ",
+                                                "på din gård.",
                                             ),
                                             style = "color:red"
                                         ),
@@ -92,7 +92,7 @@ animal_market_ui <- function(id) {
                             ),
                             shiny::actionButton(
                                 inputId = ns("apply_filters"),
-                                label = "Visa djur till salu"
+                                label = "Vis dyr til salgs"
                             )
                         ),
                         width = 12
@@ -103,7 +103,7 @@ animal_market_ui <- function(id) {
             shiny::column(
                 shiny::fluidRow(
                     shiny::column(
-                        shiny::h3("Djur till salu"),
+                        shiny::h3("Dyr til salgs"),
                         shiny::br(),
                         DT::dataTableOutput(
                             outputId = ns("market_table")
@@ -186,7 +186,7 @@ animal_market_server <- function(
 
         output$my_herd_id <- shiny::renderUI({
             shiny::h6(
-                "Min bes\u00e4ttning: ",
+                "Min besetning: ",
                 shiny::span(user_id(), style = "color:blue")
             )
         })
@@ -196,7 +196,7 @@ animal_market_server <- function(
             county <- g_l[g_l$id == user_id(), ]$county
 
             shiny::h5(
-                "Mitt l\u00e4n: ",
+                "Mitt fylke: ",
                 shiny::span(county, style = "color:blue")
             )
         })
@@ -223,8 +223,8 @@ animal_market_server <- function(
                 shinyWidgets::sendSweetAlert(
                     title = NULL,
                     text = paste0(
-                        "F\u00f6r att s\u00f6ka m\u00e5ste du v\u00e4lja ",
-                        "minst ett l\u00e4n och en djurtyp."
+                        "For å søke må du velge ",
+                        "minst ett fylke og en dyretype."
                     ),
                     type = "warning"
                 )
@@ -255,12 +255,12 @@ animal_market_server <- function(
                 data.table::setnames(
                     dt,
                     new = c(
-                        "Bes\u00e4ttnings-ID",
-                        "L\u00e4n",
+                        "Besetnings-ID",
+                        "Fylke",
                         stringr::str_to_sentence(valid_agents()),
-                        "Djurtyp",
-                        "Djurras",
-                        "Antal djur tillg\u00e4ngliga"
+                        "Dyretype",
+                        "Dyrrase",
+                        "Antall dyr tilgjengelig"
                     )
                 )
 
@@ -273,7 +273,7 @@ animal_market_server <- function(
                 language = list(
                     url = paste0(
                         "https://cdn.datatables.net",
-                        "/plug-ins/1.11.5/i18n/sv-SE.json"
+                        "/plug-ins/1.11.5/i18n/nb-NO.json"
                     )
                 ),
                 pageLength = 15,

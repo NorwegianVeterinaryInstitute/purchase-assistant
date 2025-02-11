@@ -19,7 +19,7 @@ selling_ui <- function(id) {
                                 shiny::column(
                                     shiny::numericInput(
                                         inputId = ns("n_animals"),
-                                        label = "Antal djur att s\u00e4lja",
+                                        label = "Antall dyr å selge",
                                         value = 0,
                                         min = 0,
                                         step = 1
@@ -30,7 +30,7 @@ selling_ui <- function(id) {
                                 shiny::column(
                                     shiny::selectInput(
                                         inputId = ns("select_animal_type"),
-                                        label = "Djurtyp",
+                                        label = "Dyretype",
                                         choices = all_animal_types()
                                     ), width = 12
                                 )
@@ -39,7 +39,7 @@ selling_ui <- function(id) {
                                 shiny::column(
                                     shiny::selectInput(
                                         inputId = ns("select_animal_breed"),
-                                        label = "Ras",
+                                        label = "Rase",
                                         choices = all_animal_breeds()
                                     ), width = 12
                                 )
@@ -49,8 +49,8 @@ selling_ui <- function(id) {
                                     shiny::actionButton(
                                         inputId = ns("add_row"),
                                         label = paste0(
-                                            "L\u00e4gg till i ",
-                                            "f\u00f6rs\u00e4ljningslistan"
+                                            "Legg til i ",
+                                            "salgslisten"
                                         )
                                     ), width = 6
                                 )
@@ -59,10 +59,10 @@ selling_ui <- function(id) {
                                 shiny::column(
                                     shiny::p(shiny::em(
                                         paste0(
-                                            "Genom att klicka p\u00e5 ",
-                                            "\"L\u00e4gg till\" godk\u00e4nner",
-                                            " du att din gårds status delas ",
-                                            "med potentiella k\u00f6pare."
+                                            "Ved å klikke på ",
+                                            "\"Legg til\" godkjenner",
+                                            " du at din gårds status deles ",
+                                            "med potensielle kjøpere."
                                         )
                                     )), width = 12
                                 )
@@ -74,12 +74,12 @@ selling_ui <- function(id) {
                 width = 3
             ),
             shiny::column(
-                shiny::h3("F\u00f6rs\u00e4ljningslista"),
+                shiny::h3("Salgslisten"),
                 shiny::fluidRow(
                     shiny::column(
                         shiny::actionButton(
                             inputId = ns("remove_row"),
-                            "Ta bort markerade rader"
+                            "Fjern markerte rader"
                         ),
                         width = 12
                     )
@@ -103,21 +103,21 @@ selling_server <- function(id, user_id, greenlist, disease_data) {
                 )),
                 n_animals = c(5, 2, 7),
                 animal_type = c(
-                    "Calves on milk female",
-                    "Ox",
-                    "Youngstock bull"
+                    "Kalver på melk hunn",
+                    "Okse",
+                    "Ungdyr okse"
                 ),
                 animal_breed = c(
-                    "Swedish Holstein",
-                    "Swedish Red",
-                    "Swedish Red"
+                    "Svensk Holstein",
+                    "Svensk Rød",
+                    "Svensk Rød"
                 )
             )
         )
 
         output$my_herd_id <- shiny::renderUI({
             shiny::h6(
-                "Min bes\u00e4ttning: ",
+                "Min besetning: ",
                 shiny::span(user_id(), style = "color:blue")
             )
         })
@@ -127,7 +127,7 @@ selling_server <- function(id, user_id, greenlist, disease_data) {
             county <- g_l[g_l$id == user_id(), ]$county
 
             shiny::h5(
-                "Mitt l\u00e4n: ",
+                "Mitt fylke: ",
                 shiny::span(county, style = "color:blue")
             )
         })
@@ -148,16 +148,16 @@ selling_server <- function(id, user_id, greenlist, disease_data) {
                 language = DT::JS(
                     paste0(
                         '{ "url": "https://cdn.datatables.net',
-                        '/plug-ins/1.11.5/i18n/sv-SE.json" }'
+                        '/plug-ins/1.11.5/i18n/nb-NO.json" }'
                     )
                 ),
                 columnDefs = list(list(className = "dt-right", targets = 1))
             ),
             colnames = c(
-                "Utl\u00e4ggningsdatum",
-                "Antal djur",
-                "Djurtyp",
-                "Ras"
+                "Utleggingsdato",
+                "Antall dyr",
+                "Dyretype",
+                "Rase"
             )
         ))
 

@@ -24,13 +24,13 @@ home_ui <- function(id) {
                 shiny::fluidRow(
                     shiny::column(
                         home_box(
-                            title = "My pages",
+                            title = "Mine sider",
                             description = paste0(
-                                "H\u00e4r kan du som \u00e4r medlem i",
-                                "provtagningsprogrammet f\u00e5 en ",
-                                "\u00f6versikt \u00f6ver dina egna ",
-                                "provresultat och smittl\u00e4get i din ",
-                                "bes\u00e4ttning."
+                                "Her kan du som er medlem i",
+                                "prøvetakingsprogrammet få en ",
+                                "oversikt over dine egne ",
+                                "prøveresultater og smittestatus i din ",
+                                "besetning."
                             ),
                             page = "my_pages",
                             icon = "cow"
@@ -39,12 +39,12 @@ home_ui <- function(id) {
                     ),
                     shiny::column(
                         home_box(
-                            title = "K\u00f6pa djur",
+                            title = "Kjøpe dyr",
                             description = paste0(
-                                "Om du vill k\u00f6pa djur och beh\u00f6ver en",
-                                " lista p\u00e5 bes\u00e4ttningar som lagt ut ",
-                                "djur f\u00f6r f\u00f6rs\u00e4ljning som ",
-                                "matchar dina \u00f6nskem\u00e5l."
+                                "Hvis du vil kjøpe dyr og trenger en",
+                                " liste over besetninger som har lagt ut ",
+                                "dyr for salg som ",
+                                "matcher dine ønsker."
                             ),
                             page = "djurmarknad",
                             icon = "cart-shopping"
@@ -57,13 +57,13 @@ home_ui <- function(id) {
                     shiny::column(
                         home_box(
                             title = paste0(
-                                "Kontrollera h\u00e4lsostatus innan ",
-                                "du k\u00f6per"
+                                "Kontroller helsestatus før ",
+                                "du kjøper"
                             ),
                             description = paste0(
-                                "Om du vet vilka bes\u00e4ttningar du vill ",
-                                "k\u00f6pa djur fr\u00e5n och vill kontrollera",
-                                " deras status f\u00f6rst."
+                                "Hvis du vet hvilke besetninger du vil ",
+                                "kjøpe dyr fra og vil kontrollere",
+                                " deres status først."
                             ),
                             page = "kopa_djur",
                             icon = "clipboard-check"
@@ -72,10 +72,10 @@ home_ui <- function(id) {
                     ),
                     shiny::column(
                         home_box(
-                            title = "S\u00e4lja djur",
+                            title = "Selge dyr",
                             description = paste0(
-                                "Om du vill l\u00e4gga ut djur f\u00f6r ",
-                                "f\u00f6rs\u00e4ljning."
+                                "Hvis du vil legge ut dyr for ",
+                                "salg."
                             ),
                             page = "salja_djur",
                             icon = "store"
@@ -95,11 +95,11 @@ home_server <- function(id, user_name, herd_id) {
         output$home_user <- shiny::renderUI({
             shiny::tagList(
                 shiny::h4(
-                    "V\u00e4lkommen ",
+                    "Velkommen ",
                     shiny::span(user_name(), style = "color: blue;")
                 ),
                 shiny::h5(
-                    "Din bes\u00e4ttning: ",
+                    "Din besetning: ",
                     shiny::span(herd_id(), style = "color: blue;")
                 )
             )

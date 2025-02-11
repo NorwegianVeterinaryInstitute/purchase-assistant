@@ -11,8 +11,8 @@ greenlist_status <- function(res, personal = FALSE) {
         }
         ifelse(
             x == 0,
-            "Gr\u00f6na listan",
-            "Ok\u00e4nd"
+            "Grønne listen",
+            "Ukjent"
         )
     })
 }
@@ -30,13 +30,13 @@ agent_table <- function(a_d, p_t) {
 
     agent_status <- function(x) {
         if (length(x) < 4)
-            return("Ok\u00e4nd")
+            return("Ukjent")
         x <- x[1:4]
 
         if (all(x == 0))
-            return("Fri fr\u00e5n infektion")
+            return("Fri fra infeksjon")
 
-        "Ok\u00e4nd"
+        "Ukjent"
     }
 
     date <- result <- NULL
@@ -51,12 +51,12 @@ agent_table <- function(a_d, p_t) {
         by = "herd_id"
     ]
 
-    p_t$result[is.na(p_t$result)] <- "Ok\u00e4nd"
+    p_t$result[is.na(p_t$result)] <- "Ukjent"
 
     show_rownames <- nrow(p_t) > 0
 
     if (nrow(p_t))
-        rownames(p_t) <- paste("Bes\u00e4ttning", seq_len(nrow(p_t)))
+        rownames(p_t) <- paste("Besetning", seq_len(nrow(p_t)))
 
     DT::datatable(
         p_t,
@@ -68,27 +68,27 @@ agent_table <- function(a_d, p_t) {
             language = DT::JS(
                 paste0(
                     '{ "url": "https://cdn.datatables.net',
-                    '/plug-ins/1.11.5/i18n/sv-SE.json" }'
+                    '/plug-ins/1.11.5/i18n/nb-NO.json" }'
                 )
             ),
             columnDefs = list(list(className = "dt-right", targets = 1)),
             selection = "none"
         ),
         colnames = c(
-            "Bes\u00e4ttnings-ID",
-            "L\u00e4n",
-            "Antal k\u00f6pta djur",
-            "Senaste analysdatum",
+            "Besetnings-ID",
+            "Fylke",
+            "Antall kjøpte dyr",
+            "Siste analysedato",
             "Status"
         )
     ) |> DT::formatStyle(
         "result",
         backgroundColor = DT::styleEqual(
-            c("Fri fr\u00e5n infektion", "Ok\u00e4nd"),
+            c("Fri fra infeksjon", "Ukjent"),
             c("green", "white")
         ),
         color = DT::styleEqual(
-            c("Fri fr\u00e5n infektion", "Ok\u00e4nd"),
+            c("Fri fra infeksjon", "Ukjent"),
             c("white", "black")
         )
     )
@@ -142,15 +142,15 @@ status_to_symbol <- function(x, include_pretext = FALSE, greenlist = TRUE) {
             isTRUE(greenlist),
             switch(
                 x,
-                "1" = "Ej gr\u00f6n ",
-                "0" = "Gr\u00f6na listan ",
-                "Unknown" = "Ok\u00e4nd "
+                "1" = "Ikke på grønne listen ",
+                "0" = "Grønne listen ",
+                "Unknown" = "Ukjent "
             ),
             switch(
                 x,
-                "1" = "Smitta p\u00e5visad ",
-                "0" = "Fri fr\u00e5n infektion ",
-                "Unknown" = "Ok\u00e4nd "
+                "1" = "Infeksjon påvist ",
+                "0" = "Fri fra infeksjon ",
+                "Unknown" = "Ukjent "
             )
         ), res)
     }
@@ -162,8 +162,8 @@ status_to_symbol <- function(x, include_pretext = FALSE, greenlist = TRUE) {
 my_results <- function(agent, my_id) {
     id <- result <- date <- NULL
     get_dataset(agent, latest = FALSE)[id == my_id, list(
-        Provtagningsdatum = as.character(date),
-        Provresultat = sapply(
+        Prøvetakingsdato = as.character(date),
+        Prøveresultat = sapply(
             result[seq_len(min(4, length(result)))], function(x)  {
                 paste(utils::capture.output(
                     status_to_symbol(

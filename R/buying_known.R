@@ -17,7 +17,7 @@ buying_known_ui <- function(id) {
                         shiny::wellPanel(
                             shiny::numericInput(
                                 inputId = ns("n_animals"),
-                                label = "Antal djur att k\u00f6pa",
+                                label = "Antall dyr å kjøpe",
                                 value = 0,
                                 min = 0,
                                 step = 1
@@ -25,31 +25,31 @@ buying_known_ui <- function(id) {
                             shiny::textInput(
                                 inputId = ns("herd_id"),
                                 label = paste0(
-                                    "Bes\u00e4ttnings-ID ",
-                                    "(anv\u00e4nd V\u00e4xas)"
+                                    "Besetnings-ID ",
+                                    "(bruk Væxas)"
                                 ),
                                 value = NULL,
-                                placeholder = "Bes\u00e4ttningens ID"
+                                placeholder = "Besetningens ID"
                             ),
                             shiny::uiOutput(outputId = ns("county_select")),
                             shiny::actionButton(
                                 inputId = ns("add_row"),
-                                "L\u00e4gg till ink\u00f6p i tabell"
+                                "Legg til kjøp i tabell"
                             ),
                             shiny::br(),
                             shiny::p(
                                 shiny::em(
                                     paste(
-                                        "Om bes\u00e4ttningen redan finns i",
-                                        "ink\u00f6pstabellen kommer detta",
-                                        "ink\u00f6p att l\u00e4ggas ihop med ",
-                                        "tidigare p\u00e5 befintlig rad."
+                                        "Hvis besetningen allerede finnes i",
+                                        "kjøpstabellen vil dette",
+                                        "kjøpet bli lagt sammen med ",
+                                        "tidligere på eksisterende rad."
                                     )
                                 )
                             ),
                             shiny::br(),
                             shiny::actionButton(
-                                ns("clear_table"), "Rensa ink\u00f6pstabell"
+                                ns("clear_table"), "Tøm kjøpstabell"
                             )
                         ),
                         width = 12
@@ -60,11 +60,11 @@ buying_known_ui <- function(id) {
             shiny::column(
                 shiny::tabsetPanel(
                     shiny::tabPanel(
-                        "\u00d6versikt ink\u00f6p",
+                        "Oversikt kjøp",
                         shiny::fluidRow(
                             shiny::column(
                                 shiny::br(),
-                                shiny::h3("\u00d6versikt"),
+                                shiny::h3("Oversikt"),
                                 width = 12
                             )
                         ),
@@ -72,7 +72,7 @@ buying_known_ui <- function(id) {
                             shiny::column(
                                 shiny::actionButton(
                                     inputId = ns("remove_row"),
-                                    "Ta bort markerade ink\u00f6p"
+                                    "Fjern markerte kjøp"
                                 ),
                                 width = 12
                             )
@@ -110,7 +110,7 @@ buying_known_server <- function(id, user_id, greenlist,
 
         output$my_herd_id <- shiny::renderUI({
             shiny::h6(
-                "Min bes\u00e4ttning: ",
+                "Min besetning: ",
                 shiny::span(user_id(), style = "color:blue")
             )
         })
@@ -120,7 +120,7 @@ buying_known_server <- function(id, user_id, greenlist,
             county <- g_l[g_l$id == user_id(), ]$county
 
             shiny::h5(
-                "Mitt l\u00e4n: ",
+                "Mitt fylke: ",
                 shiny::span(county, style = "color:blue")
             )
         })
@@ -148,9 +148,9 @@ buying_known_server <- function(id, user_id, greenlist,
             shiny::selectInput(
                 inputId = shiny::NS(id)("county_select_pick"),
                 label = paste(
-                    "Bes\u00e4ttnings-ID:t finns ej i anv\u00e4ndar",
-                    "listan, v\u00e4lj l\u00e4n varifr\u00e5n",
-                    "k\u00f6pet skedde:"
+                    "Besetnings-ID finnes ikke i bruker",
+                    "listen, velg fylke hvorfra",
+                    "kjøpet skjedde:"
                 ),
                 choices = choices,
                 width = "50%"
@@ -181,7 +181,7 @@ buying_known_server <- function(id, user_id, greenlist,
             show_rownames <- nrow(p_t) > 0
 
             if (nrow(p_t))
-                rownames(p_t) <- paste("Bes\u00e4ttning", seq_len(nrow(p_t)))
+                rownames(p_t) <- paste("Besetning", seq_len(nrow(p_t)))
 
             DT::datatable(
                 p_t,
@@ -193,26 +193,26 @@ buying_known_server <- function(id, user_id, greenlist,
                     language = DT::JS(
                         paste0(
                             '{ "url": "https://cdn.datatables.net',
-                            '/plug-ins/1.11.5/i18n/sv-SE.json" }'
+                            '/plug-ins/1.11.5/i18n/nb-NO.json" }'
                         )
                     ),
                     columnDefs = list(list(className = "dt-right", targets = 1))
                 ),
                 colnames = c(
-                    "Bes\u00e4ttnings-ID",
-                    "L\u00e4n",
-                    "Antal k\u00f6pta djur",
+                    "Besetnings-ID",
+                    "Fylke",
+                    "Antall kjøpte dyr",
                     "Status"
                 )
             ) |>
             DT::formatStyle(
                 "greenlist",
                 backgroundColor = DT::styleEqual(
-                    c("Gr\u00f6na listan", "Ok\u00e4nd"),
+                    c("Grønne listen", "Ukjent"),
                     c("green", "white")
                 ),
                 color = DT::styleEqual(
-                    c("Gr\u00f6na listan", "Ok\u00e4nd"),
+                    c("Grønne listen", "Ukjent"),
                     c("white", "black")
                 )
             )
@@ -295,10 +295,10 @@ buying_known_server <- function(id, user_id, greenlist,
                 session = session,
                 inputId = shiny::NS(id)("confirm_clear"),
                 type = "warning",
-                title = paste("S\u00e4ker att du vill rensa tabellen?",
-                              "OBS! Kan ej \u00e5ngras"),
+                title = paste("Er du sikker på at du vil tømme tabellen?",
+                              "OBS! Kan ikke angres"),
                 danger_mode = TRUE,
-                btn_labels = c("Avbryt", "Bekr\u00e4fta")
+                btn_labels = c("Avbryt", "Bekreft")
             )
         })
 

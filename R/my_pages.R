@@ -11,18 +11,18 @@ my_pages_ui <- function(id) {
                 shiny::tabsetPanel(
                     shiny::tabPanel(
                         shiny::br(),
-                        shiny::h3("\u00d6versikt"),
+                        shiny::h3("Oversikt"),
                         shiny::fluidRow(
                             shiny::column(
                                 shiny::h6(
                                     paste0(
-                                        "Gr\u00f6na listan visar ",
-                                        "bes\u00e4ttningar med ",
-                                        "godk\u00e4nd provtagning inom ",
-                                        "programmet. N\u00e4r du har fyra ",
-                                        "smittfria provtagningsom",
-                                        "g\u00e5ngar i rad, \u00e4r din ",
-                                        "bes\u00e4ttning kvalificerad."
+                                        "Grønne listen viser ",
+                                        "besetninger med ",
+                                        "godkjent prøvetaking innen ",
+                                        "programmet. Når du har fire ",
+                                        "smittfrie prøvetakingsom",
+                                        "ganger i rad, er din ",
+                                        "besetning kvalifisert."
                                     )
                                 ),
                                 width = 12
@@ -34,7 +34,7 @@ my_pages_ui <- function(id) {
                                 width = 12
                             )
                         ),
-                        title = "\u00d6versikt",
+                        title = "Oversikt",
                         value = "overview"
                     ),
                     shiny::tabPanel(
@@ -42,23 +42,23 @@ my_pages_ui <- function(id) {
                         shiny::h3("Salmonella"),
                         shiny::p(
                             paste0(
-                                "Resultat fr\u00e5n de senaste fyra ",
-                                "provtagningarna f\u00f6r salmonella."
+                                "Resultater fra de siste fire ",
+                                "prøvetakingene for salmonella."
                             )
                         ),
                         shiny::p(
                             paste0(
-                                "Positiva resultat f\u00f6r Salmonella Dublin ",
-                                "och \u00f6vriga salmonellavarianter ",
-                                "kombineras  till ett ",
-                                "provtagningstillf\u00e4lle, och endast det ",
-                                "senaste datumet visas."
+                                "Positive resultater for Salmonella Dublin ",
+                                "og andre salmonellavarianter ",
+                                "kombineres til en ",
+                                "prøvetakingsomgang, og kun den ",
+                                "siste datoen vises."
                             )
                         ),
                         shiny::p(
-                            "Om du har provresultat fr\u00e5n fler \u00e4n en ",
-                            "mj\u0f6lktank kombineras dina tankmj\u00f6lks",
-                            "resultat till ett provtagningsdatum."
+                            "Hvis du har prøveresultater fra mer enn en ",
+                            "melketank kombineres dine tankmelk",
+                            "resultater til en prøvetakingsdato."
                         ),
                         shiny::tableOutput(
                             outputId = ns("my_results_salmonella")
@@ -72,7 +72,7 @@ my_pages_ui <- function(id) {
                                 ),
                                 target = "_blank",
                                 shiny::h6(
-                                    "L\u00e4s mer om salmonellar\u00e5dgivning"
+                                    "Les mer om salmonellarådgivning"
                                 )
                             )
                         ),
@@ -83,8 +83,8 @@ my_pages_ui <- function(id) {
                         shiny::h3("Mycoplasma bovis"),
                         shiny::p(
                             paste0(
-                                "Resultat fr\u00e5n de senaste fyra ",
-                                "provtagningarna f\u00f6r mycoplasma."
+                                "Resultater fra de siste fire ",
+                                "prøvetakingene for mycoplasma."
                             )
                         ),
                         shiny::tableOutput(
@@ -99,7 +99,7 @@ my_pages_ui <- function(id) {
                                 ),
                                 target = "_blank",
                                 shiny::h6(
-                                    "L\u00e4s mer om Mycoplasma bovis"
+                                    "Les mer om Mycoplasma bovis"
                                 )
                             )
                         ),
@@ -118,7 +118,7 @@ my_pages_server <- function(id, user_id, greenlist, disease_data) {
     shiny::moduleServer(id, function(input, output, session) {
         output$my_herd_id <- shiny::renderUI({
             shiny::h6(
-                "Min bes\u00e4ttning: ",
+                "Min besetning: ",
                 shiny::span(user_id(), style = "color:blue")
             )
         })
@@ -128,7 +128,7 @@ my_pages_server <- function(id, user_id, greenlist, disease_data) {
             county <- g_l[g_l$id == user_id(), ]$county
 
             shiny::h5(
-                "Mitt l\u00e4n: ",
+                "Mitt fylke: ",
                 shiny::span(county, style = "color:blue")
             )
         })
@@ -152,7 +152,7 @@ my_pages_server <- function(id, user_id, greenlist, disease_data) {
             )
 
             shiny::h4(
-                "Min sammanlagda status: ",
+                "Min samlede status: ",
                 status_to_symbol(res, include_pretext = TRUE)
             )
         })
