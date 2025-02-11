@@ -1,12 +1,12 @@
-**Enkelt och smidigt med automatisk provtagning. Med abonnemang på FriskKo har du alltid koll på smittläget i din besättning.**
+**Enkelt og praktisk med automatisk prøvetaking. Med abonnement på FriskKu har du alltid kontroll på smittestatusen i din besetning.**
 
 #### Enkelt!
-Proverna tas från mejerilevererad tankmjölk fyra gånger per år. I kokontrollanslutna besättningar tas även prover från förstakalvare två gånger per år.
+Prøvene tas fra meierileverert tankmelk fire ganger i året. I besetninger tilknyttet kukontrollen tas også prøver fra førstegangskalvere to ganger i året.
 
-#### Löpande status - upptäck smitta tidigt
-Du har allt att vinna på att upptäcka smittor i tid, innan de hinner sprida sig i besättningen.
+#### Løpende status - oppdag smitte tidlig
+Du har alt å vinne på å oppdage smitte tidlig, før den rekker å spre seg i besetningen.
 
-#### Hälsostatus vid förmedling av djur
-Du har alltid aktuell besättningsstatus för viktiga smittämnen.
+#### Helseattest ved formidling av dyr
+Du har alltid oppdatert besetningsstatus for viktige smittestoffer.
 
-För mer information, kontakta  <a href="https://www.vxa.se/kundsupport/" target="_blank">kundsupport</a>.
+For mer informasjon, kontakt <a href="https://www.vxa.se/kundsupport/" target="_blank">kundesupport</a>.
