@@ -1,24 +1,26 @@
 #' @noRd
 all_animal_types <- function() {
-    c("Avvent kvigekalv yngre enn 6 måneder",
-      "Avvent oksekalv yngre enn 6 måneder", "Diekvigekalv",
-      "Dieoksekalv", "Ku", "Kvige (drektig)",
-      "Kvige (drektighet ukjent)", "Kvige (ikke drektig)", "Okse",
-      "Stut", "Tjur", "Ungokse")
+    c("Kvigekalv 1-3 uker","Oksekalv 1-3 uker",
+      "Kvigekalv 4-8 uker","Oksekalv 4-8 uker",
+      "Kvigekalv 8-16 uker","Oksekalv 8-16 uker",
+      "Kvigekalv 16-24 uker","Oksekalv 16-24 uker",
+      "Kvigekalv 24-42 uker","Oksekalv 24-42 uker",
+      "Ung Kvige","Kvige","Ung ku","Ku","Ung Okse",
+      "Brukt Okse")
 }
 
 #' @noRd
 all_animal_breeds <- function() {
-    c("Angus", "Charolais", "Hereford", "Limousin", "Simmental",
-      "Svensk Jersey-boskap (SJB)", "Svensk kullig boskap (SKB)",
-      "Svensk lavlandsboskap (SLB)",
-      "Svensk rød og hvit boskap (SRB)")
+    c("Aberdeen angus", "Charolais", "Hereford", "Limousin", "Simmental",
+      "Norsk Rødt Fe (NRF)", "Holstein","Jersey","Scottish Highland",
+      "Andre kjøttferaser","Gamle norske raser","Krysning - melkeraser",
+      "Krysning - kjøttfe")
 }
 
 #' valid_agents
 #' @noRd
 valid_agents <- function() {
-    c("salmonella", "mycoplasma")
+    c("BCoV", "BRSV","Klauvstatus","Jurstatus")
 }
 
 #' get_counties
@@ -68,14 +70,14 @@ get_user <- function() {
 #' Load a dataset corresponding to one specific bacterial agent.
 #'
 #' @noRd
-get_dataset <- function(agent = valid_agents(), latest = TRUE) {
-    agent <- match.arg(agent)
+get_dataset <- function(agent , latest = TRUE) {
+    agent <- match.arg(agent,choices = valid_agents())
 
     file_name <- file.path(
         system.file("datasets", package = "purchaseAssistant"),
         paste0("dt_", agent, "2App.csv")
     )
-
+  print(file_name)
     stopifnot(file.exists(file_name))
 
     dt <- data.table::fread(file_name)
@@ -131,7 +133,7 @@ result_to_greenlist <- function(result) {
     ifelse(
         length(result) < 4,
         1,
-        as.numeric(any(
+        2*as.numeric(any(
             result[1:4] > 0,
             na.rm = TRUE
         ))
@@ -170,7 +172,7 @@ get_greenlist <- function() {
             data.table::set(
                 dt,
                 j = "total",
-                value = dt$total + dt$result
+                value = pmax(dt$total,dt$result)
             )
 
             dt <- dt[, -"result"]

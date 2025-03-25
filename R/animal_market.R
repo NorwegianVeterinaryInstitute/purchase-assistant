@@ -80,7 +80,7 @@ animal_market_ui <- function(id) {
                                         shiny::span(
                                             shiny::strong(
                                                 "OBS! Du risikerer å ",
-                                                "innføre salmonella ",
+                                                "innføre smittsomme sykdommer ",
                                                 "på din gård.",
                                             ),
                                             style = "color:red"

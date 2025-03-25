@@ -26,7 +26,7 @@ buying_known_ui <- function(id) {
                                 inputId = ns("herd_id"),
                                 label = paste0(
                                     "Besetnings-ID ",
-                                    "(bruk Væxas)"
+                                    "(bruk Nortura eller TINE)"
                                 ),
                                 value = NULL,
                                 placeholder = "Besetningens ID"
@@ -84,8 +84,10 @@ buying_known_ui <- function(id) {
                             )
                         )
                     ),
-                    buying_disease_tab(ns, "salmonella"),
-                    buying_disease_tab(ns, "mycoplasma"),
+                    buying_disease_tab(ns, "BCoV"),
+                    buying_disease_tab(ns, "BRSV"),
+                    buying_disease_tab(ns, "Klauvstatus"),
+                    buying_disease_tab(ns, "Jurstatus"),
                     id = ns("buying_disease_tabs"),
                     type = "tabs"
                 ),
@@ -159,9 +161,8 @@ buying_known_server <- function(id, user_id, greenlist,
 
         output$greenlist_table <- DT::renderDT({
             p_t <- data.table::setDT(purchase_table())
-
+            
             g_l <- greenlist()[, c("id", "greenlist")]
-
             p_t <- data.table::merge.data.table(
                 p_t,
                 g_l,
@@ -169,20 +170,25 @@ buying_known_server <- function(id, user_id, greenlist,
                 by.y = "id",
                 all.x = TRUE
             )
-
+            
+            
             p_t$greenlist[is.na(p_t$greenlist)] <- 1
-
-            data.table::set(
+            
+           data.table::set(
                 p_t,
                 j = "greenlist",
                 value = greenlist_status(p_t$greenlist)
             )
-
+            
+            
+            
+            
             show_rownames <- nrow(p_t) > 0
-
+            
             if (nrow(p_t))
                 rownames(p_t) <- paste("Besetning", seq_len(nrow(p_t)))
-
+            
+            print(p_t)
             DT::datatable(
                 p_t,
                 rownames = show_rownames,
@@ -208,26 +214,51 @@ buying_known_server <- function(id, user_id, greenlist,
             DT::formatStyle(
                 "greenlist",
                 backgroundColor = DT::styleEqual(
-                    c("Grønne listen", "Ukjent"),
-                    c("green", "white")
+                    c("Grønne listen", "Ukjent","Infisert"),
+                    c("green", "white","red")
                 ),
                 color = DT::styleEqual(
-                    c("Grønne listen", "Ukjent"),
-                    c("white", "black")
+                    c("Grønne listen", "Ukjent","Infisert"),
+                    c("white", "black","white")
                 )
             )
         })
 
-        output$salmonella_table <- DT::renderDT({
-            p_t <- data.table::setDT(purchase_table())
-            a_d <- disease_data()[["salmonella"]]
-            agent_table(a_d, p_t)
-        })
+       # output$salmonella_table <- DT::renderDT({
+       #     p_t <- data.table::setDT(purchase_table())
+       #     a_d <- disease_data()[["salmonella"]]
+       #     agent_table(a_d, p_t)
+       # })
 
-        output$mycoplasma_table <- DT::renderDT({
-            p_t <- data.table::setDT(purchase_table())
-            a_d <- disease_data()[["mycoplasma"]]
-            agent_table(a_d, p_t)
+      #  output$mycoplasma_table <- DT::renderDT({
+      #      p_t <- data.table::setDT(purchase_table())
+      #      a_d <- disease_data()[["mycoplasma"]]
+      #      agent_table(a_d, p_t)
+      #  })
+      
+        
+        output$bcov_table <- DT::renderDT({
+          p_t <- data.table::setDT(purchase_table())
+          a_d <- disease_data()[["BCoV"]]
+          agent_table(a_d, p_t)
+        })
+        
+        output$brsv_table <- DT::renderDT({
+          p_t <- data.table::setDT(purchase_table())
+          a_d <- disease_data()[["BRSV"]]
+          agent_table(a_d, p_t)
+        })
+        
+        output$klauvstatus_table <- DT::renderDT({
+          p_t <- data.table::setDT(purchase_table())
+          a_d <- disease_data()[["Klauvstatus"]]
+          agent_table(a_d, p_t)
+        })
+        
+        output$jurstatus_table <- DT::renderDT({
+          p_t <- data.table::setDT(purchase_table())
+          a_d <- disease_data()[["Jurstatus"]]
+          agent_table(a_d, p_t)
         })
 
         shiny::observeEvent(input$add_row, {

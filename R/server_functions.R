@@ -9,11 +9,16 @@ greenlist_status <- function(res, personal = FALSE) {
                 x
             )
         }
-        ifelse(
-            x == 0,
-            "Grønne listen",
-            "Ukjent"
-        )
+        #ifelse(
+        #    x == 0,
+        #    "Grønne listen",
+        #    "Ukjent"
+        #)
+      
+      if(x ==0){return("Grønne listen")}else{
+        if(x ==1){return("Ukjent")}else{return("Infisert")}
+      }
+      
     })
 }
 
@@ -36,7 +41,7 @@ agent_table <- function(a_d, p_t) {
         if (all(x == 0))
             return("Fri fra infeksjon")
 
-        "Ukjent"
+        "Infisert"
     }
 
     date <- result <- NULL
@@ -84,12 +89,12 @@ agent_table <- function(a_d, p_t) {
     ) |> DT::formatStyle(
         "result",
         backgroundColor = DT::styleEqual(
-            c("Fri fra infeksjon", "Ukjent"),
-            c("green", "white")
+            c("Fri fra infeksjon", "Ukjent","Infisert"),
+            c("green", "white","red")
         ),
         color = DT::styleEqual(
-            c("Fri fra infeksjon", "Ukjent"),
-            c("white", "black")
+            c("Fri fra infeksjon", "Ukjent","Infisert"),
+            c("white", "black","white")
         )
     )
 }
