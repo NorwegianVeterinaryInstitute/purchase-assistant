@@ -1,6 +1,7 @@
 #' @noRd
 my_pages_ui <- function(id) {
     ns <- shiny::NS(id)
+    print(ns)
     shiny::div(
         shiny::fluidRow(
             shiny::column(
@@ -61,7 +62,7 @@ my_pages_ui <- function(id) {
                             "resultater til en prøvetakingsdato."
                         ),
                         shiny::tableOutput(
-                            outputId = ns("my_results_salmonella")
+                            outputId = ns("my_results_BCoV")
                         ),
                         shiny::br(),
                         shiny::p(
@@ -76,11 +77,11 @@ my_pages_ui <- function(id) {
                                 )
                             )
                         ),
-                        title = "Salmonella",
+                        title = "BCoV",
                     ),
                     shiny::tabPanel(
                         shiny::br(),
-                        shiny::h3("Mycoplasma bovis"),
+                        shiny::h3("Bovine Respiratory Disease (BRSV)"),
                         shiny::p(
                             paste0(
                                 "Resultater fra de siste fire ",
@@ -88,7 +89,7 @@ my_pages_ui <- function(id) {
                             )
                         ),
                         shiny::tableOutput(
-                            outputId = ns("my_results_mycoplasma")
+                            outputId = ns("my_results_BRSV")
                         ),
                         shiny::br(),
                         shiny::p(
@@ -99,11 +100,65 @@ my_pages_ui <- function(id) {
                                 ),
                                 target = "_blank",
                                 shiny::h6(
-                                    "Les mer om Mycoplasma bovis"
+                                    "Les mer om Bovine Resperatory Disease (BRSV)"
                                 )
                             )
                         ),
-                        title = "Mycoplasma",
+                        title = "BRSV",
+                    ),
+                    shiny::tabPanel(
+                      shiny::br(),
+                      shiny::h3("Klauvstatus"),
+                      shiny::p(
+                        paste0(
+                          "Resultater fra de siste fire ",
+                          "prøvetakingene for dermatitt."
+                        )
+                      ),
+                      shiny::tableOutput(
+                        outputId = ns("my_results_Klauvstatus")
+                      ),
+                      shiny::br(),
+                      shiny::p(
+                        shiny::a(
+                          href = paste0(
+                            "https://www.vxa.se/fakta/smittskydd/",
+                            "smittsamma-sjukdomar/mycoplasma-bovis/"
+                          ),
+                          target = "_blank",
+                          shiny::h6(
+                            "Les mer om Klauvstatus"
+                          )
+                        )
+                      ),
+                      title = "Klauvstatus",
+                    ),
+                    shiny::tabPanel(
+                      shiny::br(),
+                      shiny::h3("Jurstatus"),
+                      shiny::p(
+                        paste0(
+                          "Resultater fra de siste fire ",
+                          "prøvetakingene for Streptococcus agalactica."
+                        )
+                      ),
+                      shiny::tableOutput(
+                        outputId = ns("my_results_Jurstatus")
+                      ),
+                      shiny::br(),
+                      shiny::p(
+                        shiny::a(
+                          href = paste0(
+                            "https://www.vxa.se/fakta/smittskydd/",
+                            "smittsamma-sjukdomar/mycoplasma-bovis/"
+                          ),
+                          target = "_blank",
+                          shiny::h6(
+                            "Les mer om Jurstatus"
+                          )
+                        )
+                      ),
+                      title = "Jurstatus",
                     ),
                     id = ns("my_disease_tabs")
                 ),
@@ -157,14 +212,24 @@ my_pages_server <- function(id, user_id, greenlist, disease_data) {
             )
         })
 
-        output$my_results_salmonella <- shiny::renderTable(
-            my_results(agent = "salmonella", my_id = user_id()),
+        output$my_results_BCoV <- shiny::renderTable(
+            my_results(agent = "BCoV", my_id = user_id()),
             sanitize.text.function = function(t) t
         )
 
-        output$my_results_mycoplasma <- shiny::renderTable(
-            my_results(agent = "mycoplasma", my_id = user_id()),
+        output$my_results_BRSV <- shiny::renderTable(
+            my_results(agent = "BRSV", my_id = user_id()),
             sanitize.text.function = function(t) t
+        )
+        
+        output$my_results_Klauvstatus <- shiny::renderTable(
+          my_results(agent = "Klauvstatus", my_id = user_id()),
+          sanitize.text.function = function(t) t
+        )
+        
+        output$my_results_Jurstatus <- shiny::renderTable(
+          my_results(agent = "Jurstatus", my_id = user_id()),
+          sanitize.text.function = function(t) t
         )
     })
 }
