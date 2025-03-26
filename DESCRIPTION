@@ -33,4 +33,6 @@ Imports:
     stringr,
     utils,
     pkgload,
-    golem
+    golem,
+    dplyr,
+    tidyr
