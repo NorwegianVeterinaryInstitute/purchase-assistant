@@ -130,7 +130,12 @@ buying_known_server <- function(id, user_id, greenlist,
         output$my_status <- shiny::renderTable({
             shiny::req(user_id() %in% greenlist()$id)
 
-            farm_status(disease_data(), user_id())
+            farm_status(disease_data(), user_id())|> 
+              tidyr::pivot_longer(cols = dplyr::everything(),
+                                  names_to = 'diagnosis',
+                                  values_to = 'status') |> 
+              dplyr::group_by(diagnosis) |> 
+              dplyr::summarise(status = paste(status, collapse = "")) 
         }, sanitize.text.function = function(t) t, align = "c")
 
         output$county_select <- shiny::renderUI({
