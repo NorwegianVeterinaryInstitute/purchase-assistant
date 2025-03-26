@@ -1,555 +1,2001 @@
-herdID,county,salmonellaRes,mycoplasmaRes,animalType,animalBreed,animalNumber
-1,21,0,,Ungtjur,Svensk röd och vit boskap (SRB),9
-1,21,0,,Avvand kvigkalv yngre än 6 mån,Svensk låglandsboskap (SLB),4
-1,21,0,,Avvand kvigkalv yngre än 6 mån,Angus,11
-2,6,0,1,Tjur,Svensk kullig boskap (SKB),4
-2,6,0,1,Stut,Svensk Jersey-boskap (SJB),15
-3,1,0,0,Ungtjur,Svensk låglandsboskap (SLB),10
-4,12,1,,Kviga (dräktig),Simmental,13
-5,5,1,,Stut,Limousin,1
-6,22,0,0,Kviga (dräktighet okänd),Simmental,8
-6,22,0,0,Avvand kvigkalv yngre än 6 mån,Svensk kullig boskap (SKB),1
-6,22,0,0,Diande kvigkalv,Charolais,10
-6,22,0,0,Tjur,Simmental,12
-7,21,1,1,Oxe,Simmental,7
-7,21,1,1,Oxe,Limousin,4
-8,19,0,,Ko,Svensk kullig boskap (SKB),3
-8,19,0,,Kviga (ej dräktig),Svensk röd och vit boskap (SRB),10
-8,19,0,,Avvand tjurkalv yngre än 6 mån,Angus,11
-9,8,1,0,Avvand kvigkalv yngre än 6 mån,Svensk Jersey-boskap (SJB),9
-10,5,0,0,Diande tjurkalv,Svensk Jersey-boskap (SJB),6
-10,5,0,0,Ko,Svensk röd och vit boskap (SRB),12
-11,6,0,1,Avvand kvigkalv yngre än 6 mån,Simmental,12
-11,6,0,1,Stut,Angus,15
-11,6,0,1,Ko,Angus,12
-12,18,1,0,Avvand tjurkalv yngre än 6 mån,Limousin,2
-12,18,1,0,Avvand tjurkalv yngre än 6 mån,Svensk Jersey-boskap (SJB),9
-12,18,1,0,Kviga (dräktighet okänd),Simmental,4
-13,24,0,,Kviga (dräktighet okänd),Charolais,13
-13,24,0,,Diande tjurkalv,Angus,8
-14,22,1,1,Kviga (dräktighet okänd),Svensk kullig boskap (SKB),14
-14,22,1,1,Stut,Svensk Jersey-boskap (SJB),12
-14,22,1,1,Kviga (dräktighet okänd),Charolais,13
-15,19,1,,Stut,Simmental,14
-15,19,1,,Stut,Limousin,1
-16,4,0,0,Avvand kvigkalv yngre än 6 mån,Angus,7
-17,10,0,1,Tjur,Svensk röd och vit boskap (SRB),15
-17,10,0,1,Avvand tjurkalv yngre än 6 mån,Svensk Jersey-boskap (SJB),7
-18,5,1,1,Ko,Hereford,7
-18,5,1,1,Ungtjur,Limousin,9
-19,6,0,1,Kviga (dräktig),Charolais,2
-19,6,0,1,Avvand kvigkalv yngre än 6 mån,Simmental,12
-20,17,1,1,Oxe,Simmental,6
-21,6,1,0,Diande tjurkalv,Hereford,2
-21,6,1,0,Kviga (dräktighet okänd),Simmental,5
-22,24,1,,Diande kvigkalv,Angus,11
-22,24,1,,Kviga (ej dräktig),Hereford,9
-23,3,1,1,Ko,Hereford,13
-24,9,1,,Stut,Simmental,4
-25,4,0,,Oxe,Svensk röd och vit boskap (SRB),13
-26,1,0,0,Kviga (dräktig),Limousin,12
-26,1,0,0,Kviga (dräktig),Svensk kullig boskap (SKB),6
-27,12,0,1,Oxe,Svensk Jersey-boskap (SJB),1
-28,13,1,1,Avvand kvigkalv yngre än 6 mån,Limousin,10
-29,19,0,,Kviga (dräktig),Svensk Jersey-boskap (SJB),7
-30,9,0,0,Tjur,Simmental,9
-31,5,1,1,Oxe,Simmental,14
-32,5,1,,Kviga (dräktig),Svensk låglandsboskap (SLB),8
-32,5,1,,Tjur,Svensk kullig boskap (SKB),12
-33,22,1,0,Ungtjur,Angus,6
-33,22,1,0,Ko,Simmental,6
-34,17,0,0,Kviga (ej dräktig),Hereford,2
-35,6,1,,Kviga (dräktig),Svensk röd och vit boskap (SRB),1
-36,5,0,1,Avvand tjurkalv yngre än 6 mån,Charolais,13
-36,5,0,1,Kviga (ej dräktig),Charolais,8
-37,3,0,1,Kviga (dräktig),Svensk låglandsboskap (SLB),1
-37,3,0,1,Ko,Simmental,2
-38,22,1,0,Ungtjur,Charolais,14
-38,22,1,0,Ko,Svensk Jersey-boskap (SJB),10
-39,4,0,,Ko,Hereford,1
-40,21,0,1,Tjur,Simmental,1
-41,25,0,1,Diande tjurkalv,Simmental,1
-41,25,0,1,Diande tjurkalv,Svensk kullig boskap (SKB),4
-42,22,1,0,Kviga (dräktighet okänd),Charolais,6
-42,22,1,0,Avvand tjurkalv yngre än 6 mån,Limousin,12
-43,7,0,,Tjur,Svensk låglandsboskap (SLB),12
-43,7,0,,Kviga (dräktighet okänd),Svensk Jersey-boskap (SJB),3
-43,7,0,,Ko,Svensk röd och vit boskap (SRB),14
-44,7,1,,Ko,Svensk röd och vit boskap (SRB),5
-45,3,1,0,Stut,Svensk Jersey-boskap (SJB),13
-46,24,0,1,Avvand tjurkalv yngre än 6 mån,Hereford,2
-47,4,0,,Diande tjurkalv,Angus,2
-47,4,0,,Diande tjurkalv,Svensk röd och vit boskap (SRB),13
-48,25,0,,Tjur,Svensk Jersey-boskap (SJB),13
-48,25,0,,Avvand tjurkalv yngre än 6 mån,Charolais,11
-49,3,1,0,Diande kvigkalv,Hereford,14
-49,3,1,0,Avvand tjurkalv yngre än 6 mån,Svensk kullig boskap (SKB),11
-50,7,1,,Tjur,Charolais,8
-50,7,1,,Avvand tjurkalv yngre än 6 mån,Simmental,12
-51,12,1,0,Avvand tjurkalv yngre än 6 mån,Limousin,1
-51,12,1,0,Kviga (ej dräktig),Svensk kullig boskap (SKB),9
-52,9,0,0,Tjur,Charolais,4
-52,9,0,0,Diande kvigkalv,Charolais,6
-53,6,0,,Diande kvigkalv,Svensk låglandsboskap (SLB),9
-54,1,0,1,Diande kvigkalv,Limousin,10
-54,1,0,1,Diande kvigkalv,Svensk Jersey-boskap (SJB),2
-55,21,0,0,Diande kvigkalv,Svensk låglandsboskap (SLB),8
-55,21,0,0,Ko,Svensk kullig boskap (SKB),11
-56,8,0,,Diande kvigkalv,Svensk låglandsboskap (SLB),8
-56,8,0,,Tjur,Limousin,13
-57,5,1,1,Ko,Hereford,1
-57,5,1,1,Avvand tjurkalv yngre än 6 mån,Angus,5
-58,17,1,1,Avvand kvigkalv yngre än 6 mån,Angus,8
-59,12,1,1,Diande kvigkalv,Simmental,15
-60,10,1,0,Avvand tjurkalv yngre än 6 mån,Angus,4
-61,14,1,0,Stut,Charolais,3
-61,14,1,0,Ungtjur,Svensk låglandsboskap (SLB),4
-62,24,0,1,Oxe,Hereford,1
-62,24,0,1,Diande tjurkalv,Svensk röd och vit boskap (SRB),7
-63,10,1,0,Kviga (dräktighet okänd),Svensk Jersey-boskap (SJB),13
-63,10,1,0,Oxe,Svensk kullig boskap (SKB),15
-63,10,1,0,Avvand tjurkalv yngre än 6 mån,Simmental,12
-64,13,1,,Ko,Svensk låglandsboskap (SLB),5
-65,4,0,1,Kviga (dräktighet okänd),Hereford,3
-66,20,0,,Avvand kvigkalv yngre än 6 mån,Limousin,5
-67,6,1,,Tjur,Svensk kullig boskap (SKB),5
-68,18,1,1,Diande tjurkalv,Angus,11
-69,6,1,1,Kviga (dräktig),Svensk Jersey-boskap (SJB),10
-69,6,1,1,Tjur,Limousin,9
-69,6,1,1,Stut,Charolais,15
-70,3,1,,Ko,Svensk Jersey-boskap (SJB),13
-71,22,0,,Oxe,Angus,4
-72,21,0,0,Kviga (dräktig),Limousin,4
-72,21,0,0,Avvand tjurkalv yngre än 6 mån,Simmental,9
-73,22,1,1,Avvand tjurkalv yngre än 6 mån,Charolais,14
-73,22,1,1,Diande tjurkalv,Svensk Jersey-boskap (SJB),8
-74,6,1,0,Avvand kvigkalv yngre än 6 mån,Svensk Jersey-boskap (SJB),11
-75,18,0,0,Ungtjur,Svensk Jersey-boskap (SJB),10
-76,9,0,,Ungtjur,Charolais,15
-77,9,0,1,Avvand kvigkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),11
-77,9,0,1,Diande kvigkalv,Svensk låglandsboskap (SLB),13
-78,25,1,0,Kviga (dräktighet okänd),Svensk kullig boskap (SKB),11
-79,5,0,,Stut,Svensk Jersey-boskap (SJB),5
-79,5,0,,Ungtjur,Svensk kullig boskap (SKB),11
-80,5,1,,Kviga (dräktighet okänd),Charolais,9
-81,8,0,0,Kviga (dräktig),Svensk röd och vit boskap (SRB),11
-81,8,0,0,Diande kvigkalv,Svensk Jersey-boskap (SJB),5
-82,12,0,,Tjur,Svensk låglandsboskap (SLB),11
-82,12,0,,Kviga (dräktighet okänd),Svensk låglandsboskap (SLB),2
-83,22,0,0,Avvand tjurkalv yngre än 6 mån,Hereford,3
-84,17,0,,Stut,Svensk låglandsboskap (SLB),14
-84,17,0,,Avvand kvigkalv yngre än 6 mån,Angus,7
-85,25,1,0,Ko,Charolais,13
-86,23,0,,Ko,Svensk kullig boskap (SKB),9
-87,20,1,,Avvand kvigkalv yngre än 6 mån,Limousin,4
-87,20,1,,Stut,Svensk låglandsboskap (SLB),6
-88,21,1,1,Kviga (dräktighet okänd),Svensk röd och vit boskap (SRB),5
-88,21,1,1,Ko,Svensk Jersey-boskap (SJB),8
-89,14,0,0,Kviga (ej dräktig),Simmental,9
-89,14,0,0,Avvand tjurkalv yngre än 6 mån,Hereford,6
-90,10,1,1,Diande kvigkalv,Charolais,12
-91,25,1,0,Oxe,Simmental,1
-91,25,1,0,Diande tjurkalv,Hereford,10
-91,25,1,0,Stut,Angus,3
-92,13,0,1,Ko,Svensk låglandsboskap (SLB),6
-92,13,0,1,Diande tjurkalv,Svensk kullig boskap (SKB),12
-93,20,0,1,Avvand tjurkalv yngre än 6 mån,Angus,2
-94,9,0,1,Ko,Svensk låglandsboskap (SLB),6
-94,9,0,1,Diande tjurkalv,Svensk röd och vit boskap (SRB),3
-95,7,1,1,Avvand tjurkalv yngre än 6 mån,Svensk kullig boskap (SKB),10
-96,1,0,1,Tjur,Limousin,15
-97,17,1,,Avvand tjurkalv yngre än 6 mån,Svensk kullig boskap (SKB),15
-98,18,0,1,Tjur,Svensk Jersey-boskap (SJB),12
-99,6,1,0,Avvand kvigkalv yngre än 6 mån,Hereford,1
-100,10,0,1,Diande tjurkalv,Simmental,10
-100,10,0,1,Diande tjurkalv,Svensk kullig boskap (SKB),2
-101,20,0,,Avvand kvigkalv yngre än 6 mån,Svensk låglandsboskap (SLB),7
-101,20,0,,Diande kvigkalv,Svensk röd och vit boskap (SRB),8
-102,13,0,0,Tjur,Charolais,11
-102,13,0,0,Ko,Hereford,10
-103,12,1,,Avvand kvigkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),10
-103,12,1,,Tjur,Limousin,3
-104,12,0,1,Avvand tjurkalv yngre än 6 mån,Limousin,15
-105,1,1,,Kviga (dräktighet okänd),Charolais,12
-106,23,1,1,Kviga (ej dräktig),Svensk Jersey-boskap (SJB),13
-106,23,1,1,Tjur,Hereford,9
-106,23,1,1,Avvand kvigkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),11
-107,21,0,0,Ko,Charolais,5
-107,21,0,0,Avvand tjurkalv yngre än 6 mån,Simmental,13
-108,18,0,1,Ko,Charolais,4
-109,18,1,0,Kviga (ej dräktig),Svensk röd och vit boskap (SRB),3
-109,18,1,0,Avvand kvigkalv yngre än 6 mån,Charolais,9
-109,18,1,0,Avvand kvigkalv yngre än 6 mån,Charolais,2
-109,18,1,0,Avvand kvigkalv yngre än 6 mån,Svensk Jersey-boskap (SJB),12
-109,18,1,0,Kviga (dräktighet okänd),Svensk röd och vit boskap (SRB),5
-109,18,1,0,Kviga (dräktighet okänd),Svensk röd och vit boskap (SRB),14
-110,19,1,0,Oxe,Angus,11
-110,19,1,0,Kviga (dräktig),Hereford,3
-110,19,1,0,Oxe,Svensk låglandsboskap (SLB),6
-111,7,1,0,Diande kvigkalv,Svensk låglandsboskap (SLB),14
-112,19,0,1,Ko,Charolais,13
-113,13,1,0,Ko,Angus,3
-114,6,0,1,Avvand kvigkalv yngre än 6 mån,Svensk kullig boskap (SKB),9
-115,20,1,1,Kviga (dräktig),Simmental,1
-115,20,1,1,Diande kvigkalv,Svensk kullig boskap (SKB),12
-116,21,1,,Stut,Hereford,7
-116,21,1,,Kviga (dräktighet okänd),Limousin,11
-117,21,1,1,Ko,Charolais,7
-118,22,0,0,Oxe,Svensk röd och vit boskap (SRB),4
-118,22,0,0,Diande kvigkalv,Limousin,2
-119,3,1,,Oxe,Svensk Jersey-boskap (SJB),14
-119,3,1,,Kviga (ej dräktig),Svensk kullig boskap (SKB),5
-120,7,0,0,Diande kvigkalv,Angus,6
-121,7,0,1,Diande kvigkalv,Charolais,5
-121,7,0,1,Diande tjurkalv,Svensk Jersey-boskap (SJB),6
-121,7,0,1,Oxe,Svensk Jersey-boskap (SJB),2
-122,7,0,,Oxe,Svensk kullig boskap (SKB),10
-123,24,0,,Diande kvigkalv,Hereford,7
-124,19,1,,Avvand tjurkalv yngre än 6 mån,Angus,6
-125,3,0,0,Avvand kvigkalv yngre än 6 mån,Simmental,14
-125,3,0,0,Tjur,Svensk Jersey-boskap (SJB),10
-125,3,0,0,Kviga (dräktig),Svensk kullig boskap (SKB),6
-126,12,1,0,Kviga (dräktighet okänd),Angus,4
-126,12,1,0,Diande tjurkalv,Svensk röd och vit boskap (SRB),9
-127,14,1,1,Avvand kvigkalv yngre än 6 mån,Hereford,13
-127,14,1,1,Avvand kvigkalv yngre än 6 mån,Svensk låglandsboskap (SLB),5
-128,10,1,0,Kviga (dräktighet okänd),Svensk kullig boskap (SKB),1
-128,10,1,0,Kviga (dräktig),Svensk Jersey-boskap (SJB),4
-129,1,0,,Oxe,Angus,8
-130,3,1,,Diande kvigkalv,Angus,3
-130,3,1,,Stut,Simmental,14
-131,3,1,0,Avvand kvigkalv yngre än 6 mån,Svensk Jersey-boskap (SJB),9
-131,3,1,0,Avvand tjurkalv yngre än 6 mån,Svensk Jersey-boskap (SJB),10
-132,13,0,,Avvand kvigkalv yngre än 6 mån,Angus,4
-133,18,1,,Kviga (dräktighet okänd),Limousin,15
-134,3,0,1,Kviga (ej dräktig),Svensk röd och vit boskap (SRB),13
-135,3,1,0,Diande kvigkalv,Svensk låglandsboskap (SLB),7
-136,12,0,,Kviga (ej dräktig),Svensk röd och vit boskap (SRB),10
-137,6,1,,Kviga (ej dräktig),Svensk kullig boskap (SKB),9
-137,6,1,,Kviga (dräktig),Charolais,7
-138,12,0,,Diande kvigkalv,Svensk låglandsboskap (SLB),14
-138,12,0,,Kviga (dräktighet okänd),Hereford,5
-139,21,0,0,Avvand tjurkalv yngre än 6 mån,Charolais,15
-139,21,0,0,Diande kvigkalv,Hereford,9
-140,21,1,0,Avvand tjurkalv yngre än 6 mån,Svensk låglandsboskap (SLB),3
-141,6,0,,Ungtjur,Svensk röd och vit boskap (SRB),2
-141,6,0,,Avvand tjurkalv yngre än 6 mån,Svensk låglandsboskap (SLB),1
-141,6,0,,Kviga (ej dräktig),Charolais,5
-142,4,0,,Stut,Svensk låglandsboskap (SLB),6
-142,4,0,,Ko,Svensk kullig boskap (SKB),3
-143,18,0,,Avvand tjurkalv yngre än 6 mån,Limousin,13
-144,18,0,,Kviga (dräktighet okänd),Svensk kullig boskap (SKB),3
-145,1,1,0,Avvand tjurkalv yngre än 6 mån,Simmental,11
-145,1,1,0,Ungtjur,Hereford,13
-146,6,1,,Ko,Svensk Jersey-boskap (SJB),10
-146,6,1,,Diande kvigkalv,Svensk kullig boskap (SKB),9
-147,4,1,1,Kviga (dräktighet okänd),Svensk kullig boskap (SKB),9
-147,4,1,1,Diande tjurkalv,Hereford,5
-148,17,1,1,Oxe,Limousin,3
-148,17,1,1,Kviga (ej dräktig),Svensk röd och vit boskap (SRB),14
-148,17,1,1,Stut,Svensk Jersey-boskap (SJB),8
-149,13,0,0,Diande kvigkalv,Limousin,7
-150,24,0,0,Diande kvigkalv,Simmental,11
-150,24,0,0,Stut,Hereford,7
-151,21,0,0,Ko,Simmental,1
-151,21,0,0,Tjur,Angus,3
-152,24,1,1,Kviga (dräktighet okänd),Svensk låglandsboskap (SLB),2
-153,5,0,0,Avvand kvigkalv yngre än 6 mån,Charolais,10
-154,24,1,1,Ungtjur,Svensk låglandsboskap (SLB),14
-155,13,0,1,Stut,Svensk kullig boskap (SKB),14
-155,13,0,1,Tjur,Simmental,14
-156,21,1,0,Oxe,Simmental,9
-157,10,1,,Ko,Hereford,13
-158,21,0,1,Oxe,Svensk kullig boskap (SKB),9
-159,17,0,0,Tjur,Angus,15
-160,21,0,,Diande tjurkalv,Svensk Jersey-boskap (SJB),5
-161,24,0,1,Diande tjurkalv,Simmental,1
-161,24,0,1,Kviga (dräktighet okänd),Svensk röd och vit boskap (SRB),1
-161,24,0,1,Kviga (ej dräktig),Angus,15
-162,1,1,0,Ko,Svensk röd och vit boskap (SRB),13
-163,21,0,,Ungtjur,Simmental,2
-164,1,1,1,Tjur,Svensk låglandsboskap (SLB),7
-164,1,1,1,Ungtjur,Charolais,15
-165,3,1,,Kviga (dräktighet okänd),Hereford,5
-165,3,1,,Avvand kvigkalv yngre än 6 mån,Hereford,8
-165,3,1,,Tjur,Charolais,14
-166,9,0,1,Kviga (dräktighet okänd),Svensk kullig boskap (SKB),8
-167,20,0,0,Kviga (dräktig),Svensk låglandsboskap (SLB),9
-168,4,1,0,Ungtjur,Svensk röd och vit boskap (SRB),4
-168,4,1,0,Avvand kvigkalv yngre än 6 mån,Svensk kullig boskap (SKB),7
-169,6,1,,Kviga (dräktighet okänd),Svensk röd och vit boskap (SRB),10
-170,17,0,1,Kviga (dräktig),Charolais,14
-170,17,0,1,Kviga (dräktig),Svensk Jersey-boskap (SJB),1
-171,14,1,,Tjur,Limousin,10
-172,1,0,1,Tjur,Simmental,13
-173,23,0,1,Kviga (ej dräktig),Angus,4
-174,6,1,0,Kviga (dräktig),Svensk låglandsboskap (SLB),11
-175,19,0,1,Diande kvigkalv,Svensk kullig boskap (SKB),15
-175,19,0,1,Diande tjurkalv,Charolais,3
-175,19,0,1,Oxe,Charolais,1
-176,7,1,,Kviga (dräktig),Svensk kullig boskap (SKB),6
-176,7,1,,Tjur,Svensk Jersey-boskap (SJB),10
-177,20,1,,Kviga (dräktighet okänd),Svensk Jersey-boskap (SJB),11
-177,20,1,,Diande kvigkalv,Charolais,11
-178,12,1,,Kviga (dräktig),Angus,14
-179,8,1,0,Kviga (ej dräktig),Simmental,14
-180,10,0,,Tjur,Svensk kullig boskap (SKB),13
-180,10,0,,Diande tjurkalv,Hereford,5
-181,10,0,1,Kviga (dräktig),Angus,8
-181,10,0,1,Diande kvigkalv,Simmental,9
-182,4,1,1,Diande kvigkalv,Charolais,2
-182,4,1,1,Ungtjur,Limousin,5
-183,22,0,,Kviga (ej dräktig),Svensk röd och vit boskap (SRB),4
-184,25,0,,Avvand tjurkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),2
-185,19,0,0,Kviga (dräktig),Simmental,1
-185,19,0,0,Oxe,Angus,12
-186,19,1,0,Diande tjurkalv,Hereford,14
-187,24,0,0,Kviga (dräktig),Hereford,4
-188,20,0,1,Avvand kvigkalv yngre än 6 mån,Charolais,7
-188,20,0,1,Avvand kvigkalv yngre än 6 mån,Hereford,15
-189,1,0,0,Diande kvigkalv,Hereford,1
-189,1,0,0,Avvand kvigkalv yngre än 6 mån,Simmental,5
-190,7,0,,Kviga (ej dräktig),Simmental,8
-190,7,0,,Kviga (ej dräktig),Svensk Jersey-boskap (SJB),11
-191,13,1,0,Oxe,Svensk kullig boskap (SKB),8
-191,13,1,0,Diande tjurkalv,Svensk låglandsboskap (SLB),4
-192,10,1,,Tjur,Charolais,10
-192,10,1,,Tjur,Limousin,14
-192,10,1,,Oxe,Svensk Jersey-boskap (SJB),1
-192,10,1,,Diande tjurkalv,Svensk röd och vit boskap (SRB),1
-193,24,1,0,Avvand kvigkalv yngre än 6 mån,Simmental,8
-194,17,0,0,Diande kvigkalv,Hereford,11
-195,6,0,1,Ungtjur,Svensk röd och vit boskap (SRB),12
-196,13,1,,Diande kvigkalv,Svensk Jersey-boskap (SJB),7
-197,19,0,1,Avvand kvigkalv yngre än 6 mån,Svensk kullig boskap (SKB),14
-198,25,1,0,Diande kvigkalv,Svensk låglandsboskap (SLB),12
-198,25,1,0,Oxe,Limousin,10
-199,3,1,,Diande tjurkalv,Charolais,3
-200,7,0,1,Tjur,Svensk Jersey-boskap (SJB),15
-201,1,1,0,Oxe,Simmental,7
-202,18,1,0,Kviga (ej dräktig),Svensk kullig boskap (SKB),13
-202,18,1,0,Ko,Charolais,8
-202,18,1,0,Oxe,Hereford,6
-202,18,1,0,Avvand tjurkalv yngre än 6 mån,Charolais,9
-203,20,0,,Kviga (dräktighet okänd),Angus,12
-203,20,0,,Kviga (dräktig),Angus,10
-204,21,0,,Kviga (ej dräktig),Svensk Jersey-boskap (SJB),12
-204,21,0,,Diande kvigkalv,Simmental,5
-205,13,1,1,Kviga (ej dräktig),Svensk röd och vit boskap (SRB),4
-206,22,0,1,Kviga (dräktighet okänd),Svensk röd och vit boskap (SRB),10
-207,3,1,1,Tjur,Svensk låglandsboskap (SLB),12
-207,3,1,1,Kviga (ej dräktig),Limousin,3
-208,12,1,1,Oxe,Simmental,15
-208,12,1,1,Diande kvigkalv,Charolais,3
-209,5,1,,Kviga (ej dräktig),Hereford,10
-210,24,0,1,Diande kvigkalv,Charolais,7
-211,19,1,0,Avvand kvigkalv yngre än 6 mån,Simmental,7
-211,19,1,0,Tjur,Svensk kullig boskap (SKB),13
-211,19,1,0,Diande kvigkalv,Simmental,8
-211,19,1,0,Tjur,Svensk Jersey-boskap (SJB),9
-212,8,1,0,Avvand kvigkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),1
-213,21,1,1,Stut,Angus,14
-213,21,1,1,Oxe,Simmental,13
-214,6,1,,Stut,Simmental,13
-215,24,0,,Ungtjur,Svensk låglandsboskap (SLB),14
-215,24,0,,Kviga (dräktighet okänd),Simmental,11
-215,24,0,,Ungtjur,Charolais,3
-216,22,0,,Kviga (ej dräktig),Svensk Jersey-boskap (SJB),3
-216,22,0,,Tjur,Hereford,5
-217,10,0,,Stut,Charolais,6
-218,13,0,1,Kviga (dräktighet okänd),Svensk låglandsboskap (SLB),3
-218,13,0,1,Kviga (dräktighet okänd),Svensk låglandsboskap (SLB),7
-219,7,0,0,Kviga (dräktig),Simmental,2
-219,7,0,0,Diande kvigkalv,Svensk låglandsboskap (SLB),10
-220,12,0,1,Oxe,Svensk låglandsboskap (SLB),8
-221,10,0,,Ungtjur,Charolais,7
-222,23,0,,Avvand kvigkalv yngre än 6 mån,Limousin,7
-222,23,0,,Ko,Hereford,6
-223,10,1,1,Avvand kvigkalv yngre än 6 mån,Hereford,10
-223,10,1,1,Avvand tjurkalv yngre än 6 mån,Svensk kullig boskap (SKB),7
-224,13,0,0,Tjur,Hereford,4
-225,23,0,1,Diande kvigkalv,Charolais,10
-226,25,1,0,Stut,Svensk låglandsboskap (SLB),2
-226,25,1,0,Avvand kvigkalv yngre än 6 mån,Simmental,4
-227,5,0,,Diande kvigkalv,Limousin,11
-227,5,0,,Avvand kvigkalv yngre än 6 mån,Hereford,14
-228,12,1,1,Ko,Angus,8
-229,21,1,1,Stut,Svensk kullig boskap (SKB),6
-229,21,1,1,Avvand tjurkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),13
-230,25,0,1,Diande kvigkalv,Svensk låglandsboskap (SLB),2
-231,14,1,,Kviga (dräktighet okänd),Svensk kullig boskap (SKB),11
-232,25,1,,Tjur,Hereford,8
-232,25,1,,Oxe,Angus,15
-233,7,0,1,Oxe,Angus,10
-233,7,0,1,Oxe,Svensk Jersey-boskap (SJB),8
-234,19,1,0,Tjur,Svensk röd och vit boskap (SRB),2
-234,19,1,0,Avvand kvigkalv yngre än 6 mån,Simmental,7
-234,19,1,0,Oxe,Svensk låglandsboskap (SLB),1
-234,19,1,0,Kviga (dräktig),Hereford,14
-235,10,0,,Oxe,Hereford,11
-235,10,0,,Avvand kvigkalv yngre än 6 mån,Angus,14
-235,10,0,,Ko,Hereford,4
-236,12,1,1,Kviga (dräktig),Limousin,12
-236,12,1,1,Kviga (dräktig),Hereford,13
-237,22,0,1,Oxe,Simmental,2
-238,8,0,1,Kviga (dräktig),Limousin,2
-239,18,1,1,Tjur,Svensk röd och vit boskap (SRB),7
-240,14,1,0,Kviga (dräktig),Svensk kullig boskap (SKB),13
-241,25,1,1,Kviga (dräktig),Simmental,14
-242,23,0,0,Kviga (dräktig),Limousin,13
-242,23,0,0,Kviga (dräktig),Charolais,4
-243,12,1,0,Ungtjur,Limousin,9
-243,12,1,0,Avvand tjurkalv yngre än 6 mån,Charolais,15
-244,6,1,0,Avvand kvigkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),14
-245,3,0,1,Ko,Simmental,8
-246,4,1,1,Oxe,Svensk Jersey-boskap (SJB),9
-247,3,1,,Oxe,Limousin,1
-247,3,1,,Kviga (dräktig),Svensk röd och vit boskap (SRB),3
-248,18,1,1,Ko,Limousin,9
-248,18,1,1,Kviga (dräktighet okänd),Svensk låglandsboskap (SLB),10
-249,20,0,1,Diande tjurkalv,Simmental,7
-249,20,0,1,Diande tjurkalv,Svensk Jersey-boskap (SJB),3
-249,20,0,1,Ko,Limousin,6
-250,5,1,0,Oxe,Limousin,15
-250,5,1,0,Avvand kvigkalv yngre än 6 mån,Svensk kullig boskap (SKB),2
-250,5,1,0,Diande kvigkalv,Simmental,3
-251,25,0,1,Tjur,Svensk Jersey-boskap (SJB),13
-252,7,1,0,Avvand tjurkalv yngre än 6 mån,Svensk låglandsboskap (SLB),15
-253,24,1,,Tjur,Hereford,11
-253,24,1,,Kviga (ej dräktig),Svensk låglandsboskap (SLB),4
-254,25,0,,Kviga (dräktighet okänd),Hereford,13
-255,24,1,0,Tjur,Svensk låglandsboskap (SLB),14
-255,24,1,0,Avvand kvigkalv yngre än 6 mån,Hereford,4
-256,13,1,1,Avvand kvigkalv yngre än 6 mån,Angus,1
-257,1,1,0,Ko,Svensk kullig boskap (SKB),2
-257,1,1,0,Tjur,Svensk röd och vit boskap (SRB),11
-258,18,1,,Ko,Angus,12
-259,1,1,0,Diande kvigkalv,Svensk röd och vit boskap (SRB),2
-260,5,0,,Stut,Charolais,4
-261,17,1,1,Avvand kvigkalv yngre än 6 mån,Limousin,3
-262,7,1,0,Ungtjur,Hereford,9
-263,14,0,1,Diande kvigkalv,Limousin,9
-264,8,1,1,Tjur,Charolais,1
-264,8,1,1,Kviga (dräktig),Svensk röd och vit boskap (SRB),4
-265,14,1,,Stut,Charolais,4
-266,6,1,1,Kviga (dräktighet okänd),Limousin,10
-267,22,1,0,Stut,Hereford,10
-268,8,0,,Diande tjurkalv,Limousin,6
-269,17,0,0,Oxe,Svensk röd och vit boskap (SRB),14
-270,3,1,1,Kviga (dräktig),Svensk röd och vit boskap (SRB),9
-271,4,0,1,Tjur,Svensk låglandsboskap (SLB),7
-272,1,1,,Diande tjurkalv,Svensk kullig boskap (SKB),10
-272,1,1,,Ungtjur,Charolais,11
-273,19,1,,Tjur,Hereford,5
-274,24,1,0,Kviga (ej dräktig),Charolais,13
-275,13,0,0,Tjur,Charolais,6
-275,13,0,0,Ko,Simmental,9
-275,13,0,0,Diande kvigkalv,Angus,1
-276,10,1,,Oxe,Svensk Jersey-boskap (SJB),8
-277,12,1,,Stut,Charolais,4
-277,12,1,,Ungtjur,Simmental,13
-278,8,0,1,Stut,Svensk låglandsboskap (SLB),5
-279,23,1,1,Avvand kvigkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),11
-280,22,0,,Ungtjur,Svensk kullig boskap (SKB),5
-280,22,0,,Kviga (dräktighet okänd),Simmental,10
-281,14,0,1,Tjur,Hereford,10
-282,12,0,1,Ko,Limousin,3
-282,12,0,1,Avvand tjurkalv yngre än 6 mån,Svensk låglandsboskap (SLB),4
-283,10,1,0,Stut,Svensk kullig boskap (SKB),12
-283,10,1,0,Avvand tjurkalv yngre än 6 mån,Svensk röd och vit boskap (SRB),5
-283,10,1,0,Ko,Svensk röd och vit boskap (SRB),8
-283,10,1,0,Ungtjur,Svensk röd och vit boskap (SRB),15
-284,23,0,0,Diande kvigkalv,Simmental,14
-284,23,0,0,Kviga (ej dräktig),Svensk Jersey-boskap (SJB),2
-285,19,0,0,Oxe,Svensk röd och vit boskap (SRB),13
-286,18,1,1,Avvand kvigkalv yngre än 6 mån,Svensk kullig boskap (SKB),10
-287,4,1,0,Tjur,Svensk Jersey-boskap (SJB),12
-288,24,1,1,Ungtjur,Simmental,9
-289,12,1,0,Kviga (ej dräktig),Svensk låglandsboskap (SLB),3
-289,12,1,0,Diande kvigkalv,Svensk låglandsboskap (SLB),3
-289,12,1,0,Kviga (ej dräktig),Svensk Jersey-boskap (SJB),4
-290,3,0,,Tjur,Simmental,9
-291,21,1,,Avvand tjurkalv yngre än 6 mån,Svensk kullig boskap (SKB),11
-291,21,1,,Tjur,Angus,10
-292,22,1,1,Kviga (dräktighet okänd),Svensk kullig boskap (SKB),8
-293,23,1,0,Kviga (ej dräktig),Angus,4
-294,18,0,,Avvand tjurkalv yngre än 6 mån,Svensk Jersey-boskap (SJB),5
-295,21,0,1,Kviga (dräktig),Angus,14
-296,12,1,0,Avvand tjurkalv yngre än 6 mån,Angus,8
-297,6,0,,Avvand tjurkalv yngre än 6 mån,Limousin,3
-297,6,0,,Diande tjurkalv,Charolais,13
-298,17,1,0,Diande kvigkalv,Svensk låglandsboskap (SLB),9
-298,17,1,0,Kviga (dräktig),Svensk Jersey-boskap (SJB),9
-299,22,0,,Stut,Svensk Jersey-boskap (SJB),15
-300,23,0,0,Stut,Charolais,1
-300,23,0,0,Avvand kvigkalv yngre än 6 mån,Hereford,14
-301,23,0,0,Kviga (ej dräktig),Svensk kullig boskap (SKB),9
-302,12,0,0,Oxe,Hereford,3
-302,12,0,0,Kviga (dräktighet okänd),Limousin,7
-302,12,0,0,Oxe,Svensk kullig boskap (SKB),8
-303,20,1,1,Stut,Svensk låglandsboskap (SLB),5
-303,20,1,1,Tjur,Charolais,6
-304,3,0,,Diande tjurkalv,Svensk låglandsboskap (SLB),4
-305,5,0,1,Oxe,Hereford,9
-306,8,0,1,Stut,Angus,13
-307,1,0,0,Tjur,Charolais,1
-308,18,0,1,Ungtjur,Hereford,1
-308,18,0,1,Avvand kvigkalv yngre än 6 mån,Angus,5
-309,24,1,1,Tjur,Hereford,11
-309,24,1,1,Avvand kvigkalv yngre än 6 mån,Simmental,11
-310,23,0,1,Diande tjurkalv,Limousin,10
-311,14,1,,Tjur,Limousin,1
-312,23,1,,Ko,Limousin,13
-312,23,1,,Diande tjurkalv,Svensk röd och vit boskap (SRB),8
-313,7,0,,Kviga (dräktighet okänd),Charolais,13
-313,7,0,,Tjur,Svensk kullig boskap (SKB),10
-314,14,0,1,Tjur,Svensk låglandsboskap (SLB),14
-315,12,1,,Tjur,Charolais,5
-315,12,1,,Diande tjurkalv,Svensk Jersey-boskap (SJB),8
-315,12,1,,Oxe,Angus,6
-316,8,0,1,Ungtjur,Svensk låglandsboskap (SLB),5
-317,23,0,1,Diande tjurkalv,Angus,14
-318,3,0,0,Oxe,Hereford,11
-319,7,1,0,Diande tjurkalv,Charolais,5
-320,10,0,1,Kviga (dräktighet okänd),Svensk låglandsboskap (SLB),14
-320,10,0,1,Tjur,Charolais,12
-321,13,1,1,Avvand tjurkalv yngre än 6 mån,Svensk kullig boskap (SKB),9
-322,7,0,,Kviga (dräktig),Simmental,2
-322,7,0,,Avvand tjurkalv yngre än 6 mån,Svensk kullig boskap (SKB),13
-323,6,1,,Kviga (dräktig),Svensk låglandsboskap (SLB),4
-323,6,1,,Tjur,Charolais,13
-324,18,0,1,Diande kvigkalv,Charolais,11
-325,12,0,0,Avvand tjurkalv yngre än 6 mån,Svensk låglandsboskap (SLB),3
-326,19,1,0,Kviga (dräktighet okänd),Hereford,4
-327,1,0,1,Kviga (dräktighet okänd),Hereford,11
-328,10,0,,Kviga (dräktig),Svensk låglandsboskap (SLB),12
-328,10,0,,Avvand kvigkalv yngre än 6 mån,Simmental,6
-328,10,0,,Ungtjur,Svensk låglandsboskap (SLB),5
-329,12,1,,Diande tjurkalv,Svensk röd och vit boskap (SRB),12
-330,21,0,,Tjur,Hereford,12
-330,21,0,,Kviga (dräktighet okänd),Svensk Jersey-boskap (SJB),11
-330,21,0,,Tjur,Simmental,4
-331,14,1,1,Tjur,Hereford,13
-331,14,1,1,Diande tjurkalv,Svensk låglandsboskap (SLB),1
-332,1,0,,Avvand tjurkalv yngre än 6 mån,Simmental,13
-333,13,1,,Kviga (dräktighet okänd),Svensk låglandsboskap (SLB),5
-333,13,1,,Diande tjurkalv,Svensk Jersey-boskap (SJB),10
-334,5,0,0,Kviga (ej dräktig),Limousin,1
-334,5,0,0,Tjur,Svensk röd och vit boskap (SRB),10
-335,4,1,,Diande tjurkalv,Simmental,3
-336,25,0,0,Kviga (dräktighet okänd),Svensk låglandsboskap (SLB),8
-337,7,0,1,Kviga (dräktighet okänd),Hereford,2
-337,7,0,1,Diande kvigkalv,Svensk Jersey-boskap (SJB),4
-337,7,0,1,Oxe,Svensk låglandsboskap (SLB),5
-338,6,1,0,Tjur,Svensk kullig boskap (SKB),9
-339,12,1,,Ko,Charolais,9
-339,12,1,,Diande tjurkalv,Svensk Jersey-boskap (SJB),3
-340,24,1,0,Kviga (dräktig),Simmental,9
-341,3,1,,Ungtjur,Svensk låglandsboskap (SLB),2
-342,5,0,1,Kviga (ej dräktig),Svensk kullig boskap (SKB),2
-343,24,0,1,Diande tjurkalv,Svensk röd och vit boskap (SRB),4
-344,10,1,0,Avvand kvigkalv yngre än 6 mån,Charolais,8
-345,18,0,0,Stut,Hereford,12
-345,18,0,0,Ko,Svensk Jersey-boskap (SJB),10
-345,18,0,0,Kviga (dräktig),Svensk kullig boskap (SKB),4
-346,18,1,,Tjur,Svensk Jersey-boskap (SJB),3
+"herdID","county","BCoVRes","BRSVRes","KlauvstatusRes","JurstatusRes","animalType","animalBreed","animalNumber"
+2233,32,1,0,0,0,"Oksekalv 16-24 uker","Aberdeen angus",1
+3033,39,0,1,0,1,"Oksekalv 4-8 uker","Charolais",1
+2257,34,0,0,0,0,"Oksekalv 8-16 uker","Krysning - melkeraser",2
+2510,11,0,0,0,0,"Kvige","Krysning - kjøttfe",1
+2228,55,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",5
+2216,34,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3788,34,0,1,0,0,"Ung Okse","Hereford",2
+2515,33,0,0,0,0,"Ung Kvige","Gamle norske raser",3
+2358,34,0,0,1,0,"Kvigekalv 8-16 uker","Andre kjøttferaser",1
+2105,50,1,1,0,0,"Kvigekalv 8-16 uker","Holstein",4
+3280,46,0,0,0,0,"Kvige","Limousin",1
+2068,31,0,1,0,0,"Kvige","Limousin",1
+3424,34,0,0,0,1,"Ku","Norsk Rødt Fe (NRF)",9
+3258,11,1,0,1,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+3246,11,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3233,42,0,0,0,0,"Ung Kvige","Andre kjøttferaser",3
+2285,31,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",3
+3366,55,0,0,0,0,"Ung Kvige","Holstein",7
+3941,11,1,1,0,0,"Ung Okse","Holstein",3
+3859,11,0,1,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+2574,33,0,1,0,1,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3780,32,1,1,0,0,"Oksekalv 24-42 uker","Charolais",1
+3786,50,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",10
+3729,50,0,0,0,0,"Ung Okse","Scottish Highland",4
+3373,33,0,0,1,0,"Kvigekalv 1-3 uker","Gamle norske raser",9
+2434,11,0,0,0,0,"Ung Kvige","Holstein",8
+2382,50,1,0,0,0,"Oksekalv 8-16 uker","Jersey",1
+3328,31,0,0,0,1,"Ung ku","Norsk Rødt Fe (NRF)",9
+2609,11,0,0,0,0,"Kvige","Jersey",1
+3444,11,1,0,0,0,"Kvigekalv 8-16 uker","Hereford",5
+3465,11,0,1,0,0,"Oksekalv 8-16 uker","Krysning - melkeraser",3
+2229,40,0,1,0,0,"Kvigekalv 8-16 uker","Gamle norske raser",5
+3268,15,0,0,0,0,"Ung Kvige","Krysning - melkeraser",1
+3186,32,0,0,0,1,"Kvige","Hereford",1
+3555,50,0,0,0,1,"Oksekalv 4-8 uker","Krysning - melkeraser",1
+3663,11,0,0,0,0,"Kvige","Andre kjøttferaser",4
+2970,34,0,1,1,1,"Kvigekalv 16-24 uker","Limousin",6
+2822,55,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",4
+3910,11,1,0,0,0,"Kvigekalv 4-8 uker","Holstein",7
+2836,11,0,1,0,0,"Ku","Holstein",9
+3705,50,0,1,0,0,"Kvige","Holstein",1
+3272,18,0,1,0,0,"Kvigekalv 8-16 uker","Limousin",1
+2741,18,0,0,0,1,"Kvige","Holstein",2
+3784,34,0,1,0,0,"Oksekalv 24-42 uker","Aberdeen angus",1
+3993,32,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",2
+3250,15,0,1,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+3589,11,0,1,0,0,"Ung Okse","Gamle norske raser",10
+2714,34,0,1,0,0,"Kvigekalv 1-3 uker","Scottish Highland",2
+3247,46,0,0,0,0,"Kvigekalv 4-8 uker","Aberdeen angus",1
+2251,39,0,0,0,1,"Kvige","Gamle norske raser",5
+2033,42,0,0,0,0,"Kvigekalv 16-24 uker","Gamle norske raser",1
+3972,55,0,1,0,0,"Oksekalv 8-16 uker","Hereford",6
+3622,32,0,1,0,0,"Oksekalv 8-16 uker","Holstein",8
+3709,11,1,0,0,0,"Oksekalv 4-8 uker","Jersey",4
+2705,31,0,1,0,0,"Kvigekalv 1-3 uker","Limousin",3
+2539,50,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3404,55,0,1,0,0,"Oksekalv 16-24 uker","Scottish Highland",2
+2748,46,0,0,0,0,"Brukt Okse","Andre kjøttferaser",1
+3959,40,0,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",9
+3079,42,0,0,0,0,"Oksekalv 16-24 uker","Jersey",7
+3434,42,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",5
+2278,11,0,0,0,0,"Oksekalv 8-16 uker","Krysning - kjøttfe",7
+3397,11,0,0,0,1,"Kvigekalv 24-42 uker","Limousin",1
+2050,56,0,0,0,0,"Kvigekalv 16-24 uker","Scottish Highland",5
+3556,11,0,0,0,0,"Ung Okse","Jersey",2
+3732,46,0,0,0,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",1
+3522,55,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+3748,11,0,0,0,1,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3284,32,0,1,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",4
+2580,34,0,0,0,0,"Oksekalv 16-24 uker","Holstein",1
+3107,56,0,1,0,1,"Kvigekalv 4-8 uker","Hereford",10
+2213,50,0,0,0,0,"Kvige","Limousin",6
+3398,56,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+2217,42,0,1,0,1,"Oksekalv 16-24 uker","Holstein",2
+2389,31,1,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+2877,56,1,1,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+2811,46,1,1,0,0,"Ku","Norsk Rødt Fe (NRF)",3
+3863,40,0,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",5
+2938,34,0,1,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+3095,33,0,0,0,1,"Kvige","Andre kjøttferaser",3
+2613,11,1,0,0,0,"Oksekalv 8-16 uker","Jersey",4
+3800,50,0,0,0,0,"Ung Okse","Holstein",1
+3075,50,0,0,0,0,"Oksekalv 1-3 uker","Krysning - melkeraser",3
+3561,46,0,0,0,0,"Ung Okse","Jersey",1
+2095,32,1,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3994,55,0,0,0,0,"Ung Okse","Hereford",9
+3586,55,0,0,0,0,"Kvigekalv 4-8 uker","Scottish Highland",2
+3174,33,1,0,0,0,"Oksekalv 4-8 uker","Limousin",1
+2079,11,1,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",5
+3977,33,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2137,40,0,0,0,0,"Ung Kvige","Hereford",7
+2263,11,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2679,33,0,0,1,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",6
+2696,50,1,0,0,0,"Oksekalv 8-16 uker","Jersey",1
+2737,32,0,0,1,0,"Ung Okse","Scottish Highland",1
+2626,42,0,0,0,0,"Kvige","Hereford",2
+2562,34,1,0,0,0,"Kvigekalv 24-42 uker","Krysning - kjøttfe",1
+2982,46,0,0,0,0,"Ung Kvige","Gamle norske raser",3
+3320,11,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",8
+2456,33,0,0,0,0,"Oksekalv 8-16 uker","Limousin",1
+3010,55,0,0,0,0,"Ung Okse","Scottish Highland",2
+2942,34,0,1,1,0,"Ung Okse","Norsk Rødt Fe (NRF)",7
+2315,55,0,0,0,0,"Kvige","Simmental",6
+2297,34,0,0,0,1,"Kvigekalv 16-24 uker","Krysning - melkeraser",10
+2907,46,0,0,0,0,"Kvigekalv 1-3 uker","Charolais",2
+3128,11,0,1,0,0,"Oksekalv 4-8 uker","Scottish Highland",2
+3394,40,0,0,0,0,"Oksekalv 24-42 uker","Holstein",8
+2739,39,0,0,0,0,"Ku","Charolais",5
+3056,11,1,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+3221,50,1,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2197,50,0,1,0,0,"Kvigekalv 24-42 uker","Scottish Highland",1
+2789,32,0,0,0,0,"Oksekalv 16-24 uker","Limousin",1
+3653,42,0,0,0,0,"Oksekalv 16-24 uker","Aberdeen angus",5
+2525,55,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",9
+3622,32,0,1,0,0,"Oksekalv 16-24 uker","Holstein",4
+3934,31,0,1,1,0,"Ung Okse","Gamle norske raser",1
+2753,11,1,1,0,0,"Kvige","Holstein",3
+2998,40,0,1,1,0,"Ung ku","Gamle norske raser",1
+2117,11,0,0,0,0,"Ung Okse","Holstein",3
+3536,56,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2174,11,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3217,32,0,0,0,0,"Kvigekalv 24-42 uker","Scottish Highland",1
+2709,34,1,0,0,0,"Oksekalv 16-24 uker","Aberdeen angus",5
+3362,11,0,0,1,0,"Ung Kvige","Aberdeen angus",7
+3341,11,0,1,0,0,"Ung Kvige","Andre kjøttferaser",1
+3694,50,0,0,1,0,"Ung Okse","Charolais",4
+3346,31,1,0,1,0,"Oksekalv 8-16 uker","Holstein",6
+2267,50,1,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",8
+2455,56,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",4
+2205,31,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+2009,50,0,1,0,0,"Kvigekalv 8-16 uker","Gamle norske raser",1
+2865,46,0,0,0,0,"Kvigekalv 1-3 uker","Aberdeen angus",2
+3464,34,0,0,0,0,"Kvigekalv 4-8 uker","Charolais",1
+2327,50,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",9
+2529,55,0,1,0,0,"Oksekalv 8-16 uker","Scottish Highland",1
+3413,46,1,1,1,0,"Ung Kvige","Jersey",1
+3059,11,0,0,1,0,"Ung Okse","Holstein",9
+3905,42,0,0,0,0,"Brukt Okse","Charolais",1
+3340,18,0,1,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",10
+3435,11,0,1,0,0,"Kvige","Limousin",2
+2025,18,0,0,0,0,"Oksekalv 8-16 uker","Charolais",6
+3171,15,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",1
+3570,11,0,0,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",4
+2944,34,1,0,0,0,"Brukt Okse","Jersey",1
+2782,31,1,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+3538,11,0,0,0,0,"Oksekalv 8-16 uker","Andre kjøttferaser",7
+2037,39,0,1,0,0,"Kvigekalv 4-8 uker","Scottish Highland",5
+3565,11,0,0,0,0,"Ung Kvige","Krysning - melkeraser",7
+2596,42,0,0,1,0,"Kvige","Krysning - melkeraser",3
+3027,40,0,0,1,1,"Oksekalv 8-16 uker","Gamle norske raser",2
+2933,11,1,1,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+2077,42,0,0,0,0,"Kvige","Gamle norske raser",8
+2714,34,0,1,0,0,"Ung Kvige","Scottish Highland",4
+2718,50,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2476,11,0,1,0,0,"Kvigekalv 8-16 uker","Gamle norske raser",1
+3283,34,0,1,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",5
+3660,11,1,0,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",6
+2491,31,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",9
+2366,39,1,0,0,0,"Kvige","Holstein",1
+3712,33,0,0,0,0,"Kvigekalv 8-16 uker","Gamle norske raser",7
+3727,34,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3132,34,0,0,1,0,"Oksekalv 4-8 uker","Holstein",2
+3641,46,0,0,0,1,"Kvigekalv 8-16 uker","Limousin",1
+2642,42,0,0,0,0,"Kvigekalv 8-16 uker","Limousin",3
+2184,31,0,0,0,0,"Ung Okse","Limousin",3
+2771,42,0,0,0,0,"Oksekalv 4-8 uker","Hereford",2
+2807,32,1,0,0,0,"Kvige","Jersey",2
+2541,33,0,0,0,0,"Kvigekalv 16-24 uker","Scottish Highland",1
+2610,11,0,0,0,1,"Ung Okse","Norsk Rødt Fe (NRF)",10
+2962,33,0,1,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",8
+2435,11,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+3123,33,1,0,0,0,"Kvige","Simmental",10
+3045,33,0,0,1,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+3736,50,0,0,0,0,"Kvigekalv 24-42 uker","Krysning - kjøttfe",7
+2016,33,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",8
+3911,40,0,0,0,0,"Ung Okse","Holstein",1
+3536,56,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+2358,34,0,0,1,0,"Kvige","Andre kjøttferaser",2
+2832,42,0,0,0,0,"Kvigekalv 8-16 uker","Gamle norske raser",1
+3910,11,1,0,0,0,"Oksekalv 4-8 uker","Holstein",1
+3978,31,1,0,0,0,"Kvigekalv 4-8 uker","Aberdeen angus",5
+2305,31,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2178,46,0,1,0,1,"Ung Okse","Gamle norske raser",1
+2938,34,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3353,50,0,0,0,1,"Ung ku","Norsk Rødt Fe (NRF)",4
+3977,33,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+3215,42,0,0,0,1,"Kvige","Norsk Rødt Fe (NRF)",1
+3107,56,0,1,0,1,"Kvigekalv 16-24 uker","Hereford",2
+3843,11,1,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3999,11,0,1,0,0,"Ung ku","Andre kjøttferaser",8
+3113,11,0,0,0,1,"Ku","Andre kjøttferaser",2
+2745,11,0,0,0,0,"Ku","Scottish Highland",6
+3754,11,1,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2622,34,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",3
+2112,11,0,1,0,0,"Oksekalv 8-16 uker","Holstein",3
+2831,55,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2267,50,1,0,0,0,"Oksekalv 4-8 uker","Gamle norske raser",8
+3826,32,0,0,1,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+3314,18,0,0,0,0,"Kvigekalv 4-8 uker","Jersey",1
+2233,32,1,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",4
+3550,11,0,0,0,0,"Kvigekalv 8-16 uker","Holstein",5
+2806,50,0,0,0,0,"Kvigekalv 1-3 uker","Gamle norske raser",5
+2408,11,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",4
+3301,55,0,1,0,1,"Oksekalv 24-42 uker","Jersey",3
+3558,15,0,1,0,0,"Oksekalv 8-16 uker","Charolais",1
+3487,11,0,0,1,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3832,32,1,0,0,0,"Brukt Okse","Hereford",1
+3949,34,0,1,0,0,"Ung Kvige","Holstein",1
+3119,50,0,0,0,0,"Ung ku","Jersey",8
+3232,42,0,1,0,0,"Kvigekalv 4-8 uker","Holstein",1
+3288,31,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",10
+3198,50,0,0,0,0,"Kvigekalv 16-24 uker","Scottish Highland",2
+2315,55,0,0,0,0,"Ung Okse","Simmental",1
+3155,32,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+3089,39,0,0,0,1,"Kvige","Andre kjøttferaser",1
+3126,18,0,1,0,1,"Kvigekalv 16-24 uker","Hereford",3
+2458,39,1,1,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",1
+3268,15,0,0,0,0,"Kvigekalv 16-24 uker","Krysning - melkeraser",6
+3061,11,0,0,1,0,"Ung Kvige","Hereford",4
+2888,11,0,0,0,0,"Kvigekalv 4-8 uker","Scottish Highland",1
+2486,11,0,0,0,0,"Ku","Hereford",1
+2671,50,0,0,0,1,"Ung Kvige","Aberdeen angus",2
+2717,50,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2969,50,0,1,0,0,"Kvigekalv 16-24 uker","Scottish Highland",7
+3432,34,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3098,32,0,1,0,0,"Kvige","Holstein",2
+3752,56,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",8
+2256,42,0,0,0,0,"Ung Okse","Andre kjøttferaser",2
+3654,56,0,1,0,0,"Kvigekalv 8-16 uker","Jersey",1
+3742,33,0,0,0,0,"Oksekalv 8-16 uker","Holstein",1
+3764,56,0,0,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",2
+2053,34,0,0,0,0,"Kvige","Holstein",1
+2698,34,0,1,0,0,"Ung Kvige","Simmental",1
+3591,34,0,1,0,0,"Oksekalv 16-24 uker","Hereford",4
+3735,55,0,1,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",1
+3403,32,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+2458,39,1,1,0,0,"Kvigekalv 24-42 uker","Krysning - melkeraser",9
+2026,11,0,0,0,0,"Ung ku","Scottish Highland",3
+3095,33,0,0,0,1,"Ung Okse","Andre kjøttferaser",1
+3524,46,0,0,0,0,"Oksekalv 16-24 uker","Gamle norske raser",9
+3444,11,1,0,0,0,"Ung ku","Hereford",7
+3978,31,1,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",10
+2289,31,0,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+2315,55,0,0,0,0,"Kvigekalv 16-24 uker","Simmental",2
+3839,34,0,0,0,0,"Kvigekalv 24-42 uker","Andre kjøttferaser",3
+2266,40,0,0,0,0,"Ku","Scottish Highland",6
+2647,42,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",6
+2307,55,0,0,0,0,"Oksekalv 8-16 uker","Andre kjøttferaser",5
+2579,42,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2849,15,0,0,0,0,"Oksekalv 8-16 uker","Holstein",1
+3300,50,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+3592,50,1,1,0,0,"Ung Okse","Gamle norske raser",1
+3438,11,0,0,0,0,"Ung Okse","Krysning - kjøttfe",2
+2223,33,0,0,0,0,"Oksekalv 16-24 uker","Holstein",10
+2343,55,0,1,0,1,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+3779,50,0,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+3777,50,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3462,34,0,0,0,0,"Kvige","Charolais",2
+2224,56,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",2
+3140,39,0,1,0,0,"Kvige","Holstein",6
+3996,56,0,0,0,0,"Ku","Jersey",4
+3500,18,1,0,0,0,"Ung Kvige","Aberdeen angus",4
+3168,18,0,1,0,0,"Kvigekalv 16-24 uker","Gamle norske raser",1
+3678,50,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",2
+2652,40,0,0,1,0,"Ung Okse","Krysning - melkeraser",2
+3078,55,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3815,46,1,0,0,0,"Ung Okse","Holstein",2
+2435,11,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",4
+2777,33,0,1,0,0,"Kvigekalv 1-3 uker","Scottish Highland",1
+2470,40,0,0,0,0,"Brukt Okse","Charolais",1
+2355,55,0,1,0,0,"Kvigekalv 4-8 uker","Limousin",5
+3824,50,0,1,1,1,"Ung Okse","Holstein",1
+2710,34,0,0,0,0,"Brukt Okse","Holstein",1
+2217,42,0,1,0,1,"Oksekalv 1-3 uker","Holstein",1
+3263,50,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2715,42,1,0,0,0,"Oksekalv 8-16 uker","Holstein",1
+3995,50,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",4
+2039,50,0,0,0,0,"Ung Kvige","Charolais",4
+2072,55,1,1,0,0,"Kvigekalv 8-16 uker","Holstein",2
+3201,11,1,1,0,0,"Oksekalv 24-42 uker","Holstein",1
+3909,15,1,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3526,46,0,1,0,1,"Kvige","Norsk Rødt Fe (NRF)",1
+3140,39,0,1,0,0,"Ung ku","Holstein",1
+2617,33,0,0,0,0,"Oksekalv 16-24 uker","Holstein",1
+2391,34,0,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2861,3,0,0,0,0,"Kvigekalv 4-8 uker","Krysning - kjøttfe",3
+2035,50,0,0,0,0,"Brukt Okse","Hereford",1
+3802,11,1,0,0,0,"Ung ku","Charolais",3
+2177,46,0,1,0,1,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2118,42,0,0,0,1,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2675,11,0,0,0,0,"Kvigekalv 16-24 uker","Limousin",1
+3187,42,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2514,39,1,1,0,1,"Brukt Okse","Limousin",2
+2241,32,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+3150,32,0,0,0,0,"Ung Okse","Simmental",3
+2151,34,0,0,0,0,"Oksekalv 8-16 uker","Scottish Highland",1
+2456,33,0,0,0,0,"Oksekalv 4-8 uker","Limousin",6
+3037,31,0,0,0,0,"Kvige","Jersey",2
+2478,33,1,0,0,1,"Brukt Okse","Krysning - melkeraser",3
+2524,34,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3542,55,1,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3409,46,0,0,0,0,"Kvigekalv 4-8 uker","Jersey",1
+3331,11,0,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",2
+2084,50,0,0,1,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2542,55,0,1,0,0,"Kvigekalv 8-16 uker","Hereford",2
+3172,50,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3876,31,0,0,1,0,"Ung Kvige","Andre kjøttferaser",5
+2678,18,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",5
+3425,50,0,0,0,0,"Ung Kvige","Scottish Highland",4
+3433,39,0,0,0,0,"Kvigekalv 16-24 uker","Andre kjøttferaser",2
+2318,55,0,0,1,0,"Ung Kvige","Charolais",9
+2908,42,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+3728,55,1,0,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",9
+3240,39,1,0,0,0,"Ung Okse","Simmental",8
+3302,40,0,1,0,0,"Kvigekalv 16-24 uker","Holstein",1
+2904,50,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",10
+2024,11,0,1,0,0,"Kvige","Holstein",1
+3919,33,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+2332,31,0,1,1,0,"Kvigekalv 24-42 uker","Holstein",1
+2097,15,0,0,0,0,"Ung Kvige","Hereford",9
+2791,50,0,1,0,1,"Kvigekalv 16-24 uker","Scottish Highland",4
+3403,32,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",3
+2712,50,0,0,0,0,"Kvigekalv 1-3 uker","Gamle norske raser",1
+2218,55,0,0,0,0,"Kvigekalv 8-16 uker","Hereford",1
+2306,18,0,1,0,0,"Kvige","Scottish Highland",1
+2311,56,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+2265,32,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3970,42,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",7
+2435,11,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2298,39,1,1,0,0,"Kvige","Andre kjøttferaser",5
+2792,11,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2746,40,0,0,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",1
+3796,46,0,1,0,0,"Kvigekalv 4-8 uker","Holstein",9
+3589,11,0,1,0,0,"Kvigekalv 16-24 uker","Gamle norske raser",2
+3014,50,0,1,0,0,"Kvigekalv 4-8 uker","Charolais",3
+2616,34,0,0,0,0,"Oksekalv 8-16 uker","Scottish Highland",10
+3937,33,1,1,0,0,"Oksekalv 24-42 uker","Holstein",8
+3270,56,0,1,0,0,"Kvige","Holstein",1
+3918,46,0,0,1,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+2791,50,0,1,0,1,"Oksekalv 1-3 uker","Scottish Highland",5
+3906,34,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",9
+3553,11,0,1,0,0,"Ung Kvige","Jersey",1
+3508,11,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",7
+2850,55,0,0,1,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2579,42,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",8
+3848,11,0,0,0,0,"Kvige","Limousin",2
+2675,11,0,0,0,0,"Oksekalv 8-16 uker","Limousin",3
+2619,34,0,0,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",1
+3853,42,0,0,0,0,"Oksekalv 1-3 uker","Scottish Highland",2
+3655,46,1,0,0,0,"Kvige","Gamle norske raser",10
+3657,50,1,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3498,39,0,1,0,0,"Kvigekalv 4-8 uker","Charolais",3
+3047,11,0,0,1,0,"Kvigekalv 8-16 uker","Holstein",1
+3616,11,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+2198,42,0,1,0,0,"Oksekalv 16-24 uker","Holstein",6
+2357,50,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+2654,40,0,1,0,0,"Kvigekalv 8-16 uker","Jersey",1
+2837,42,0,1,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",1
+3070,11,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3339,50,1,0,0,0,"Oksekalv 8-16 uker","Krysning - melkeraser",1
+3576,11,1,1,0,0,"Kvige","Hereford",4
+3586,55,0,0,0,0,"Kvigekalv 24-42 uker","Scottish Highland",1
+2800,40,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",6
+2790,11,0,0,1,0,"Kvige","Scottish Highland",3
+2004,50,0,0,0,1,"Kvige","Hereford",7
+3140,39,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",1
+3052,55,0,0,0,0,"Kvige","Scottish Highland",2
+2061,32,0,0,0,0,"Kvigekalv 24-42 uker","Simmental",2
+3327,15,0,0,1,0,"Oksekalv 8-16 uker","Jersey",1
+3052,55,0,0,0,0,"Oksekalv 4-8 uker","Scottish Highland",8
+2005,31,0,0,0,0,"Oksekalv 16-24 uker","Aberdeen angus",3
+2785,34,0,0,1,0,"Oksekalv 4-8 uker","Andre kjøttferaser",5
+2772,46,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3566,33,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+2050,56,0,0,0,0,"Ku","Scottish Highland",4
+3017,34,0,1,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",1
+3885,42,1,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3221,50,1,0,0,0,"Ku","Norsk Rødt Fe (NRF)",1
+2562,34,1,0,0,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",1
+3231,50,0,0,0,0,"Oksekalv 4-8 uker","Hereford",2
+3000,55,1,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2027,40,0,1,0,0,"Ung Kvige","Aberdeen angus",9
+3597,11,1,1,0,0,"Kvigekalv 8-16 uker","Jersey",1
+3212,31,0,1,0,0,"Kvigekalv 4-8 uker","Jersey",8
+2003,34,1,1,0,0,"Oksekalv 4-8 uker","Limousin",1
+2670,11,1,0,0,1,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+3067,40,1,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+3707,55,0,1,0,0,"Kvigekalv 4-8 uker","Krysning - kjøttfe",2
+2539,50,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",4
+3970,42,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2192,33,0,0,0,0,"Kvigekalv 8-16 uker","Holstein",3
+2291,32,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",2
+3360,50,1,0,0,0,"Kvige","Hereford",7
+2854,55,1,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3223,55,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2611,33,0,1,0,0,"Ku","Gamle norske raser",2
+3831,56,0,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2071,39,0,0,0,0,"Oksekalv 4-8 uker","Charolais",8
+3090,50,1,0,1,0,"Ung Okse","Jersey",1
+2130,40,0,0,0,0,"Ung Okse","Gamle norske raser",2
+3857,34,0,0,1,0,"Oksekalv 4-8 uker","Jersey",4
+2677,42,0,0,0,0,"Brukt Okse","Gamle norske raser",8
+2488,40,1,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+3249,50,0,0,0,1,"Kvige","Norsk Rødt Fe (NRF)",1
+2285,31,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",1
+3496,34,0,1,0,0,"Kvigekalv 16-24 uker","Holstein",1
+3973,32,0,0,0,1,"Ung Okse","Gamle norske raser",1
+2218,55,0,0,0,0,"Ung Kvige","Hereford",1
+3001,31,1,0,0,0,"Kvige","Aberdeen angus",2
+3422,32,0,0,0,1,"Ung Okse","Jersey",8
+2405,11,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3199,32,0,0,0,0,"Kvige","Gamle norske raser",5
+3726,31,0,1,1,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",3
+3238,56,1,1,0,1,"Oksekalv 1-3 uker","Holstein",6
+2316,34,0,0,0,1,"Oksekalv 4-8 uker","Holstein",4
+2652,40,0,0,1,0,"Kvige","Krysning - melkeraser",1
+3747,11,0,1,0,0,"Kvigekalv 8-16 uker","Hereford",3
+2351,46,1,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",6
+3489,56,0,0,1,0,"Brukt Okse","Gamle norske raser",1
+3072,42,1,1,0,0,"Ku","Holstein",1
+2046,11,0,1,0,0,"Kvige","Gamle norske raser",8
+2833,34,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",4
+2094,34,0,0,1,1,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3194,11,0,1,0,0,"Oksekalv 8-16 uker","Scottish Highland",5
+2110,34,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",2
+3020,56,1,1,1,1,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",5
+2090,50,0,0,0,0,"Kvige","Hereford",2
+2835,32,1,0,0,0,"Ung Okse","Hereford",2
+2586,42,0,0,0,0,"Kvigekalv 4-8 uker","Limousin",3
+3753,34,0,0,0,0,"Oksekalv 24-42 uker","Holstein",2
+2651,34,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2917,34,0,1,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+3672,31,0,0,0,0,"Ung Okse","Aberdeen angus",1
+2977,11,1,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",5
+2304,39,0,0,0,0,"Oksekalv 8-16 uker","Hereford",1
+3380,39,0,0,0,0,"Ung ku","Hereford",5
+2364,31,1,0,1,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",3
+3067,40,1,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",3
+3230,39,0,0,0,0,"Ung Kvige","Krysning - melkeraser",4
+2865,46,0,0,0,0,"Oksekalv 24-42 uker","Aberdeen angus",3
+3825,32,1,1,0,0,"Ung Okse","Jersey",1
+3568,32,0,1,0,0,"Kvige","Holstein",3
+2788,46,0,0,0,0,"Ung ku","Gamle norske raser",1
+3926,50,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",5
+2906,56,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",5
+2428,40,1,0,0,1,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3449,11,0,1,0,0,"Kvigekalv 8-16 uker","Jersey",2
+3750,50,0,1,0,0,"Ung Okse","Holstein",3
+2412,46,0,0,0,0,"Ung Kvige","Aberdeen angus",6
+3008,31,0,0,0,1,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",6
+3353,50,0,0,0,1,"Ung Okse","Norsk Rødt Fe (NRF)",2
+3596,55,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",5
+3298,46,0,1,0,0,"Kvigekalv 8-16 uker","Krysning - melkeraser",2
+3382,42,0,0,0,0,"Ung Okse","Holstein",1
+3418,11,0,1,0,0,"Ung Okse","Jersey",1
+2709,34,1,0,0,0,"Ung Okse","Aberdeen angus",1
+2001,11,0,1,1,0,"Kvigekalv 8-16 uker","Holstein",10
+3367,34,0,0,0,0,"Ung Okse","Charolais",3
+2341,42,0,1,0,1,"Oksekalv 16-24 uker","Krysning - melkeraser",1
+2186,46,0,0,0,0,"Oksekalv 24-42 uker","Holstein",8
+2369,11,0,0,0,0,"Kvige","Andre kjøttferaser",5
+2443,42,0,1,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",9
+2037,39,0,1,0,0,"Kvigekalv 8-16 uker","Scottish Highland",2
+3502,33,1,0,0,0,"Oksekalv 24-42 uker","Scottish Highland",7
+3911,40,0,0,0,0,"Kvige","Holstein",2
+3748,11,0,0,0,1,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2070,46,0,1,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",1
+2265,32,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+2823,31,0,0,0,0,"Ung Okse","Gamle norske raser",1
+2826,34,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",9
+2544,33,0,1,0,0,"Kvige","Scottish Highland",5
+2618,33,0,1,0,0,"Oksekalv 8-16 uker","Hereford",1
+2528,18,0,1,1,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2958,39,1,0,0,0,"Ung Kvige","Andre kjøttferaser",1
+2060,31,0,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",7
+2153,11,0,1,0,0,"Kvigekalv 4-8 uker","Hereford",1
+2371,40,0,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+2784,39,0,1,0,0,"Ung Kvige","Andre kjøttferaser",1
+3109,11,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+2030,55,1,0,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",3
+2657,39,0,1,1,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",9
+2598,11,0,1,0,1,"Kvige","Gamle norske raser",1
+2888,11,0,0,0,0,"Oksekalv 4-8 uker","Scottish Highland",2
+2253,39,0,0,0,0,"Oksekalv 8-16 uker","Charolais",1
+3806,50,0,1,0,0,"Kvigekalv 4-8 uker","Aberdeen angus",3
+3975,50,0,0,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",7
+3967,55,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3210,50,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2430,32,0,0,0,0,"Oksekalv 24-42 uker","Hereford",1
+3952,39,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+3303,32,0,1,0,0,"Ung Okse","Holstein",9
+2095,32,1,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3526,46,0,1,0,1,"Ung ku","Norsk Rødt Fe (NRF)",2
+2230,32,0,1,0,1,"Kvigekalv 4-8 uker","Jersey",2
+2487,50,0,1,0,0,"Kvige","Holstein",1
+2944,34,1,0,0,0,"Kvigekalv 16-24 uker","Jersey",2
+2769,42,0,1,0,1,"Kvigekalv 24-42 uker","Hereford",1
+2463,39,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2477,15,0,1,0,0,"Kvigekalv 16-24 uker","Krysning - kjøttfe",2
+3120,11,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",1
+3672,31,0,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",1
+2103,42,0,0,0,0,"Oksekalv 8-16 uker","Holstein",5
+2893,56,0,0,0,0,"Oksekalv 16-24 uker","Scottish Highland",5
+3949,34,0,1,0,0,"Ku","Holstein",2
+3890,33,0,0,0,0,"Ung Okse","Hereford",6
+2578,39,0,0,0,1,"Ku","Norsk Rødt Fe (NRF)",1
+3917,39,0,0,1,0,"Oksekalv 1-3 uker","Aberdeen angus",5
+3591,34,0,1,0,0,"Oksekalv 1-3 uker","Hereford",4
+2890,15,0,1,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+2249,31,0,0,0,0,"Oksekalv 24-42 uker","Charolais",3
+2357,50,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",6
+2972,31,0,0,0,0,"Oksekalv 1-3 uker","Charolais",2
+2801,40,0,0,0,0,"Ung Okse","Andre kjøttferaser",4
+3221,50,1,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2270,31,0,0,1,0,"Ung Kvige","Charolais",2
+3723,32,1,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",3
+2934,42,0,0,0,0,"Oksekalv 16-24 uker","Holstein",2
+3856,34,1,0,0,0,"Ung Okse","Jersey",3
+2945,34,0,1,0,1,"Ku","Hereford",1
+2898,33,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",6
+2630,15,1,0,0,0,"Ung Kvige","Andre kjøttferaser",1
+2564,39,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3846,55,0,0,0,0,"Ung Kvige","Limousin",1
+2105,50,1,1,0,0,"Ung Kvige","Holstein",5
+2119,56,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2013,34,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",9
+3496,34,0,1,0,0,"Oksekalv 1-3 uker","Holstein",5
+3341,11,0,1,0,0,"Kvigekalv 16-24 uker","Andre kjøttferaser",1
+2182,50,0,0,0,0,"Kvigekalv 8-16 uker","Holstein",10
+2611,33,0,1,0,0,"Brukt Okse","Gamle norske raser",5
+2245,42,1,0,0,1,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+2514,39,1,1,0,1,"Kvigekalv 16-24 uker","Limousin",1
+2906,56,0,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+3699,50,0,0,0,0,"Kvigekalv 8-16 uker","Jersey",4
+3044,42,0,1,0,1,"Oksekalv 16-24 uker","Holstein",1
+2939,50,0,0,0,0,"Kvige","Hereford",5
+2634,11,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3201,11,1,1,0,0,"Kvigekalv 1-3 uker","Holstein",5
+3988,56,1,0,0,0,"Oksekalv 24-42 uker","Krysning - kjøttfe",1
+3360,50,1,0,0,0,"Brukt Okse","Hereford",1
+3198,50,0,0,0,0,"Kvige","Scottish Highland",4
+3613,46,0,0,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",5
+2028,32,0,0,0,0,"Ung Okse","Charolais",2
+3334,39,0,0,1,0,"Ung Okse","Gamle norske raser",2
+3753,34,0,0,0,0,"Kvigekalv 16-24 uker","Holstein",7
+3355,40,0,1,0,0,"Kvigekalv 4-8 uker","Jersey",9
+3522,55,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3461,11,0,1,0,0,"Oksekalv 4-8 uker","Gamle norske raser",1
+2507,55,0,0,0,0,"Ung Kvige","Gamle norske raser",2
+3959,40,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+3142,34,0,1,0,1,"Kvige","Hereford",4
+2866,46,1,1,0,0,"Oksekalv 4-8 uker","Hereford",5
+2734,46,0,0,1,0,"Kvigekalv 8-16 uker","Gamle norske raser",10
+2105,50,1,1,0,0,"Kvige","Holstein",3
+3453,34,0,0,0,1,"Oksekalv 8-16 uker","Krysning - melkeraser",1
+3321,42,0,0,0,0,"Kvigekalv 8-16 uker","Andre kjøttferaser",9
+3438,11,0,0,0,0,"Ung Kvige","Krysning - kjøttfe",7
+2285,31,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+3351,11,0,0,1,0,"Ung Kvige","Krysning - kjøttfe",1
+3748,11,0,0,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",6
+2214,46,0,1,0,0,"Ku","Andre kjøttferaser",5
+3069,50,0,0,0,0,"Oksekalv 16-24 uker","Krysning - kjøttfe",5
+2232,11,0,0,0,0,"Oksekalv 4-8 uker","Gamle norske raser",2
+3020,56,1,1,1,1,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",10
+3081,31,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+3822,31,0,0,1,0,"Kvige","Holstein",5
+2867,11,0,1,1,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3710,46,0,1,0,0,"Ung ku","Holstein",6
+3490,42,1,0,0,0,"Ku","Norsk Rødt Fe (NRF)",1
+2882,11,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",1
+2678,18,0,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3090,50,1,0,1,0,"Kvigekalv 4-8 uker","Jersey",2
+2254,31,0,0,0,0,"Ung Kvige","Limousin",7
+2407,46,0,0,0,0,"Kvige","Krysning - melkeraser",9
+2833,34,0,1,0,0,"Ung Kvige","Holstein",7
+2995,50,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3728,55,1,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+2697,40,0,1,0,0,"Kvigekalv 24-42 uker","Scottish Highland",1
+3800,50,0,0,0,0,"Ung ku","Holstein",1
+3003,39,0,1,0,0,"Oksekalv 1-3 uker","Gamle norske raser",4
+2113,34,0,0,0,0,"Ung Kvige","Hereford",5
+2603,42,0,0,0,0,"Ung ku","Gamle norske raser",1
+3708,46,0,0,0,0,"Ung Okse","Aberdeen angus",2
+2990,11,0,0,0,0,"Ung Okse","Krysning - kjøttfe",3
+2136,31,0,1,0,0,"Kvige","Jersey",3
+3243,42,0,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",4
+2481,34,0,1,0,0,"Oksekalv 24-42 uker","Krysning - melkeraser",1
+3712,33,0,0,0,0,"Kvigekalv 24-42 uker","Gamle norske raser",6
+2176,39,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3803,40,0,0,1,0,"Kvigekalv 1-3 uker","Charolais",1
+3281,11,0,0,0,0,"Oksekalv 16-24 uker","Gamle norske raser",1
+2748,46,0,0,0,0,"Ung Kvige","Andre kjøttferaser",5
+2684,50,0,0,0,0,"Kvigekalv 8-16 uker","Hereford",3
+3769,46,1,1,0,0,"Kvigekalv 16-24 uker","Holstein",8
+3476,39,0,0,0,0,"Oksekalv 8-16 uker","Aberdeen angus",1
+2850,55,0,0,1,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3989,31,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+2103,42,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",2
+2309,46,1,1,0,0,"Ku","Limousin",3
+2081,46,1,1,0,0,"Oksekalv 24-42 uker","Holstein",1
+2393,31,1,0,0,0,"Oksekalv 1-3 uker","Holstein",2
+2036,55,1,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2726,11,0,1,0,0,"Ung ku","Limousin",4
+3557,33,0,1,0,0,"Oksekalv 4-8 uker","Scottish Highland",2
+3438,11,0,0,0,0,"Ung Kvige","Krysning - kjøttfe",9
+2464,34,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",5
+2444,32,0,1,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",6
+2604,40,0,1,0,1,"Kvigekalv 1-3 uker","Scottish Highland",5
+3339,50,1,0,0,0,"Brukt Okse","Krysning - melkeraser",1
+3248,11,0,1,0,0,"Oksekalv 4-8 uker","Holstein",10
+3607,42,0,1,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",1
+3178,31,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+3693,55,0,0,0,0,"Ung Okse","Aberdeen angus",3
+2786,31,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",2
+3146,11,0,0,0,0,"Ung Okse","Andre kjøttferaser",5
+3513,50,0,0,0,0,"Kvigekalv 8-16 uker","Andre kjøttferaser",1
+3407,18,1,1,0,0,"Kvigekalv 4-8 uker","Aberdeen angus",3
+3990,33,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+3734,42,1,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",10
+3747,11,0,1,0,0,"Ung Okse","Hereford",1
+3277,15,0,0,0,0,"Ung ku","Jersey",2
+3549,55,0,0,0,0,"Kvigekalv 16-24 uker","Simmental",6
+2920,33,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+3455,33,1,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",6
+3902,33,1,1,0,0,"Kvige","Andre kjøttferaser",7
+2779,50,0,1,0,1,"Ung ku","Norsk Rødt Fe (NRF)",1
+2858,50,0,1,1,0,"Kvige","Scottish Highland",1
+3967,55,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3000,55,1,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",6
+3159,18,0,1,0,0,"Kvigekalv 4-8 uker","Aberdeen angus",9
+2842,40,0,1,0,0,"Ku","Gamle norske raser",1
+2818,11,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+2930,50,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",5
+2174,11,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",6
+2530,31,1,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",10
+2318,55,0,0,1,0,"Ung Okse","Charolais",2
+3050,46,0,1,0,0,"Ung Okse","Jersey",5
+2984,33,0,1,0,0,"Kvigekalv 4-8 uker","Hereford",3
+3455,33,1,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2452,11,0,0,0,0,"Ung Okse","Krysning - melkeraser",2
+3184,31,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+2273,46,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",9
+2611,33,0,1,0,0,"Oksekalv 24-42 uker","Gamle norske raser",2
+2518,50,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",1
+2340,34,0,0,0,0,"Ung Okse","Holstein",5
+3415,50,0,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",2
+3851,11,1,1,0,0,"Oksekalv 8-16 uker","Gamle norske raser",8
+2619,34,0,0,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",8
+3325,11,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2863,11,0,1,1,0,"Kvigekalv 24-42 uker","Scottish Highland",1
+3638,11,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+2260,34,0,0,0,0,"Ung Kvige","Jersey",10
+3815,46,1,0,0,0,"Oksekalv 4-8 uker","Holstein",5
+3587,11,0,1,0,0,"Ung Okse","Andre kjøttferaser",2
+2292,50,1,1,0,0,"Ung Kvige","Scottish Highland",2
+2232,11,0,0,0,0,"Oksekalv 4-8 uker","Gamle norske raser",1
+2544,33,0,1,0,0,"Ung Okse","Scottish Highland",1
+3327,15,0,0,1,0,"Kvigekalv 8-16 uker","Jersey",8
+2037,39,0,1,0,0,"Kvigekalv 4-8 uker","Scottish Highland",5
+3582,50,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+2427,34,0,0,0,0,"Oksekalv 16-24 uker","Krysning - kjøttfe",2
+3027,40,0,0,1,1,"Kvigekalv 4-8 uker","Gamle norske raser",3
+3670,31,0,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",8
+2208,33,0,0,0,0,"Oksekalv 4-8 uker","Aberdeen angus",10
+2154,50,0,0,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",6
+3837,42,0,1,0,0,"Brukt Okse","Scottish Highland",4
+3397,11,0,0,0,1,"Ung Kvige","Limousin",3
+3571,42,0,0,0,0,"Kvigekalv 1-3 uker","Holstein",1
+2273,46,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+3373,33,0,0,1,0,"Kvigekalv 8-16 uker","Gamle norske raser",1
+2625,50,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+2039,50,0,0,0,0,"Kvige","Charolais",7
+3802,11,1,0,0,0,"Kvigekalv 24-42 uker","Charolais",7
+2254,31,0,0,0,0,"Kvige","Limousin",3
+3070,11,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",8
+2435,11,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2736,56,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",6
+2513,33,1,1,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",4
+2525,55,1,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+2109,42,0,0,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",9
+3119,50,0,0,0,0,"Kvige","Jersey",7
+3987,55,0,1,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",6
+3499,11,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",7
+3730,46,0,0,0,0,"Kvigekalv 4-8 uker","Scottish Highland",9
+2728,11,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3369,11,0,0,1,0,"Kvigekalv 1-3 uker","Jersey",1
+3649,11,1,1,0,0,"Kvige","Andre kjøttferaser",5
+3675,42,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+3922,18,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2772,46,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+2801,40,0,0,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",3
+2924,32,0,0,0,0,"Ung ku","Krysning - kjøttfe",1
+2540,39,1,1,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+3171,15,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",9
+3716,32,0,1,0,0,"Ung Kvige","Gamle norske raser",1
+2273,46,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+3378,11,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",3
+3643,11,1,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",3
+2105,50,1,1,0,0,"Oksekalv 16-24 uker","Holstein",1
+2206,11,0,1,0,1,"Brukt Okse","Holstein",10
+2465,18,0,0,0,1,"Kvigekalv 8-16 uker","Jersey",1
+3466,31,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3116,55,1,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2398,40,0,0,0,0,"Kvigekalv 24-42 uker","Krysning - melkeraser",2
+2741,18,0,0,0,1,"Kvigekalv 1-3 uker","Holstein",1
+2595,55,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2943,15,0,1,0,0,"Ung ku","Norsk Rødt Fe (NRF)",5
+3346,31,1,0,1,0,"Brukt Okse","Holstein",2
+2639,11,0,0,0,0,"Kvigekalv 24-42 uker","Simmental",1
+3528,39,0,0,1,0,"Kvige","Jersey",1
+3918,46,0,0,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",6
+3741,33,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3525,40,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+2492,42,0,0,0,0,"Oksekalv 4-8 uker","Jersey",1
+2572,33,0,0,0,0,"Oksekalv 8-16 uker","Limousin",1
+2459,33,1,0,0,0,"Oksekalv 24-42 uker","Limousin",3
+2019,31,0,1,0,0,"Kvige","Charolais",6
+3075,50,0,0,0,0,"Kvigekalv 4-8 uker","Krysning - melkeraser",1
+2683,50,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+3083,32,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+3767,32,0,0,1,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",7
+3990,33,0,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",5
+3734,42,1,0,0,0,"Ku","Norsk Rødt Fe (NRF)",9
+3687,33,0,1,0,0,"Oksekalv 16-24 uker","Aberdeen angus",1
+3526,46,0,1,0,1,"Brukt Okse","Norsk Rødt Fe (NRF)",2
+2356,34,0,1,0,0,"Kvigekalv 24-42 uker","Andre kjøttferaser",1
+2319,11,0,0,1,0,"Kvige","Norsk Rødt Fe (NRF)",2
+3622,32,0,1,0,0,"Oksekalv 8-16 uker","Holstein",1
+3556,11,0,0,0,0,"Kvigekalv 24-42 uker","Jersey",3
+3553,11,0,1,0,0,"Oksekalv 24-42 uker","Jersey",1
+3500,18,1,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",6
+3838,42,0,0,0,1,"Ku","Norsk Rødt Fe (NRF)",2
+3518,50,0,1,0,1,"Kvigekalv 1-3 uker","Krysning - kjøttfe",6
+3899,33,0,0,1,0,"Brukt Okse","Limousin",9
+2874,15,0,1,1,0,"Kvigekalv 8-16 uker","Holstein",1
+2092,33,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",9
+2983,50,1,1,0,0,"Ung Okse","Andre kjøttferaser",8
+2084,50,0,0,1,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+2496,50,1,0,0,0,"Kvigekalv 16-24 uker","Holstein",1
+2566,31,0,0,0,0,"Ung Kvige","Gamle norske raser",3
+2749,56,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+3175,32,0,1,0,0,"Oksekalv 8-16 uker","Scottish Highland",6
+2428,40,1,0,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2299,31,1,0,1,0,"Kvige","Hereford",5
+3766,50,0,0,0,1,"Kvigekalv 8-16 uker","Andre kjøttferaser",6
+2292,50,1,1,0,0,"Kvigekalv 16-24 uker","Scottish Highland",2
+3486,55,0,1,0,0,"Ku","Holstein",2
+3633,31,0,0,0,0,"Ung Okse","Hereford",3
+2257,34,0,0,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",9
+3822,31,0,0,1,0,"Kvige","Holstein",3
+3550,11,0,0,0,0,"Kvigekalv 8-16 uker","Holstein",2
+3324,42,0,0,0,1,"Ung Kvige","Jersey",3
+2623,11,1,1,0,0,"Kvigekalv 8-16 uker","Krysning - kjøttfe",2
+2102,40,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",6
+2097,15,0,0,0,0,"Ung Okse","Hereford",2
+3278,34,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",5
+3698,11,0,0,0,0,"Kvige","Aberdeen angus",3
+3055,34,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",8
+3143,32,0,1,0,0,"Ung Kvige","Aberdeen angus",9
+3786,50,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",1
+2935,42,0,0,0,0,"Ung Kvige","Simmental",1
+2527,42,0,1,0,0,"Ung Okse","Aberdeen angus",7
+3226,31,1,1,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+2564,39,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+3186,32,0,0,0,1,"Ung Okse","Hereford",1
+2360,50,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",6
+2348,32,0,0,0,0,"Kvige","Andre kjøttferaser",10
+3194,11,0,1,0,0,"Oksekalv 8-16 uker","Scottish Highland",9
+2147,11,0,0,0,0,"Oksekalv 16-24 uker","Jersey",1
+3351,11,0,0,1,0,"Kvigekalv 8-16 uker","Krysning - kjøttfe",5
+3253,34,0,1,0,0,"Kvigekalv 16-24 uker","Limousin",1
+3234,32,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",4
+2892,40,0,0,0,0,"Ung Okse","Holstein",2
+3494,50,1,0,1,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3649,11,1,1,0,0,"Oksekalv 16-24 uker","Andre kjøttferaser",6
+2434,11,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",6
+3707,55,0,1,0,0,"Kvige","Krysning - kjøttfe",8
+3323,31,1,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+2160,50,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+2994,11,0,0,0,0,"Ung Okse","Scottish Highland",6
+3989,31,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+3559,11,0,1,0,0,"Kvige","Aberdeen angus",4
+2430,32,0,0,0,0,"Ung Kvige","Hereford",1
+2279,31,0,0,0,0,"Ung Kvige","Scottish Highland",2
+3971,33,1,0,0,0,"Kvigekalv 4-8 uker","Simmental",7
+2351,46,1,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3173,39,0,0,0,0,"Oksekalv 24-42 uker","Holstein",5
+3270,56,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",1
+3407,18,1,1,0,0,"Oksekalv 4-8 uker","Aberdeen angus",2
+2070,46,0,1,0,0,"Ung Okse","Andre kjøttferaser",6
+2872,50,1,1,0,0,"Kvigekalv 8-16 uker","Charolais",1
+2677,42,0,0,0,0,"Ung Kvige","Gamle norske raser",1
+3792,34,1,1,0,1,"Ung Kvige","Gamle norske raser",3
+3561,46,0,0,0,0,"Ung ku","Jersey",3
+2290,46,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3077,50,1,1,0,0,"Oksekalv 8-16 uker","Andre kjøttferaser",2
+3707,55,0,1,0,0,"Kvigekalv 24-42 uker","Krysning - kjøttfe",5
+2275,40,0,0,0,0,"Kvige","Hereford",2
+2135,39,0,0,0,0,"Kvige","Andre kjøttferaser",2
+2406,46,1,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+3957,50,1,0,0,1,"Ku","Norsk Rødt Fe (NRF)",3
+3896,33,0,0,0,0,"Oksekalv 4-8 uker","Limousin",6
+2655,50,0,0,0,0,"Oksekalv 16-24 uker","Charolais",7
+2924,32,0,0,0,0,"Ung Okse","Krysning - kjøttfe",4
+2682,34,1,0,0,0,"Kvigekalv 4-8 uker","Limousin",3
+2927,56,1,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",3
+3780,32,1,1,0,0,"Oksekalv 8-16 uker","Charolais",4
+3651,11,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2971,42,1,0,1,0,"Brukt Okse","Norsk Rødt Fe (NRF)",2
+2365,50,0,0,0,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",3
+3282,55,0,1,0,0,"Oksekalv 8-16 uker","Simmental",5
+2242,15,1,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+3433,39,0,0,0,0,"Kvige","Andre kjøttferaser",3
+3131,56,0,0,0,0,"Ung Okse","Charolais",3
+2526,18,0,1,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",1
+3546,34,0,0,0,0,"Ung Okse","Gamle norske raser",1
+3528,39,0,0,1,0,"Kvigekalv 8-16 uker","Jersey",4
+3551,40,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",6
+3794,42,0,1,0,1,"Kvigekalv 16-24 uker","Holstein",2
+2170,11,0,0,1,1,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+2084,50,0,0,1,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+3781,56,0,0,0,0,"Kvigekalv 16-24 uker","Charolais",1
+2580,34,0,0,0,0,"Ung Kvige","Holstein",6
+3098,32,0,1,0,0,"Ku","Holstein",6
+2980,11,0,0,0,0,"Kvigekalv 1-3 uker","Gamle norske raser",3
+3754,11,1,0,0,0,"Ku","Norsk Rødt Fe (NRF)",10
+3208,11,0,0,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",8
+3897,55,1,0,0,0,"Ku","Aberdeen angus",3
+3015,50,0,0,0,0,"Ung Okse","Holstein",10
+2832,42,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",3
+2018,34,0,1,0,0,"Oksekalv 16-24 uker","Scottish Highland",7
+2914,39,0,0,0,0,"Ung Kvige","Holstein",4
+2614,39,0,0,0,0,"Oksekalv 24-42 uker","Limousin",5
+3339,50,1,0,0,0,"Kvigekalv 8-16 uker","Krysning - melkeraser",1
+2191,42,0,0,0,0,"Oksekalv 1-3 uker","Holstein",1
+3474,40,0,0,0,0,"Oksekalv 1-3 uker","Hereford",1
+3005,50,0,1,0,0,"Kvigekalv 16-24 uker","Gamle norske raser",2
+2707,11,0,0,0,1,"Oksekalv 4-8 uker","Scottish Highland",3
+3608,46,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3728,55,1,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",4
+2025,18,0,0,0,0,"Ung Okse","Charolais",2
+3367,34,0,0,0,0,"Oksekalv 8-16 uker","Charolais",2
+3533,42,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",7
+3194,11,0,1,0,0,"Ung Kvige","Scottish Highland",2
+2930,50,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",5
+2428,40,1,0,0,1,"Brukt Okse","Norsk Rødt Fe (NRF)",3
+3277,15,0,0,0,0,"Ung ku","Jersey",9
+3357,34,1,0,0,0,"Ung Okse","Krysning - melkeraser",6
+2955,46,1,0,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",6
+3751,40,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2275,40,0,0,0,0,"Ku","Hereford",1
+3703,33,1,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",9
+2548,32,0,0,0,0,"Brukt Okse","Krysning - melkeraser",5
+2264,18,0,0,0,1,"Ung Okse","Limousin",1
+3709,11,1,0,0,0,"Ung Okse","Jersey",1
+3263,50,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",4
+3633,31,0,0,0,0,"Kvige","Hereford",2
+3091,50,0,0,0,0,"Ung ku","Gamle norske raser",2
+3945,39,0,1,1,0,"Kvige","Aberdeen angus",2
+2963,39,0,1,0,0,"Oksekalv 24-42 uker","Hereford",5
+2681,50,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2725,11,0,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",1
+2911,42,0,0,0,0,"Kvigekalv 8-16 uker","Holstein",4
+3513,50,0,0,0,0,"Oksekalv 1-3 uker","Andre kjøttferaser",1
+3989,31,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",5
+3270,56,0,1,0,0,"Kvigekalv 24-42 uker","Holstein",1
+3630,34,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+3883,33,0,0,0,0,"Ku","Krysning - melkeraser",6
+2529,55,0,1,0,0,"Kvigekalv 16-24 uker","Scottish Highland",1
+2245,42,1,0,0,1,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3651,11,0,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",6
+2276,32,0,0,0,0,"Ung Kvige","Jersey",1
+3196,42,0,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+3863,40,0,0,0,0,"Kvigekalv 24-42 uker","Gamle norske raser",5
+3595,11,0,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",3
+2992,42,0,0,0,0,"Ung Okse","Limousin",2
+2856,40,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",9
+3407,18,1,1,0,0,"Ung Kvige","Aberdeen angus",2
+2250,46,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2138,34,0,1,0,0,"Ku","Scottish Highland",8
+3443,34,0,0,0,0,"Kvigekalv 4-8 uker","Limousin",1
+3793,11,0,0,1,0,"Oksekalv 8-16 uker","Holstein",4
+2907,46,0,0,0,0,"Ung ku","Charolais",4
+3305,34,0,0,0,0,"Oksekalv 4-8 uker","Scottish Highland",2
+2847,55,0,0,0,0,"Kvige","Hereford",5
+3316,39,0,1,1,0,"Oksekalv 8-16 uker","Krysning - melkeraser",2
+3289,34,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",8
+2138,34,0,1,0,0,"Brukt Okse","Scottish Highland",1
+3193,50,0,1,0,0,"Oksekalv 4-8 uker","Holstein",7
+2298,39,1,1,0,0,"Ung ku","Andre kjøttferaser",5
+3379,32,0,0,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+2158,33,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3210,50,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",6
+3867,46,0,0,0,0,"Ung Okse","Holstein",1
+3452,34,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",3
+3960,31,0,0,0,0,"Kvige","Hereford",1
+3658,34,0,1,0,1,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2345,34,0,0,1,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+3204,31,0,0,0,0,"Ung Kvige","Andre kjøttferaser",2
+2394,56,0,0,0,0,"Kvigekalv 16-24 uker","Krysning - melkeraser",2
+2274,42,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",4
+2795,11,0,0,1,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",8
+3027,40,0,0,1,1,"Oksekalv 4-8 uker","Gamle norske raser",3
+3735,55,0,1,0,0,"Oksekalv 8-16 uker","Gamle norske raser",1
+3673,40,0,0,0,0,"Kvige","Krysning - melkeraser",7
+3091,50,0,0,0,0,"Ung Okse","Gamle norske raser",7
+2925,40,0,0,0,1,"Ung Kvige","Andre kjøttferaser",1
+3513,50,0,0,0,0,"Ung Kvige","Andre kjøttferaser",9
+2433,11,1,0,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+3352,33,1,0,0,0,"Kvigekalv 4-8 uker","Charolais",2
+3814,40,1,0,0,0,"Ung Okse","Scottish Highland",7
+3817,11,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+2051,55,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3199,32,0,0,0,0,"Oksekalv 4-8 uker","Gamle norske raser",6
+2887,46,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",5
+3047,11,0,0,1,0,"Oksekalv 4-8 uker","Holstein",3
+2147,11,0,0,0,0,"Ku","Jersey",2
+2071,39,0,0,0,0,"Kvige","Charolais",2
+3337,34,0,1,0,0,"Ung Kvige","Limousin",9
+3493,40,0,0,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",2
+2146,31,0,0,0,1,"Ung Okse","Holstein",1
+3659,11,0,0,0,0,"Oksekalv 16-24 uker","Holstein",8
+2718,50,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2934,42,0,0,0,0,"Kvigekalv 16-24 uker","Holstein",5
+3346,31,1,0,1,0,"Oksekalv 16-24 uker","Holstein",7
+3675,42,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+3983,31,1,1,0,0,"Kvige","Limousin",5
+3881,11,0,0,0,0,"Ung Kvige","Jersey",1
+3764,56,0,0,0,0,"Ung Kvige","Andre kjøttferaser",1
+2349,31,0,1,0,0,"Oksekalv 16-24 uker","Hereford",1
+3575,11,0,1,0,0,"Oksekalv 16-24 uker","Hereford",3
+2844,40,0,0,0,0,"Kvigekalv 16-24 uker","Holstein",2
+3776,11,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2192,33,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",4
+2791,50,0,1,0,1,"Kvigekalv 8-16 uker","Scottish Highland",2
+3137,11,0,0,0,0,"Ku","Holstein",4
+3699,50,0,0,0,0,"Oksekalv 8-16 uker","Jersey",2
+3616,11,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3191,39,0,1,0,0,"Kvigekalv 16-24 uker","Charolais",3
+2547,42,0,1,0,0,"Oksekalv 8-16 uker","Gamle norske raser",4
+2151,34,0,0,0,0,"Brukt Okse","Scottish Highland",1
+3620,40,0,0,0,1,"Kvigekalv 4-8 uker","Hereford",7
+3130,31,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",3
+3550,11,0,0,0,0,"Ung ku","Holstein",1
+2309,46,1,1,0,0,"Oksekalv 24-42 uker","Limousin",4
+3509,40,1,0,0,1,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3910,11,1,0,0,0,"Ung Okse","Holstein",1
+2325,11,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",6
+3906,34,0,1,0,0,"Ung Kvige","Holstein",7
+3030,46,0,0,0,0,"Kvigekalv 16-24 uker","Hereford",1
+3541,50,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2544,33,0,1,0,0,"Kvige","Scottish Highland",5
+3123,33,1,0,0,0,"Oksekalv 4-8 uker","Simmental",4
+3453,34,0,0,0,1,"Ung ku","Krysning - melkeraser",1
+2777,33,0,1,0,0,"Oksekalv 16-24 uker","Scottish Highland",1
+3334,39,0,0,1,0,"Kvige","Gamle norske raser",1
+2761,50,0,1,0,0,"Kvigekalv 16-24 uker","Holstein",7
+3744,32,0,1,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",7
+2107,46,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+3044,42,0,1,0,1,"Kvigekalv 16-24 uker","Holstein",3
+3960,31,0,0,0,0,"Ku","Hereford",1
+2623,11,1,1,0,0,"Kvigekalv 16-24 uker","Krysning - kjøttfe",1
+3378,11,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",5
+3113,11,0,0,0,1,"Ung Kvige","Andre kjøttferaser",4
+3231,50,0,0,0,0,"Kvige","Hereford",9
+2962,33,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2553,33,0,1,1,0,"Ku","Charolais",1
+3457,33,0,1,0,1,"Kvigekalv 8-16 uker","Holstein",10
+3095,33,0,0,0,1,"Kvigekalv 24-42 uker","Andre kjøttferaser",6
+3876,31,0,0,1,0,"Ung Okse","Andre kjøttferaser",2
+2007,33,0,0,0,0,"Kvige","Krysning - kjøttfe",4
+2545,11,0,0,0,0,"Ung Okse","Simmental",1
+3479,55,0,0,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",1
+3574,50,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+3384,34,1,1,1,0,"Ung Okse","Krysning - melkeraser",1
+2042,33,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",7
+3792,34,1,1,0,1,"Oksekalv 8-16 uker","Gamle norske raser",1
+2844,40,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",1
+2402,31,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",5
+3286,11,0,0,0,0,"Kvigekalv 1-3 uker","Holstein",3
+2003,34,1,1,0,0,"Oksekalv 4-8 uker","Limousin",3
+3794,42,0,1,0,1,"Oksekalv 4-8 uker","Holstein",1
+3588,50,1,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",4
+2930,50,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3072,42,1,1,0,0,"Kvigekalv 24-42 uker","Holstein",10
+2535,42,1,1,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",9
+2110,34,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+2860,39,0,1,1,0,"Kvigekalv 1-3 uker","Andre kjøttferaser",7
+2612,42,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",1
+3378,11,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2483,40,0,0,0,0,"Oksekalv 24-42 uker","Holstein",2
+2959,55,1,1,0,0,"Brukt Okse","Jersey",10
+2782,31,1,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2193,18,0,0,1,0,"Ung Kvige","Holstein",7
+3205,40,0,0,0,0,"Kvigekalv 4-8 uker","Limousin",7
+2852,55,0,1,0,0,"Ung Okse","Jersey",5
+3539,11,0,1,0,0,"Ung Kvige","Holstein",3
+2069,11,0,1,1,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+3365,50,0,0,0,0,"Ung Okse","Scottish Highland",3
+2090,50,0,0,0,0,"Oksekalv 16-24 uker","Hereford",4
+2082,32,0,1,0,0,"Kvige","Hereford",7
+2475,42,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",9
+2871,40,0,0,0,0,"Oksekalv 16-24 uker","Scottish Highland",10
+3712,33,0,0,0,0,"Oksekalv 1-3 uker","Gamle norske raser",1
+2405,11,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2636,50,0,0,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",9
+2283,31,0,1,0,0,"Kvigekalv 1-3 uker","Charolais",1
+3160,42,0,0,0,0,"Kvigekalv 24-42 uker","Charolais",3
+3197,11,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2208,33,0,0,0,0,"Oksekalv 8-16 uker","Aberdeen angus",1
+3237,55,0,0,0,1,"Ung Okse","Limousin",1
+3511,46,0,0,0,0,"Kvige","Hereford",4
+3938,46,0,0,0,0,"Kvigekalv 1-3 uker","Holstein",2
+3635,31,0,0,0,0,"Kvige","Scottish Highland",7
+3758,31,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",1
+3933,31,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3498,39,0,1,0,0,"Ung Kvige","Charolais",4
+3463,46,0,0,1,0,"Ku","Andre kjøttferaser",1
+3711,55,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+3174,33,1,0,0,0,"Ung Okse","Limousin",2
+2449,50,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+2517,42,1,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2174,11,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",6
+2924,32,0,0,0,0,"Kvige","Krysning - kjøttfe",1
+2475,42,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",4
+3813,34,1,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+3877,11,0,1,0,0,"Kvigekalv 4-8 uker","Aberdeen angus",8
+2732,11,0,1,0,0,"Oksekalv 4-8 uker","Aberdeen angus",2
+2586,42,0,0,0,0,"Kvigekalv 8-16 uker","Limousin",2
+3111,42,1,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",10
+2172,34,0,0,0,1,"Ung ku","Holstein",1
+3122,11,0,0,0,0,"Ung Kvige","Limousin",5
+2118,42,0,0,0,1,"Brukt Okse","Norsk Rødt Fe (NRF)",10
+3498,39,0,1,0,0,"Ung ku","Charolais",1
+3249,50,0,0,0,1,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",7
+3263,50,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3383,40,0,1,0,0,"Kvigekalv 8-16 uker","Hereford",3
+3666,11,0,0,0,0,"Kvigekalv 24-42 uker","Limousin",3
+3210,50,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2709,34,1,0,0,0,"Ung Kvige","Aberdeen angus",1
+2704,42,0,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+2525,55,1,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3991,31,1,0,0,1,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+3037,31,0,0,0,0,"Ung Kvige","Jersey",1
+2230,32,0,1,0,1,"Kvigekalv 8-16 uker","Jersey",6
+2297,34,0,0,0,1,"Ung Okse","Krysning - melkeraser",1
+2657,39,0,1,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+3806,50,0,1,0,0,"Kvige","Aberdeen angus",6
+3610,31,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+3758,31,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3515,40,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2254,31,0,0,0,0,"Oksekalv 8-16 uker","Limousin",1
+3352,33,1,0,0,0,"Kvigekalv 1-3 uker","Charolais",1
+2630,15,1,0,0,0,"Kvigekalv 16-24 uker","Andre kjøttferaser",1
+3801,42,1,0,0,0,"Kvigekalv 16-24 uker","Jersey",4
+2130,40,0,0,0,0,"Ung Kvige","Gamle norske raser",2
+3642,42,1,1,0,1,"Kvigekalv 16-24 uker","Aberdeen angus",4
+3978,31,1,0,0,0,"Brukt Okse","Aberdeen angus",2
+3510,50,0,0,0,0,"Kvigekalv 16-24 uker","Limousin",6
+2503,46,0,0,0,0,"Kvigekalv 8-16 uker","Andre kjøttferaser",5
+3622,32,0,1,0,0,"Ung ku","Holstein",4
+2397,40,0,0,1,1,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",9
+2364,31,1,0,1,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+3059,11,0,0,1,0,"Oksekalv 1-3 uker","Holstein",6
+3108,11,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3903,46,0,0,0,0,"Ung Kvige","Andre kjøttferaser",1
+3940,33,1,0,0,0,"Kvigekalv 1-3 uker","Gamle norske raser",1
+2400,55,0,0,0,0,"Kvigekalv 24-42 uker","Holstein",1
+3990,33,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",8
+3869,55,1,0,0,0,"Ung ku","Holstein",1
+2192,33,0,0,0,0,"Oksekalv 4-8 uker","Holstein",3
+2113,34,0,0,0,0,"Kvigekalv 24-42 uker","Hereford",3
+3863,40,0,0,0,0,"Oksekalv 24-42 uker","Gamle norske raser",8
+2476,11,0,1,0,0,"Oksekalv 4-8 uker","Gamle norske raser",9
+2069,11,0,1,1,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",3
+2608,39,0,0,0,0,"Oksekalv 24-42 uker","Aberdeen angus",1
+3326,11,0,0,0,0,"Ung Kvige","Andre kjøttferaser",8
+2905,11,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",4
+2404,18,0,0,0,0,"Kvigekalv 16-24 uker","Andre kjøttferaser",1
+3507,33,0,1,0,0,"Kvigekalv 4-8 uker","Limousin",1
+2146,31,0,0,0,1,"Oksekalv 24-42 uker","Holstein",6
+3314,18,0,0,0,0,"Ung Kvige","Jersey",4
+3274,39,0,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2440,34,1,1,0,0,"Kvigekalv 8-16 uker","Andre kjøttferaser",1
+2437,15,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3590,42,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3499,11,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2645,11,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",9
+3239,39,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",7
+2684,50,0,0,0,0,"Kvigekalv 8-16 uker","Hereford",2
+2808,56,0,0,0,0,"Oksekalv 24-42 uker","Scottish Highland",2
+2261,32,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3464,34,0,0,0,0,"Kvige","Charolais",1
+2873,39,1,1,1,0,"Kvigekalv 4-8 uker","Krysning - melkeraser",2
+2463,39,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+2206,11,0,1,0,1,"Oksekalv 16-24 uker","Holstein",9
+2631,31,1,1,1,0,"Ung Kvige","Simmental",8
+3244,39,0,0,0,0,"Kvige","Andre kjøttferaser",1
+3450,31,0,1,1,0,"Ung ku","Charolais",1
+3315,46,0,0,0,0,"Ku","Hereford",7
+2100,31,0,1,0,0,"Kvigekalv 24-42 uker","Scottish Highland",2
+3213,15,0,0,0,0,"Kvige","Andre kjøttferaser",2
+2177,46,0,1,0,1,"Ung Kvige","Norsk Rødt Fe (NRF)",5
+3285,32,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",6
+2655,50,0,0,0,0,"Brukt Okse","Charolais",3
+3885,42,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3960,31,0,0,0,0,"Ung Okse","Hereford",1
+3703,33,1,1,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+2394,56,0,0,0,0,"Ung Kvige","Krysning - melkeraser",10
+3750,50,0,1,0,0,"Brukt Okse","Holstein",1
+2576,11,0,0,0,0,"Oksekalv 8-16 uker","Jersey",5
+2186,46,0,0,0,0,"Oksekalv 24-42 uker","Holstein",9
+2653,32,1,0,0,0,"Kvigekalv 1-3 uker","Krysning - kjøttfe",7
+3496,34,0,1,0,0,"Oksekalv 1-3 uker","Holstein",3
+3811,34,0,0,1,0,"Ung Kvige","Krysning - kjøttfe",5
+2162,50,0,1,0,0,"Kvige","Jersey",1
+3481,32,0,1,0,0,"Ku","Holstein",1
+3098,32,0,1,0,0,"Oksekalv 4-8 uker","Holstein",10
+3835,46,1,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",6
+3555,50,0,0,0,1,"Kvige","Krysning - melkeraser",1
+3996,56,0,0,0,0,"Kvige","Jersey",9
+3557,33,0,1,0,0,"Kvigekalv 4-8 uker","Scottish Highland",1
+3824,50,0,1,1,1,"Kvigekalv 8-16 uker","Holstein",2
+2731,11,0,0,1,0,"Ung Okse","Aberdeen angus",2
+2828,56,0,1,0,0,"Kvige","Limousin",1
+3443,34,0,0,0,0,"Brukt Okse","Limousin",8
+3924,42,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+3487,11,0,0,1,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+3245,32,0,1,0,0,"Oksekalv 16-24 uker","Gamle norske raser",2
+2442,50,0,1,0,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",8
+3119,50,0,0,0,0,"Oksekalv 8-16 uker","Jersey",4
+2412,46,0,0,0,0,"Oksekalv 8-16 uker","Aberdeen angus",7
+3122,11,0,0,0,0,"Ung Okse","Limousin",1
+2049,55,0,0,0,0,"Kvige","Holstein",1
+3663,11,0,0,0,0,"Oksekalv 16-24 uker","Andre kjøttferaser",5
+2282,34,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3330,39,0,0,1,1,"Oksekalv 4-8 uker","Charolais",1
+2064,34,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+3490,42,1,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",9
+3297,34,0,0,0,1,"Kvigekalv 16-24 uker","Aberdeen angus",2
+2766,34,1,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2771,42,0,0,0,0,"Kvige","Hereford",1
+2538,56,0,1,1,0,"Kvigekalv 24-42 uker","Holstein",1
+3207,31,0,0,0,0,"Oksekalv 1-3 uker","Charolais",4
+3836,39,0,1,0,1,"Ung Okse","Gamle norske raser",6
+3645,31,0,1,0,0,"Ku","Scottish Highland",3
+2859,33,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",4
+3119,50,0,0,0,0,"Ung Okse","Jersey",1
+3244,39,0,0,0,0,"Ung Okse","Andre kjøttferaser",1
+2321,11,0,0,0,0,"Oksekalv 8-16 uker","Charolais",1
+2847,55,0,0,0,0,"Kvigekalv 1-3 uker","Hereford",5
+2720,56,0,0,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+3017,34,0,1,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",4
+2186,46,0,0,0,0,"Kvigekalv 24-42 uker","Holstein",3
+2989,33,0,0,0,1,"Ung Okse","Gamle norske raser",4
+3340,18,0,1,1,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",6
+3745,42,0,1,0,0,"Kvigekalv 4-8 uker","Scottish Highland",4
+3212,31,0,1,0,0,"Kvige","Jersey",4
+3316,39,0,1,1,0,"Oksekalv 4-8 uker","Krysning - melkeraser",1
+2269,11,0,1,0,0,"Brukt Okse","Scottish Highland",7
+3780,32,1,1,0,0,"Kvige","Charolais",1
+3734,42,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3172,50,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3462,34,0,0,0,0,"Kvigekalv 4-8 uker","Charolais",3
+3066,32,0,0,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",3
+3189,55,0,1,0,0,"Kvige","Charolais",3
+2479,34,0,0,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",7
+2489,50,0,1,0,0,"Ung ku","Norsk Rødt Fe (NRF)",1
+2681,50,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+2236,50,0,1,0,0,"Oksekalv 16-24 uker","Andre kjøttferaser",2
+3449,11,0,1,0,0,"Oksekalv 8-16 uker","Jersey",9
+2755,34,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2404,18,0,0,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",1
+3613,46,0,0,0,0,"Ung ku","Krysning - melkeraser",6
+3811,34,0,0,1,0,"Ung Okse","Krysning - kjøttfe",3
+3094,55,0,1,1,0,"Kvigekalv 16-24 uker","Krysning - kjøttfe",1
+2854,55,1,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+2519,42,0,0,0,0,"Ung Kvige","Holstein",2
+2863,11,0,1,1,0,"Kvige","Scottish Highland",4
+2104,50,1,1,1,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+3746,11,0,0,0,1,"Kvigekalv 4-8 uker","Scottish Highland",4
+2555,34,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",4
+2215,55,0,1,0,0,"Kvigekalv 4-8 uker","Aberdeen angus",4
+2159,39,0,0,1,0,"Ung Kvige","Hereford",1
+3177,55,1,0,0,0,"Kvige","Aberdeen angus",1
+3002,32,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2876,42,0,0,1,0,"Ung Kvige","Scottish Highland",9
+2929,34,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3144,18,1,1,0,1,"Kvigekalv 16-24 uker","Scottish Highland",1
+3091,50,0,0,0,0,"Kvigekalv 8-16 uker","Gamle norske raser",3
+2977,11,1,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+3049,42,0,0,0,0,"Ku","Andre kjøttferaser",2
+2708,11,0,0,0,0,"Oksekalv 4-8 uker","Holstein",2
+2080,39,0,1,0,0,"Kvige","Gamle norske raser",3
+2394,56,0,0,0,0,"Kvige","Krysning - melkeraser",2
+3044,42,0,1,0,1,"Kvigekalv 1-3 uker","Holstein",1
+2229,40,0,1,0,0,"Kvige","Gamle norske raser",3
+2159,39,0,0,1,0,"Kvigekalv 24-42 uker","Hereford",2
+2517,42,1,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2478,33,1,0,0,1,"Oksekalv 4-8 uker","Krysning - melkeraser",6
+3192,11,0,1,1,0,"Ung Okse","Jersey",2
+2226,11,0,0,0,0,"Ung Okse","Charolais",2
+3025,11,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",10
+3134,50,0,1,0,0,"Ung Okse","Krysning - melkeraser",5
+3893,46,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",9
+2473,32,0,1,0,0,"Kvige","Limousin",4
+3372,11,0,1,0,1,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2304,39,0,0,0,0,"Oksekalv 24-42 uker","Hereford",4
+3455,33,1,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",4
+3370,34,1,0,0,0,"Oksekalv 1-3 uker","Andre kjøttferaser",1
+2017,33,1,1,1,0,"Ung ku","Jersey",1
+3733,31,0,0,0,0,"Kvige","Holstein",4
+3677,31,0,0,0,1,"Kvigekalv 16-24 uker","Jersey",7
+2463,39,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3193,50,0,1,0,0,"Ung Okse","Holstein",1
+2420,33,0,1,0,0,"Kvigekalv 16-24 uker","Limousin",7
+3735,55,0,1,0,0,"Ung Kvige","Gamle norske raser",4
+2160,50,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",3
+2734,46,0,0,1,0,"Kvigekalv 16-24 uker","Gamle norske raser",2
+3018,50,1,0,0,0,"Ung Kvige","Aberdeen angus",1
+3043,11,0,0,0,0,"Oksekalv 4-8 uker","Limousin",4
+2457,32,0,0,0,1,"Ung Kvige","Holstein",1
+3980,34,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",2
+2933,11,1,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3675,42,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",5
+2152,46,1,0,0,0,"Ku","Norsk Rødt Fe (NRF)",4
+2072,55,1,1,0,0,"Kvigekalv 1-3 uker","Holstein",1
+2560,31,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2798,11,0,1,0,1,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3035,32,0,0,0,0,"Ung Okse","Scottish Highland",1
+3800,50,0,0,0,0,"Ung Kvige","Holstein",1
+2262,31,1,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3021,11,0,1,0,1,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3424,34,0,0,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2941,33,0,0,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+3654,56,0,1,0,0,"Brukt Okse","Jersey",1
+3847,46,0,1,1,1,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",3
+2929,34,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",5
+2760,56,1,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3259,34,0,0,1,0,"Kvigekalv 1-3 uker","Scottish Highland",3
+3928,11,0,0,0,0,"Brukt Okse","Scottish Highland",9
+3630,34,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",4
+2379,40,0,1,0,0,"Oksekalv 4-8 uker","Holstein",5
+3877,11,0,1,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",2
+2562,34,1,0,0,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",2
+2326,50,0,1,0,0,"Oksekalv 16-24 uker","Holstein",1
+2957,18,0,0,0,0,"Ung Okse","Simmental",1
+2900,46,1,0,0,0,"Oksekalv 4-8 uker","Holstein",4
+2585,11,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2175,18,1,0,0,0,"Ung Kvige","Scottish Highland",1
+2630,15,1,0,0,0,"Kvige","Andre kjøttferaser",2
+2319,11,0,0,1,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+2053,34,0,0,0,0,"Oksekalv 1-3 uker","Holstein",1
+3876,31,0,0,1,0,"Brukt Okse","Andre kjøttferaser",5
+2183,11,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3572,18,0,0,0,0,"Oksekalv 8-16 uker","Limousin",2
+2948,33,0,1,0,0,"Oksekalv 24-42 uker","Andre kjøttferaser",2
+3593,56,1,0,0,0,"Ung Okse","Krysning - kjøttfe",1
+3187,42,0,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+3709,11,1,0,0,0,"Kvigekalv 4-8 uker","Jersey",8
+2129,42,0,0,0,0,"Oksekalv 1-3 uker","Gamle norske raser",5
+3124,46,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",10
+2666,34,0,0,0,1,"Kvigekalv 4-8 uker","Limousin",1
+2080,39,0,1,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",1
+2278,11,0,0,0,0,"Ung Kvige","Krysning - kjøttfe",4
+3544,46,0,1,1,0,"Kvige","Norsk Rødt Fe (NRF)",8
+2934,42,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",2
+2131,34,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+2492,42,0,0,0,0,"Oksekalv 8-16 uker","Jersey",1
+2101,34,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",5
+3257,50,0,0,1,0,"Kvigekalv 4-8 uker","Limousin",1
+3145,34,1,1,1,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",9
+3433,39,0,0,0,0,"Brukt Okse","Andre kjøttferaser",1
+2577,50,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2135,39,0,0,0,0,"Kvige","Andre kjøttferaser",2
+3893,46,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3329,18,0,0,0,0,"Oksekalv 16-24 uker","Hereford",2
+3319,50,0,0,0,0,"Brukt Okse","Aberdeen angus",9
+2259,31,0,1,0,1,"Kvigekalv 8-16 uker","Andre kjøttferaser",3
+3448,33,0,1,0,0,"Kvigekalv 4-8 uker","Charolais",7
+2531,46,1,1,0,1,"Kvigekalv 4-8 uker","Charolais",7
+2249,31,0,0,0,0,"Kvigekalv 8-16 uker","Charolais",9
+3376,32,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2504,56,1,1,0,0,"Oksekalv 4-8 uker","Holstein",2
+2746,40,0,0,0,0,"Oksekalv 1-3 uker","Andre kjøttferaser",5
+3551,40,0,1,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3370,34,1,0,0,0,"Ung Okse","Andre kjøttferaser",10
+3823,55,1,0,0,0,"Kvigekalv 4-8 uker","Limousin",1
+2769,42,0,1,0,1,"Oksekalv 4-8 uker","Hereford",1
+2966,15,0,0,0,0,"Oksekalv 4-8 uker","Scottish Highland",1
+2092,33,0,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",1
+3742,33,0,0,0,0,"Oksekalv 4-8 uker","Holstein",2
+3331,11,0,0,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",2
+3608,46,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",5
+2011,32,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",4
+2012,34,0,0,0,0,"Kvige","Andre kjøttferaser",1
+3495,50,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",10
+3483,40,0,1,1,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3916,31,0,0,0,1,"Kvige","Krysning - melkeraser",7
+2063,55,0,0,0,0,"Ku","Aberdeen angus",2
+2689,50,0,1,0,0,"Ung Kvige","Andre kjøttferaser",1
+3419,46,1,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+3977,33,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+3597,11,1,1,0,0,"Kvigekalv 8-16 uker","Jersey",1
+3821,11,1,0,0,0,"Kvigekalv 16-24 uker","Holstein",1
+2947,55,0,0,0,0,"Kvige","Charolais",1
+3589,11,0,1,0,0,"Kvigekalv 16-24 uker","Gamle norske raser",1
+2246,31,0,1,0,0,"Oksekalv 24-42 uker","Gamle norske raser",1
+2161,32,0,1,0,0,"Ung Okse","Limousin",6
+3335,11,0,1,0,0,"Oksekalv 8-16 uker","Krysning - kjøttfe",6
+3838,42,0,0,0,1,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",9
+2632,46,0,0,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",1
+3779,50,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2580,34,0,0,0,0,"Kvigekalv 16-24 uker","Holstein",1
+2848,18,0,1,0,0,"Ung Kvige","Hereford",9
+2808,56,0,0,0,0,"Kvige","Scottish Highland",1
+2820,42,0,1,0,0,"Ung Okse","Scottish Highland",1
+2399,39,1,0,0,0,"Kvige","Limousin",3
+3509,40,1,0,0,1,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2030,55,1,0,1,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3351,11,0,0,1,0,"Kvigekalv 1-3 uker","Krysning - kjøttfe",4
+2906,56,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",5
+3458,11,0,0,0,0,"Ung Okse","Simmental",1
+2916,11,0,0,0,0,"Ung Okse","Hereford",2
+2674,55,1,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2685,55,0,1,0,0,"Kvige","Limousin",8
+2055,46,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",8
+2864,42,0,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",8
+3077,50,1,1,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",4
+3625,18,1,1,0,0,"Oksekalv 4-8 uker","Holstein",3
+3594,50,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3721,46,1,1,0,0,"Oksekalv 16-24 uker","Krysning - melkeraser",9
+2701,55,1,0,0,0,"Oksekalv 8-16 uker","Limousin",1
+2495,56,0,0,0,0,"Kvigekalv 4-8 uker","Scottish Highland",5
+3434,42,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",6
+3071,11,0,1,0,0,"Kvigekalv 8-16 uker","Charolais",1
+2725,11,0,0,0,0,"Kvigekalv 24-42 uker","Gamle norske raser",7
+3204,31,0,0,0,0,"Brukt Okse","Andre kjøttferaser",2
+3086,42,0,1,0,0,"Oksekalv 8-16 uker","Jersey",1
+2383,11,0,1,0,1,"Kvige","Gamle norske raser",7
+2338,46,0,0,0,0,"Kvigekalv 16-24 uker","Jersey",1
+3050,46,0,1,0,0,"Kvigekalv 4-8 uker","Jersey",1
+3164,32,0,1,0,0,"Kvigekalv 24-42 uker","Krysning - kjøttfe",4
+2586,42,0,0,0,0,"Kvigekalv 4-8 uker","Limousin",1
+2015,31,0,1,1,0,"Kvigekalv 8-16 uker","Holstein",1
+2162,50,0,1,0,0,"Kvigekalv 1-3 uker","Jersey",1
+3746,11,0,0,0,1,"Brukt Okse","Scottish Highland",1
+2487,50,0,1,0,0,"Brukt Okse","Holstein",7
+2930,50,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+3964,46,1,0,0,1,"Kvigekalv 8-16 uker","Jersey",5
+2467,46,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+3874,46,0,0,0,0,"Brukt Okse","Hereford",2
+2409,33,0,1,0,0,"Oksekalv 8-16 uker","Scottish Highland",6
+3369,11,0,0,1,0,"Kvigekalv 1-3 uker","Jersey",6
+2181,55,1,0,1,0,"Kvige","Holstein",7
+3337,34,0,1,0,0,"Kvigekalv 1-3 uker","Limousin",1
+3771,32,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",5
+3328,31,0,0,0,1,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",9
+3215,42,0,0,0,1,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2439,33,0,0,0,1,"Oksekalv 16-24 uker","Aberdeen angus",8
+3276,34,0,0,0,0,"Kvigekalv 16-24 uker","Limousin",2
+2703,33,0,0,0,1,"Kvigekalv 8-16 uker","Krysning - kjøttfe",4
+2587,31,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",7
+2790,11,0,0,1,0,"Oksekalv 1-3 uker","Scottish Highland",1
+2864,42,0,0,0,0,"Oksekalv 24-42 uker","Aberdeen angus",1
+2298,39,1,1,0,0,"Oksekalv 16-24 uker","Andre kjøttferaser",2
+2164,11,1,0,0,0,"Kvigekalv 8-16 uker","Gamle norske raser",1
+2845,33,0,1,0,0,"Oksekalv 4-8 uker","Simmental",4
+2263,11,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+2933,11,1,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",10
+3941,11,1,1,0,0,"Ung Okse","Holstein",4
+3001,31,1,0,0,0,"Brukt Okse","Aberdeen angus",8
+3141,39,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2051,55,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2082,32,0,1,0,0,"Ung Okse","Hereford",6
+3866,3,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+2085,46,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+2255,11,0,0,0,0,"Kvigekalv 8-16 uker","Limousin",4
+3835,46,1,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+2430,32,0,0,0,0,"Oksekalv 16-24 uker","Hereford",10
+2614,39,0,0,0,0,"Kvigekalv 1-3 uker","Limousin",1
+3678,50,0,0,0,0,"Kvige","Holstein",9
+2836,11,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",6
+3707,55,0,1,0,0,"Kvigekalv 24-42 uker","Krysning - kjøttfe",6
+2224,56,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",8
+2445,11,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2232,11,0,0,0,0,"Ku","Gamle norske raser",10
+3576,11,1,1,0,0,"Ung Kvige","Hereford",3
+3714,56,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2048,32,1,0,0,1,"Oksekalv 4-8 uker","Hereford",4
+3583,50,0,0,0,0,"Ung Kvige","Hereford",2
+3362,11,0,0,1,0,"Ung Kvige","Aberdeen angus",1
+3974,11,0,1,0,0,"Oksekalv 4-8 uker","Holstein",1
+3114,11,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2371,40,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2280,32,0,1,0,0,"Oksekalv 24-42 uker","Charolais",4
+2241,32,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+3491,50,0,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3302,40,0,1,0,0,"Ung Okse","Holstein",2
+2680,46,0,0,1,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",1
+3539,11,0,1,0,0,"Ung Kvige","Holstein",7
+3339,50,1,0,0,0,"Ung Kvige","Krysning - melkeraser",1
+3197,11,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",10
+3052,55,0,0,0,0,"Ung ku","Scottish Highland",4
+2959,55,1,1,0,0,"Oksekalv 24-42 uker","Jersey",2
+2352,32,1,1,1,1,"Oksekalv 24-42 uker","Charolais",3
+2006,34,0,0,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+3536,56,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+2832,42,0,0,0,0,"Oksekalv 16-24 uker","Gamle norske raser",1
+3477,11,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+2124,56,0,1,0,0,"Kvigekalv 24-42 uker","Hereford",1
+3170,33,1,1,0,1,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+3098,32,0,1,0,0,"Ung Okse","Holstein",2
+2642,42,0,0,0,0,"Ung Kvige","Limousin",9
+2171,55,0,1,1,0,"Ung Okse","Hereford",1
+3797,50,0,0,0,0,"Kvigekalv 8-16 uker","Aberdeen angus",4
+3763,32,0,1,0,1,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+2702,32,1,0,1,0,"Ung Okse","Holstein",1
+2534,32,0,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",7
+2221,31,1,0,0,0,"Oksekalv 16-24 uker","Aberdeen angus",2
+3167,11,0,0,0,1,"Ung Okse","Hereford",2
+3877,11,0,1,0,0,"Oksekalv 8-16 uker","Aberdeen angus",3
+3787,34,0,1,0,0,"Ung Okse","Krysning - kjøttfe",6
+3640,50,0,0,0,0,"Kvigekalv 4-8 uker","Hereford",1
+2680,46,0,0,1,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",1
+2123,56,1,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3889,42,0,0,1,0,"Oksekalv 4-8 uker","Jersey",5
+2030,55,1,0,1,0,"Ung Okse","Norsk Rødt Fe (NRF)",4
+3793,11,0,0,1,0,"Oksekalv 8-16 uker","Holstein",8
+3594,50,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+3458,11,0,0,0,0,"Ung Kvige","Simmental",6
+3541,50,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2510,11,0,0,0,0,"Kvigekalv 16-24 uker","Krysning - kjøttfe",2
+2289,31,0,1,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+2633,42,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",7
+2235,18,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2048,32,1,0,0,1,"Ung Okse","Hereford",2
+2783,32,0,0,0,1,"Kvige","Holstein",4
+3034,39,1,0,0,0,"Brukt Okse","Krysning - melkeraser",5
+3951,31,0,0,0,0,"Ung Okse","Andre kjøttferaser",8
+3819,40,1,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+2180,33,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+2264,18,0,0,0,1,"Ung Okse","Limousin",3
+3506,33,1,1,1,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",9
+3048,34,1,0,1,0,"Ung Kvige","Limousin",10
+3951,31,0,0,0,0,"Brukt Okse","Andre kjøttferaser",6
+3938,46,0,0,0,0,"Oksekalv 24-42 uker","Holstein",3
+2047,34,0,0,0,0,"Kvigekalv 16-24 uker","Scottish Highland",1
+3955,31,0,0,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",10
+3814,40,1,0,0,0,"Oksekalv 8-16 uker","Scottish Highland",2
+3856,34,1,0,0,0,"Oksekalv 8-16 uker","Jersey",2
+2986,11,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2900,46,1,0,0,0,"Oksekalv 16-24 uker","Holstein",2
+3074,32,0,0,0,1,"Kvige","Aberdeen angus",4
+2163,11,0,1,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",4
+3545,50,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",5
+2250,46,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+2144,40,0,0,0,0,"Ung Kvige","Jersey",6
+3659,11,0,0,0,0,"Ku","Holstein",1
+3585,34,0,0,0,0,"Kvige","Aberdeen angus",4
+3145,34,1,1,1,0,"Kvigekalv 16-24 uker","Krysning - kjøttfe",7
+3430,50,0,1,0,0,"Kvige","Andre kjøttferaser",2
+3118,15,0,1,0,1,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2260,34,0,0,0,0,"Kvigekalv 4-8 uker","Jersey",1
+2810,39,0,0,1,0,"Kvigekalv 8-16 uker","Holstein",2
+2686,15,0,0,0,0,"Kvige","Jersey",10
+2828,56,0,1,0,0,"Ung Kvige","Limousin",6
+2259,31,0,1,0,1,"Ku","Andre kjøttferaser",9
+2391,34,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",4
+2782,31,1,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3489,56,0,0,1,0,"Kvige","Gamle norske raser",1
+3731,32,0,0,0,0,"Ung Kvige","Limousin",3
+2162,50,0,1,0,0,"Ung Kvige","Jersey",4
+3756,50,1,0,0,0,"Kvigekalv 24-42 uker","Charolais",8
+3894,50,0,0,0,0,"Kvigekalv 1-3 uker","Krysning - melkeraser",1
+3275,11,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",1
+3932,33,0,1,0,0,"Kvige","Gamle norske raser",1
+2985,34,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",4
+3927,50,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2841,40,0,0,0,0,"Oksekalv 8-16 uker","Limousin",3
+2175,18,1,0,0,0,"Kvigekalv 8-16 uker","Scottish Highland",1
+2309,46,1,1,0,0,"Oksekalv 16-24 uker","Limousin",8
+3757,3,0,0,0,0,"Oksekalv 24-42 uker","Hereford",3
+2662,31,0,0,0,0,"Kvigekalv 16-24 uker","Andre kjøttferaser",3
+3441,55,1,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+3447,40,0,1,1,0,"Ung ku","Andre kjøttferaser",5
+2298,39,1,1,0,0,"Oksekalv 1-3 uker","Andre kjøttferaser",1
+2502,11,0,0,0,0,"Ung Kvige","Gamle norske raser",9
+3631,40,0,1,0,0,"Kvigekalv 24-42 uker","Andre kjøttferaser",6
+2280,32,0,1,0,0,"Ung Okse","Charolais",3
+3878,32,1,0,0,0,"Oksekalv 16-24 uker","Jersey",3
+2744,11,1,1,0,0,"Ung ku","Norsk Rødt Fe (NRF)",2
+3684,56,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2653,32,1,0,0,0,"Kvige","Krysning - kjøttfe",1
+3015,50,0,0,0,0,"Kvigekalv 16-24 uker","Holstein",8
+2590,42,1,0,0,0,"Oksekalv 24-42 uker","Limousin",1
+2197,50,0,1,0,0,"Ung Okse","Scottish Highland",2
+3342,42,1,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",9
+2897,34,0,0,0,0,"Oksekalv 16-24 uker","Jersey",1
+3916,31,0,0,0,1,"Kvige","Krysning - melkeraser",1
+3207,31,0,0,0,0,"Brukt Okse","Charolais",5
+3953,11,0,1,0,0,"Kvige","Charolais",5
+2256,42,0,0,0,0,"Oksekalv 8-16 uker","Andre kjøttferaser",1
+2098,11,0,1,0,0,"Ku","Krysning - kjøttfe",1
+3735,55,0,1,0,0,"Kvigekalv 8-16 uker","Gamle norske raser",1
+3963,34,0,1,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2881,11,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2756,31,0,0,0,0,"Brukt Okse","Limousin",1
+2352,32,1,1,1,1,"Kvige","Charolais",3
+2644,40,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",4
+3455,33,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3797,50,0,0,0,0,"Oksekalv 8-16 uker","Aberdeen angus",9
+3634,40,0,0,1,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3322,39,0,1,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",1
+2251,39,0,0,0,1,"Kvigekalv 16-24 uker","Gamle norske raser",1
+2285,31,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",3
+2080,39,0,1,0,0,"Ung Kvige","Gamle norske raser",5
+3784,34,0,1,0,0,"Kvigekalv 4-8 uker","Aberdeen angus",1
+3766,50,0,0,0,1,"Oksekalv 8-16 uker","Andre kjøttferaser",1
+2488,40,1,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+2317,56,0,0,0,0,"Oksekalv 16-24 uker","Gamle norske raser",8
+2383,11,0,1,0,1,"Ung ku","Gamle norske raser",2
+3754,11,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+3262,11,0,0,0,0,"Kvigekalv 4-8 uker","Gamle norske raser",9
+3775,15,0,0,0,0,"Oksekalv 4-8 uker","Aberdeen angus",3
+2352,32,1,1,1,1,"Brukt Okse","Charolais",1
+2929,34,1,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+3453,34,0,0,0,1,"Ung ku","Krysning - melkeraser",7
+3187,42,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2436,34,0,0,0,0,"Oksekalv 8-16 uker","Scottish Highland",1
+2742,55,0,0,0,0,"Ung Kvige","Simmental",3
+2486,11,0,0,0,0,"Kvigekalv 8-16 uker","Hereford",2
+2092,33,0,0,0,0,"Oksekalv 16-24 uker","Gamle norske raser",5
+2447,50,1,1,0,0,"Kvigekalv 1-3 uker","Limousin",6
+3610,31,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",9
+2589,55,0,0,0,0,"Ung Kvige","Gamle norske raser",1
+2167,50,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+3649,11,1,1,0,0,"Kvige","Andre kjøttferaser",5
+2917,34,0,1,0,1,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2774,11,1,0,0,0,"Ung Okse","Krysning - melkeraser",1
+2977,11,1,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3850,34,0,1,1,0,"Kvigekalv 8-16 uker","Holstein",1
+2718,50,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+3036,31,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+3896,33,0,0,0,0,"Kvigekalv 4-8 uker","Limousin",1
+2670,11,1,0,0,1,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",10
+2826,34,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+3294,31,1,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+2277,50,0,0,0,1,"Oksekalv 8-16 uker","Krysning - kjøttfe",1
+2391,34,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+2774,11,1,0,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",6
+2784,39,0,1,0,0,"Kvigekalv 8-16 uker","Andre kjøttferaser",8
+3069,50,0,0,0,0,"Kvigekalv 8-16 uker","Krysning - kjøttfe",1
+2096,31,0,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",5
+3565,11,0,0,0,0,"Ung Kvige","Krysning - melkeraser",8
+3428,31,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",6
+3065,50,0,0,0,0,"Kvigekalv 4-8 uker","Krysning - melkeraser",6
+2578,39,0,0,0,1,"Ung Okse","Norsk Rødt Fe (NRF)",2
+2277,50,0,0,0,1,"Kvigekalv 16-24 uker","Krysning - kjøttfe",1
+3958,50,0,1,0,0,"Ung ku","Aberdeen angus",8
+3841,31,0,0,0,1,"Oksekalv 16-24 uker","Aberdeen angus",5
+2570,34,0,0,0,0,"Kvige","Andre kjøttferaser",6
+2410,33,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3934,31,0,1,1,0,"Kvigekalv 16-24 uker","Gamle norske raser",1
+3802,11,1,0,0,0,"Ung ku","Charolais",1
+2285,31,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",9
+3126,18,0,1,0,1,"Kvigekalv 16-24 uker","Hereford",1
+3406,34,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",3
+3212,31,0,1,0,0,"Oksekalv 8-16 uker","Jersey",2
+2134,31,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",9
+2961,33,1,0,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",1
+2355,55,0,1,0,0,"Kvigekalv 8-16 uker","Limousin",1
+2836,11,0,1,0,0,"Kvigekalv 4-8 uker","Holstein",4
+3127,34,0,1,1,0,"Kvige","Aberdeen angus",5
+3588,50,1,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",9
+2720,56,0,0,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",8
+2724,50,0,1,0,0,"Kvige","Holstein",8
+2766,34,1,0,0,0,"Ku","Norsk Rødt Fe (NRF)",1
+3923,46,1,1,0,0,"Kvigekalv 24-42 uker","Krysning - melkeraser",5
+2411,11,1,0,0,0,"Oksekalv 1-3 uker","Holstein",2
+2492,42,0,0,0,0,"Oksekalv 16-24 uker","Jersey",1
+2463,39,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",9
+3439,31,0,0,1,0,"Ung Okse","Krysning - melkeraser",1
+3023,56,1,0,0,0,"Kvigekalv 4-8 uker","Andre kjøttferaser",5
+2150,50,0,0,1,0,"Oksekalv 16-24 uker","Gamle norske raser",5
+3545,50,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",6
+3709,11,1,0,0,0,"Ku","Jersey",2
+3055,34,0,0,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",10
+3242,55,0,0,0,0,"Ung Okse","Andre kjøttferaser",1
+2625,50,1,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2629,31,1,0,0,0,"Oksekalv 24-42 uker","Krysning - melkeraser",1
+2651,34,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+2887,46,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+3079,42,0,0,0,0,"Oksekalv 8-16 uker","Jersey",1
+2066,50,0,1,0,0,"Kvigekalv 4-8 uker","Simmental",5
+2429,34,1,0,0,0,"Oksekalv 24-42 uker","Gamle norske raser",6
+3137,11,0,0,0,0,"Ung Okse","Holstein",1
+3763,32,0,1,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",5
+3597,11,1,1,0,0,"Kvigekalv 16-24 uker","Jersey",10
+3104,34,0,1,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",2
+3669,42,1,0,0,0,"Oksekalv 4-8 uker","Scottish Highland",9
+2740,55,1,1,0,0,"Oksekalv 8-16 uker","Aberdeen angus",1
+3284,32,0,1,0,0,"Oksekalv 4-8 uker","Aberdeen angus",3
+2919,46,0,0,0,0,"Ung Okse","Charolais",4
+2564,39,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+3317,32,1,1,0,0,"Ung Kvige","Aberdeen angus",1
+3948,55,0,0,0,0,"Kvigekalv 4-8 uker","Limousin",9
+2588,33,1,0,0,0,"Ung Kvige","Simmental",6
+3568,32,0,1,0,0,"Ung ku","Holstein",3
+2586,42,0,0,0,0,"Oksekalv 16-24 uker","Limousin",5
+2733,34,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",3
+3127,34,0,1,1,0,"Kvige","Aberdeen angus",2
+3998,33,1,1,0,0,"Oksekalv 4-8 uker","Scottish Highland",10
+3647,50,0,0,0,1,"Kvigekalv 4-8 uker","Andre kjøttferaser",10
+2129,42,0,0,0,0,"Brukt Okse","Gamle norske raser",3
+3722,56,0,0,0,0,"Ung Kvige","Hereford",3
+2863,11,0,1,1,0,"Ku","Scottish Highland",1
+2698,34,0,1,0,0,"Ung Okse","Simmental",1
+3323,31,1,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2912,42,1,1,1,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2602,40,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",7
+2280,32,0,1,0,0,"Kvigekalv 16-24 uker","Charolais",5
+2863,11,0,1,1,0,"Kvigekalv 8-16 uker","Scottish Highland",1
+2682,34,1,0,0,0,"Ung Okse","Limousin",2
+2068,31,0,1,0,0,"Oksekalv 8-16 uker","Limousin",4
+2942,34,0,1,1,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2372,40,0,1,0,0,"Oksekalv 8-16 uker","Jersey",2
+3299,31,0,1,0,0,"Kvigekalv 4-8 uker","Simmental",7
+2826,34,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",9
+3701,34,0,0,0,0,"Kvigekalv 4-8 uker","Simmental",2
+2501,40,0,0,1,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3172,50,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",3
+2248,55,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",5
+2627,34,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",5
+3520,50,0,1,0,0,"Kvigekalv 24-42 uker","Scottish Highland",2
+2506,33,0,0,0,0,"Oksekalv 4-8 uker","Holstein",2
+2165,56,0,1,0,0,"Kvigekalv 24-42 uker","Jersey",2
+3223,55,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+2578,39,0,0,0,1,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3745,42,0,1,0,0,"Oksekalv 4-8 uker","Scottish Highland",2
+2420,33,0,1,0,0,"Kvigekalv 4-8 uker","Limousin",1
+2569,39,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+3737,55,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2767,46,0,1,0,1,"Ung Kvige","Hereford",1
+3942,39,1,0,0,0,"Ku","Scottish Highland",8
+2539,50,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",8
+2726,11,0,1,0,0,"Ung Okse","Limousin",1
+3670,31,0,0,0,0,"Ung Okse","Gamle norske raser",1
+2151,34,0,0,0,0,"Oksekalv 8-16 uker","Scottish Highland",2
+2323,34,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+2866,46,1,1,0,0,"Kvigekalv 8-16 uker","Hereford",3
+2934,42,0,0,0,0,"Kvige","Holstein",1
+3797,50,0,0,0,0,"Oksekalv 16-24 uker","Aberdeen angus",6
+3503,18,0,1,0,0,"Ung Okse","Gamle norske raser",1
+2775,34,0,0,0,0,"Oksekalv 8-16 uker","Krysning - melkeraser",6
+2711,11,0,1,0,0,"Oksekalv 1-3 uker","Gamle norske raser",2
+3420,55,0,1,0,0,"Kvige","Gamle norske raser",1
+3475,56,0,1,0,0,"Kvigekalv 8-16 uker","Charolais",1
+2713,46,0,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+2604,40,0,1,0,1,"Oksekalv 4-8 uker","Scottish Highland",1
+2954,50,0,0,0,0,"Oksekalv 8-16 uker","Andre kjøttferaser",1
+3631,40,0,1,0,0,"Oksekalv 1-3 uker","Andre kjøttferaser",1
+3733,31,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",10
+2200,31,0,0,0,0,"Kvige","Scottish Highland",2
+3862,50,0,1,0,0,"Kvigekalv 16-24 uker","Gamle norske raser",4
+3903,46,0,0,0,0,"Oksekalv 24-42 uker","Andre kjøttferaser",1
+2409,33,0,1,0,0,"Oksekalv 16-24 uker","Scottish Highland",1
+2873,39,1,1,1,0,"Kvigekalv 16-24 uker","Krysning - melkeraser",1
+3828,56,0,0,0,1,"Kvige","Andre kjøttferaser",4
+3399,50,0,1,0,0,"Kvigekalv 24-42 uker","Andre kjøttferaser",1
+3998,33,1,1,0,0,"Kvige","Scottish Highland",1
+3776,11,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+2517,42,1,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",4
+2485,55,0,0,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",1
+3029,50,0,1,0,0,"Kvigekalv 16-24 uker","Holstein",1
+2691,50,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",5
+3419,46,1,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+3402,32,0,0,1,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",3
+2182,50,0,0,0,0,"Kvige","Holstein",7
+2004,50,0,0,0,1,"Kvigekalv 1-3 uker","Hereford",7
+3179,50,0,0,0,0,"Kvigekalv 4-8 uker","Charolais",4
+2560,31,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+3092,40,0,0,0,1,"Ku","Norsk Rødt Fe (NRF)",5
+3491,50,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2846,40,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2042,33,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+3638,11,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",3
+2465,18,0,0,0,1,"Oksekalv 16-24 uker","Jersey",1
+3140,39,0,1,0,0,"Oksekalv 16-24 uker","Holstein",1
+2568,39,1,0,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3649,11,1,1,0,0,"Ung Okse","Andre kjøttferaser",2
+3749,31,0,0,0,0,"Kvigekalv 4-8 uker","Scottish Highland",5
+2733,34,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",7
+3072,42,1,1,0,0,"Ung Okse","Holstein",10
+3477,11,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+3274,39,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3346,31,1,0,1,0,"Oksekalv 8-16 uker","Holstein",1
+2020,33,0,0,0,0,"Oksekalv 16-24 uker","Aberdeen angus",3
+3007,11,0,0,0,1,"Ung ku","Norsk Rødt Fe (NRF)",1
+3162,55,0,0,0,0,"Oksekalv 16-24 uker","Krysning - kjøttfe",1
+3087,40,0,0,1,0,"Ung Kvige","Holstein",1
+2299,31,1,0,1,0,"Ung Okse","Hereford",7
+2113,34,0,0,0,0,"Oksekalv 24-42 uker","Hereford",5
+2454,34,1,0,0,0,"Oksekalv 16-24 uker","Limousin",10
+3945,39,0,1,1,0,"Oksekalv 4-8 uker","Aberdeen angus",10
+3422,32,0,0,0,1,"Kvigekalv 1-3 uker","Jersey",10
+2449,50,1,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",5
+2052,46,0,1,0,0,"Kvigekalv 16-24 uker","Gamle norske raser",9
+3037,31,0,0,0,0,"Ku","Jersey",3
+3030,46,0,0,0,0,"Kvigekalv 4-8 uker","Hereford",5
+2356,34,0,1,0,0,"Ung ku","Andre kjøttferaser",1
+2126,11,0,0,0,0,"Kvigekalv 4-8 uker","Charolais",1
+2955,46,1,0,0,1,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+3667,34,1,1,0,0,"Oksekalv 16-24 uker","Hereford",2
+3556,11,0,0,0,0,"Ung ku","Jersey",2
+3879,50,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",10
+3125,50,0,1,0,0,"Kvigekalv 1-3 uker","Holstein",8
+3017,34,0,1,0,0,"Ung Kvige","Aberdeen angus",6
+2870,50,0,1,0,0,"Ung ku","Norsk Rødt Fe (NRF)",8
+2322,46,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",5
+3351,11,0,0,1,0,"Ku","Krysning - kjøttfe",7
+2914,39,0,0,0,0,"Kvigekalv 4-8 uker","Holstein",2
+2214,46,0,1,0,0,"Ung Kvige","Andre kjøttferaser",3
+2703,33,0,0,0,1,"Ung ku","Krysning - kjøttfe",4
+3539,11,0,1,0,0,"Kvigekalv 8-16 uker","Holstein",1
+2893,56,0,0,0,0,"Ung Kvige","Scottish Highland",1
+3098,32,0,1,0,0,"Kvigekalv 24-42 uker","Holstein",3
+2309,46,1,1,0,0,"Oksekalv 16-24 uker","Limousin",8
+2870,50,0,1,0,0,"Ung ku","Norsk Rødt Fe (NRF)",4
+3525,40,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3529,18,0,0,0,0,"Ku","Holstein",1
+3067,40,1,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",5
+3745,42,0,1,0,0,"Kvige","Scottish Highland",5
+2837,42,0,1,0,0,"Ku","Andre kjøttferaser",1
+3441,55,1,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",9
+3055,34,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",6
+3727,34,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+3834,31,0,1,0,0,"Ung Kvige","Gamle norske raser",5
+2875,40,0,0,0,0,"Ung Kvige","Andre kjøttferaser",3
+2771,42,0,0,0,0,"Kvigekalv 8-16 uker","Hereford",3
+3496,34,0,1,0,0,"Oksekalv 1-3 uker","Holstein",1
+3698,11,0,0,0,0,"Oksekalv 8-16 uker","Aberdeen angus",1
+2109,42,0,0,0,0,"Ung Kvige","Andre kjøttferaser",7
+2304,39,0,0,0,0,"Oksekalv 8-16 uker","Hereford",1
+3119,50,0,0,0,0,"Ung Kvige","Jersey",3
+2622,34,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+3363,31,0,1,0,0,"Kvigekalv 8-16 uker","Hereford",1
+3581,34,1,1,0,0,"Oksekalv 16-24 uker","Gamle norske raser",1
+2003,34,1,1,0,0,"Kvige","Limousin",6
+3782,34,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",8
+3004,11,0,1,0,1,"Oksekalv 4-8 uker","Holstein",1
+3690,33,1,0,0,0,"Oksekalv 8-16 uker","Holstein",4
+3778,46,0,0,0,1,"Kvige","Holstein",2
+3544,46,0,1,1,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",8
+2319,11,0,0,1,0,"Kvige","Norsk Rødt Fe (NRF)",3
+3925,18,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",4
+2780,39,0,1,1,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",8
+2293,40,0,0,0,0,"Ku","Aberdeen angus",1
+2285,31,0,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3173,39,0,0,0,0,"Oksekalv 16-24 uker","Holstein",4
+3235,33,0,1,0,0,"Kvigekalv 8-16 uker","Charolais",3
+3011,33,1,0,1,0,"Oksekalv 8-16 uker","Hereford",2
+3897,55,1,0,0,0,"Oksekalv 1-3 uker","Aberdeen angus",1
+3080,31,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3976,50,1,1,1,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",8
+3487,11,0,0,1,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+2032,15,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",5
+3268,15,0,0,0,0,"Ung Okse","Krysning - melkeraser",3
+2541,33,0,0,0,0,"Ung Okse","Scottish Highland",1
+2894,40,1,0,0,1,"Oksekalv 1-3 uker","Gamle norske raser",3
+3065,50,0,0,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",1
+3521,46,0,0,1,0,"Oksekalv 24-42 uker","Krysning - kjøttfe",2
+3333,34,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3812,50,0,1,0,0,"Ung Okse","Holstein",3
+2766,34,1,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",3
+2767,46,0,1,0,1,"Ku","Hereford",4
+2313,50,0,0,0,0,"Kvigekalv 16-24 uker","Limousin",9
+2589,55,0,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",2
+2475,42,0,0,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",6
+2282,34,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",3
+2207,50,0,0,0,0,"Ung ku","Andre kjøttferaser",7
+2874,15,0,1,1,0,"Kvigekalv 8-16 uker","Holstein",1
+2043,31,0,1,0,0,"Oksekalv 24-42 uker","Andre kjøttferaser",2
+2336,15,0,0,0,1,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",9
+3639,18,0,0,0,0,"Ung Okse","Aberdeen angus",1
+2890,15,0,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+2261,32,0,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2222,40,0,0,0,1,"Ung Okse","Holstein",3
+3104,34,0,1,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",2
+3698,11,0,0,0,0,"Kvige","Aberdeen angus",8
+3347,15,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+3111,42,1,0,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2335,50,0,0,0,0,"Kvigekalv 16-24 uker","Krysning - kjøttfe",4
+3448,33,0,1,0,0,"Oksekalv 8-16 uker","Charolais",1
+2877,56,1,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+2853,32,0,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+2015,31,0,1,1,0,"Oksekalv 8-16 uker","Holstein",2
+2804,34,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2806,50,0,0,0,0,"Oksekalv 24-42 uker","Gamle norske raser",4
+3851,11,1,1,0,0,"Oksekalv 1-3 uker","Gamle norske raser",1
+3130,31,0,0,0,0,"Oksekalv 16-24 uker","Gamle norske raser",4
+2518,50,0,0,0,0,"Kvigekalv 24-42 uker","Gamle norske raser",1
+2949,40,0,1,1,1,"Ku","Norsk Rødt Fe (NRF)",7
+3532,50,0,0,0,0,"Oksekalv 24-42 uker","Charolais",9
+3203,11,0,1,0,0,"Oksekalv 8-16 uker","Krysning - melkeraser",2
+3955,31,0,0,0,0,"Kvigekalv 16-24 uker","Krysning - melkeraser",2
+2603,42,0,0,0,0,"Ung Okse","Gamle norske raser",3
+3186,32,0,0,0,1,"Kvige","Hereford",1
+3641,46,0,0,0,1,"Oksekalv 8-16 uker","Limousin",8
+2471,40,1,0,0,0,"Oksekalv 16-24 uker","Jersey",10
+3545,50,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2536,11,0,1,0,0,"Oksekalv 16-24 uker","Gamle norske raser",10
+3134,50,0,1,0,0,"Oksekalv 24-42 uker","Krysning - melkeraser",1
+3587,11,0,1,0,0,"Kvige","Andre kjøttferaser",3
+2774,11,1,0,0,0,"Kvigekalv 24-42 uker","Krysning - melkeraser",2
+2415,39,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+2847,55,0,0,0,0,"Ung ku","Hereford",2
+3087,40,0,0,1,0,"Kvigekalv 24-42 uker","Holstein",2
+3744,32,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",4
+3483,40,0,1,1,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3099,40,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",7
+3260,15,0,0,0,1,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3831,56,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",2
+2636,50,0,0,0,0,"Ung Okse","Aberdeen angus",1
+2355,55,0,1,0,0,"Ung Kvige","Limousin",6
+3086,42,0,1,0,0,"Oksekalv 8-16 uker","Jersey",3
+3978,31,1,0,0,0,"Ung Kvige","Aberdeen angus",1
+2922,40,1,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2724,50,0,1,0,0,"Kvigekalv 16-24 uker","Holstein",1
+2551,50,0,0,1,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+2906,56,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2233,32,1,0,0,0,"Oksekalv 4-8 uker","Aberdeen angus",1
+3582,50,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",9
+3849,39,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+2094,34,0,0,1,1,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+3878,32,1,0,0,0,"Kvigekalv 16-24 uker","Jersey",1
+3797,50,0,0,0,0,"Ung Okse","Aberdeen angus",1
+2078,11,0,0,0,0,"Ku","Holstein",1
+3577,42,0,0,0,0,"Kvigekalv 1-3 uker","Holstein",8
+3377,11,0,0,0,0,"Kvigekalv 16-24 uker","Gamle norske raser",6
+2651,34,0,0,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",4
+3022,40,0,0,1,0,"Kvigekalv 4-8 uker","Holstein",6
+2953,34,0,0,0,0,"Ung Kvige","Jersey",1
+3933,31,0,0,0,0,"Ku","Norsk Rødt Fe (NRF)",8
+3387,55,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2788,46,0,0,0,0,"Kvigekalv 24-42 uker","Gamle norske raser",1
+3860,11,0,0,0,0,"Oksekalv 4-8 uker","Gamle norske raser",9
+3790,11,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",2
+2894,40,1,0,0,1,"Kvige","Gamle norske raser",10
+3778,46,0,0,0,1,"Oksekalv 16-24 uker","Holstein",10
+2134,31,0,1,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2937,56,0,1,0,0,"Kvigekalv 4-8 uker","Hereford",2
+2908,42,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",4
+3847,46,0,1,1,1,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",6
+3407,18,1,1,0,0,"Ung Okse","Aberdeen angus",1
+2977,11,1,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",1
+2318,55,0,0,1,0,"Kvigekalv 16-24 uker","Charolais",2
+2260,34,0,0,0,0,"Ung Okse","Jersey",1
+3632,40,0,1,0,0,"Ku","Norsk Rødt Fe (NRF)",2
+3298,46,0,1,0,0,"Ung Okse","Krysning - melkeraser",4
+2664,32,0,0,0,0,"Oksekalv 4-8 uker","Charolais",1
+2349,31,0,1,0,0,"Ung Okse","Hereford",4
+2130,40,0,0,0,0,"Ku","Gamle norske raser",9
+3655,46,1,0,0,0,"Oksekalv 4-8 uker","Gamle norske raser",4
+2869,11,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+3672,31,0,0,0,0,"Oksekalv 4-8 uker","Aberdeen angus",1
+3505,40,0,0,0,0,"Oksekalv 8-16 uker","Gamle norske raser",1
+2845,33,0,1,0,0,"Ung Okse","Simmental",2
+2428,40,1,0,0,1,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2332,31,0,1,1,0,"Kvigekalv 16-24 uker","Holstein",7
+2555,34,0,0,0,0,"Ung ku","Norsk Rødt Fe (NRF)",3
+2716,18,0,0,0,0,"Ung Kvige","Charolais",5
+2298,39,1,1,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",3
+3236,50,0,0,0,1,"Kvigekalv 16-24 uker","Limousin",5
+3805,40,0,0,1,1,"Kvige","Charolais",2
+3760,55,0,1,0,0,"Oksekalv 1-3 uker","Holstein",1
+3513,50,0,0,0,0,"Oksekalv 4-8 uker","Andre kjøttferaser",3
+3439,31,0,0,1,0,"Oksekalv 8-16 uker","Krysning - melkeraser",6
+2863,11,0,1,1,0,"Ku","Scottish Highland",3
+3634,40,0,0,1,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",6
+2924,32,0,0,0,0,"Ung Okse","Krysning - kjøttfe",5
+2904,50,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+2159,39,0,0,1,0,"Ku","Hereford",2
+2938,34,0,1,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",4
+2401,50,0,0,0,0,"Oksekalv 4-8 uker","Krysning - kjøttfe",1
+3423,42,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",5
+3180,32,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2673,50,0,1,0,0,"Kvigekalv 16-24 uker","Andre kjøttferaser",9
+3134,50,0,1,0,0,"Kvigekalv 24-42 uker","Krysning - melkeraser",2
+2931,11,0,1,1,0,"Oksekalv 16-24 uker","Limousin",4
+2685,55,0,1,0,0,"Ku","Limousin",1
+3440,46,0,1,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
+3463,46,0,0,1,0,"Oksekalv 16-24 uker","Andre kjøttferaser",2
+3184,31,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",2
+2702,32,1,0,1,0,"Kvigekalv 8-16 uker","Holstein",5
+3968,50,0,1,0,0,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",2
+2336,15,0,0,0,1,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",9
+2218,55,0,0,0,0,"Kvigekalv 4-8 uker","Hereford",10
+2953,34,0,0,0,0,"Oksekalv 24-42 uker","Jersey",4
+3207,31,0,0,0,0,"Oksekalv 24-42 uker","Charolais",1
+3816,50,0,0,1,0,"Kvigekalv 16-24 uker","Gamle norske raser",5
+2889,50,0,0,0,0,"Oksekalv 24-42 uker","Krysning - kjøttfe",6
+2306,18,0,1,0,0,"Oksekalv 1-3 uker","Scottish Highland",1
+2391,34,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3165,32,0,0,0,0,"Brukt Okse","Norsk Rødt Fe (NRF)",3
+3027,40,0,0,1,1,"Kvigekalv 24-42 uker","Gamle norske raser",4
+2758,32,0,0,0,0,"Ung Kvige","Simmental",3
+3496,34,0,1,0,0,"Ung Kvige","Holstein",1
+3196,42,0,1,0,0,"Kvigekalv 1-3 uker","Norsk Rødt Fe (NRF)",2
+3292,11,0,1,0,0,"Ung Okse","Aberdeen angus",3
+3428,31,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",8
+3266,11,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",1
+2457,32,0,0,0,1,"Oksekalv 16-24 uker","Holstein",2
+3816,50,0,0,1,0,"Kvigekalv 1-3 uker","Gamle norske raser",2
+2152,46,1,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+2923,31,0,0,1,0,"Oksekalv 24-42 uker","Scottish Highland",3
+3035,32,0,0,0,0,"Ung Kvige","Scottish Highland",2
+3894,50,0,0,0,0,"Oksekalv 4-8 uker","Krysning - melkeraser",1
+3322,39,0,1,0,0,"Oksekalv 16-24 uker","Andre kjøttferaser",1
+2812,40,0,0,0,0,"Kvigekalv 4-8 uker","Norsk Rødt Fe (NRF)",4
+2818,11,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",5
+2893,56,0,0,0,0,"Brukt Okse","Scottish Highland",2
+3128,11,0,1,0,0,"Ku","Scottish Highland",3
+3165,32,0,0,0,0,"Ung Kvige","Norsk Rødt Fe (NRF)",4
+3588,50,1,0,0,0,"Ku","Gamle norske raser",6
+2678,18,0,1,0,0,"Oksekalv 1-3 uker","Norsk Rødt Fe (NRF)",1
+3639,18,0,0,0,0,"Ung Kvige","Aberdeen angus",8
+3149,46,0,1,0,0,"Kvigekalv 16-24 uker","Krysning - kjøttfe",6
+3588,50,1,0,0,0,"Kvige","Gamle norske raser",3
+3121,40,1,1,0,0,"Kvige","Scottish Highland",2
+2987,33,0,0,0,1,"Kvigekalv 16-24 uker","Holstein",2
+3363,31,0,1,0,0,"Ung Okse","Hereford",9
+3824,50,0,1,1,1,"Oksekalv 1-3 uker","Holstein",4
+2682,34,1,0,0,0,"Ung ku","Limousin",1
+3168,18,0,1,0,0,"Oksekalv 24-42 uker","Gamle norske raser",3
+3256,33,1,0,0,0,"Oksekalv 24-42 uker","Gamle norske raser",9
+3896,33,0,0,0,0,"Ku","Limousin",1
+2791,50,0,1,0,1,"Kvigekalv 4-8 uker","Scottish Highland",1
+3111,42,1,0,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",5
+3568,32,0,1,0,0,"Brukt Okse","Holstein",1
+2254,31,0,0,0,0,"Kvigekalv 1-3 uker","Limousin",2
+3459,46,0,0,0,0,"Kvige","Holstein",1
+3040,42,1,1,1,0,"Ung Kvige","Norsk Rødt Fe (NRF)",2
+3562,34,0,0,0,0,"Oksekalv 4-8 uker","Holstein",2
+3947,56,0,1,0,0,"Kvigekalv 24-42 uker","Hereford",1
+3676,18,1,1,0,0,"Kvigekalv 8-16 uker","Scottish Highland",3
+2582,31,0,1,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",3
+3643,11,1,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+2564,39,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",5
+3821,11,1,0,0,0,"Ung Okse","Holstein",3
+2237,33,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",8
+2063,55,0,0,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",2
+2603,42,0,0,0,0,"Oksekalv 1-3 uker","Gamle norske raser",1
+3474,40,0,0,0,0,"Kvigekalv 16-24 uker","Hereford",3
+3386,34,0,0,0,0,"Kvigekalv 8-16 uker","Krysning - melkeraser",1
+2130,40,0,0,0,0,"Ung ku","Gamle norske raser",7
+2230,32,0,1,0,1,"Ung Okse","Jersey",3
+2691,50,0,0,0,0,"Oksekalv 24-42 uker","Norsk Rødt Fe (NRF)",7
+3176,34,0,1,1,1,"Kvigekalv 4-8 uker","Holstein",1
+2419,31,0,1,0,0,"Ung Kvige","Limousin",1
+3457,33,0,1,0,1,"Oksekalv 4-8 uker","Holstein",6
+3741,33,0,0,0,0,"Kvigekalv 24-42 uker","Norsk Rødt Fe (NRF)",1
+2966,15,0,0,0,0,"Oksekalv 1-3 uker","Scottish Highland",8
+2512,50,0,1,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",6
+3300,50,0,0,0,0,"Oksekalv 16-24 uker","Norsk Rødt Fe (NRF)",1
+2508,15,0,0,0,0,"Ku","Charolais",1
+3718,34,0,0,0,0,"Oksekalv 24-42 uker","Andre kjøttferaser",2
+2309,46,1,1,0,0,"Kvige","Limousin",2
+3008,31,0,0,0,1,"Ku","Norsk Rødt Fe (NRF)",5
+2698,34,0,1,0,0,"Brukt Okse","Simmental",2
+2153,11,0,1,0,0,"Kvige","Hereford",9
+3856,34,1,0,0,0,"Kvigekalv 8-16 uker","Jersey",5
+2137,40,0,0,0,0,"Oksekalv 8-16 uker","Hereford",3
+2552,40,0,0,0,0,"Kvigekalv 24-42 uker","Hereford",3
+3302,40,0,1,0,0,"Oksekalv 8-16 uker","Holstein",1
+3117,11,0,0,1,0,"Kvige","Holstein",3
+2333,18,0,0,0,0,"Ung Okse","Andre kjøttferaser",1
+2022,32,0,0,0,0,"Oksekalv 16-24 uker","Jersey",7
+2717,50,0,1,0,0,"Oksekalv 4-8 uker","Norsk Rødt Fe (NRF)",1
+3298,46,0,1,0,0,"Oksekalv 1-3 uker","Krysning - melkeraser",1
+3900,34,0,1,1,0,"Brukt Okse","Norsk Rødt Fe (NRF)",1
+2562,34,1,0,0,0,"Kvigekalv 16-24 uker","Krysning - kjøttfe",3
+2726,11,0,1,0,0,"Ung Kvige","Limousin",5
+2987,33,0,0,0,1,"Kvige","Holstein",2
+3156,56,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",4
+2202,42,0,0,0,0,"Kvige","Norsk Rødt Fe (NRF)",9
+2520,46,0,1,0,1,"Oksekalv 4-8 uker","Holstein",1
+2947,55,0,0,0,0,"Oksekalv 4-8 uker","Charolais",2
+2897,34,0,0,0,0,"Oksekalv 4-8 uker","Jersey",2
+3659,11,0,0,0,0,"Kvigekalv 16-24 uker","Holstein",3
+3261,50,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",3
+2094,34,0,0,1,1,"Kvigekalv 8-16 uker","Norsk Rødt Fe (NRF)",4
+3666,11,0,0,0,0,"Kvigekalv 1-3 uker","Limousin",2
+2133,18,1,0,1,0,"Kvigekalv 8-16 uker","Hereford",1
+2405,11,0,1,0,0,"Oksekalv 8-16 uker","Norsk Rødt Fe (NRF)",1
+3952,39,0,0,0,0,"Ung Okse","Norsk Rødt Fe (NRF)",1
+2004,50,0,0,0,1,"Oksekalv 16-24 uker","Hereford",3
+2464,34,0,1,0,0,"Kvige","Norsk Rødt Fe (NRF)",2
+3559,11,0,1,0,0,"Kvigekalv 16-24 uker","Aberdeen angus",1
+2261,32,0,0,0,0,"Kvigekalv 16-24 uker","Norsk Rødt Fe (NRF)",2
