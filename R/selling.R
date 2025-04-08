@@ -96,22 +96,22 @@ selling_server <- function(id, user_id, greenlist, disease_data) {
     shiny::moduleServer(id, function(input, output, session) {
         selling_table <- shiny::reactiveVal(
             data.table::data.table(
-                entry_date = as.Date(c(
-                    "2023-11-08",
-                    "2023-09-12",
-                    "2023-05-09"
-                )),
-                n_animals = c(5, 2, 7),
-                animal_type = c(
-                    "Kalver på melk hunn",
-                    "Okse",
-                    "Ungdyr okse"
-                ),
-                animal_breed = c(
-                    "Svensk Holstein",
-                    "Svensk Rød",
-                    "Svensk Rød"
-                )
+                # entry_date = as.Date(c(
+                #     "2023-11-08",
+                #     "2023-09-12",
+                #     "2023-05-09"
+                # )),
+                # n_animals = c(5, 2, 7),
+                # animal_type = c(
+                #     "Kalver på melk hunn",
+                #     "Okse",
+                #     "Ungdyr okse"
+                # ),
+                # animal_breed = c(
+                #     "Svensk Holstein",
+                #     "Svensk Rød",
+                #     "Svensk Rød"
+                # )
             )
         )
 
