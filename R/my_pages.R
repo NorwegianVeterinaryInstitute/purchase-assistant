@@ -20,8 +20,8 @@ my_pages_ui <- function(id) {
                                         "Grønne listen viser ",
                                         "besetninger med ",
                                         "godkjent prøvetaking innen ",
-                                        "programmet. Når du har fire ",
-                                        "smittfrie prøvetakingsom",
+                                        "programmet. Når du har tilstrekkelig ",
+                                        "antall smittfrie prøvetakingsom",
                                         "ganger i rad, er din ",
                                         "besetning kvalifisert."
                                     )
@@ -40,26 +40,23 @@ my_pages_ui <- function(id) {
                     ),
                     shiny::tabPanel(
                         shiny::br(),
-                        shiny::h3("Salmonella"),
+                        shiny::h3("BCoV"),
                         shiny::p(
                             paste0(
-                                "Resultater fra de siste fire ",
-                                "prøvetakingene for salmonella."
+                                "Dato med BCoV attest."
                             )
                         ),
                         shiny::p(
                             paste0(
-                                "Positive resultater for Salmonella Dublin ",
-                                "og andre salmonellavarianter ",
-                                "kombineres til en ",
-                                "prøvetakingsomgang, og kun den ",
-                                "siste datoen vises."
+                                "For å dokumentere grønn status for BCoV",
+                                "sendes blod- eller melkeprøve til Tines",
+                                "Mastittlaboratorium i Molde. Grønt prøvesvar ",
+                                "er gyldig i 410 dager, forutsatt at det ikke ",
+                                "er sjukdomsutbrudd i perioden." 
                             )
                         ),
                         shiny::p(
-                            "Hvis du har prøveresultater fra mer enn en ",
-                            "melketank kombineres dine tankmelk",
-                            "resultater til en prøvetakingsdato."
+                            "Påvist smitte i løpet av siste år gir 'rød' status."
                         ),
                         shiny::tableOutput(
                             outputId = ns("my_results_BCoV")
@@ -68,12 +65,11 @@ my_pages_ui <- function(id) {
                         shiny::p(
                             shiny::a(
                                 href = paste0(
-                                    "https://www.vxa.se/fakta/smittskydd/",
-                                    "friskko/salmonellaradgivning/"
+                                    "https://animalia.no/no/Dyr/storfe/om-helsestorfe/"
                                 ),
                                 target = "_blank",
                                 shiny::h6(
-                                    "Les mer om salmonellarådgivning"
+                                    "Les mer om BCoV"
                                 )
                             )
                         ),
@@ -83,26 +79,36 @@ my_pages_ui <- function(id) {
                         shiny::br(),
                         shiny::h3("Bovine Respiratory Disease (BRSV)"),
                         shiny::p(
-                            paste0(
-                                "Resultater fra de siste fire ",
-                                "prøvetakingene for mycoplasma."
-                            )
+                          paste0(
+                            "Dato med BRSV attest."
+                          )
+                        ),
+                        shiny::p(
+                          paste0(
+                            "For å dokumentere grønn status for BRSV",
+                            "sendes blod- eller melkeprøve til Tines",
+                            "Mastittlaboratorium i Molde. Grønt prøvesvar ",
+                            "er gyldig i 410 dager, forutsatt at det ikke ",
+                            "er sjukdomsutbrudd i perioden." 
+                          )
+                        ),
+                        shiny::p(
+                          "Påvist smitte i løpet av siste år gir 'rød' status."
                         ),
                         shiny::tableOutput(
                             outputId = ns("my_results_BRSV")
                         ),
                         shiny::br(),
                         shiny::p(
-                            shiny::a(
-                                href = paste0(
-                                    "https://www.vxa.se/fakta/smittskydd/",
-                                    "smittsamma-sjukdomar/mycoplasma-bovis/"
-                                ),
-                                target = "_blank",
-                                shiny::h6(
-                                    "Les mer om Bovine Resperatory Disease (BRSV)"
-                                )
+                          shiny::a(
+                            href = paste0(
+                              "https://animalia.no/no/Dyr/storfe/om-helsestorfe/"
+                            ),
+                            target = "_blank",
+                            shiny::h6(
+                              "Les mer om Bovine Respiratory Disease (BRSV)"
                             )
+                          )
                         ),
                         title = "BRSV",
                     ),

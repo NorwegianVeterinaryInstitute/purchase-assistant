@@ -23,6 +23,18 @@ valid_agents <- function() {
     c("BCoV", "BRSV","Klauvstatus","Jurstatus")
 }
 
+#' relevant_period
+#' @noRd
+relevant_period <- function() {
+  c(410,410,365,365)
+}
+
+#' relevant_free_obs
+#' @noRd
+relevant_free_obs <- function() {
+  c(1,1,2,4)
+}
+
 #' get_counties
 #' @noRd
 get_counties <- function() {
@@ -128,13 +140,13 @@ get_disease_data <- function() {
 }
 
 #' @noRd
-result_to_greenlist <- function(result) {
+result_to_greenlist <- function(result,freenr) {
     stopifnot(is.numeric(result))
     ifelse(
-        length(result) < 4,
+        length(result) < freenr,
         1,
         2*as.numeric(any(
-            result[1:4] > 0,
+            result > 0,
             na.rm = TRUE
         ))
     )
@@ -147,19 +159,20 @@ result_to_greenlist <- function(result) {
 #' @noRd
 get_greenlist <- function() {
     agents <- valid_agents()
+    freenr <- relevant_free_obs()
     stopifnot(length(agents) > 0)
 
     result <- NULL
 
     dt <- get_dataset(agents[1], latest = FALSE)[, -"date"][,
-        list(total = result_to_greenlist(result)),
+        list(total = result_to_greenlist(result,freenr[1])),
         by = c("id", "countyName")
     ]
 
     if (length(agents) > 1) {
-        for (a in agents[2:length(agents)]) {
-            dt_a <- get_dataset(a, latest = FALSE)[, -"date"][,
-                list(result = result_to_greenlist(result)),
+        for (a in 2:length(agents)) {
+            dt_a <- get_dataset(agents[a], latest = FALSE)[, -"date"][,
+                list(result = result_to_greenlist(result,freenr[a])),
                 by = c("id", "countyName")
             ]
 
@@ -187,5 +200,4 @@ get_greenlist <- function() {
         county = countyName,
         greenlist = total
     )][order(id)]
-
 }
