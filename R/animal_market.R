@@ -119,23 +119,23 @@ animal_market_ui <- function(id) {
 
 #' @noRd
 format_seller_list <- function(
-    dt, free_from, counties, types, breeds = character()
-) {
+    dt, free_from, counties, types, breeds = character()) {
     stopifnot(length(counties) > 0, length(types) > 0)
 
-    county <- animalType <- animalBreed <- NULL #nolint
+    county <- animalType <- animalBreed <- NULL # nolint
 
     dt <- dt[county %in% counties & animalType %in% types]
 
-    if (length(breeds))
+    if (length(breeds)) {
         dt <- dt[animalBreed %in% breeds]
+    }
 
     if (length(free_from)) {
         stopifnot(all(free_from %in% valid_agents()))
 
         free_from_columns <- paste0(free_from, "Res")
 
-        ..free_from_columns <- NULL #nolint
+        ..free_from_columns <- NULL # nolint
         dt <- dt[rowSums(
             dt[, ..free_from_columns, with = FALSE] == 0
         ) == length(free_from_columns)]
@@ -146,7 +146,8 @@ format_seller_list <- function(
     for (a in agent_columns) {
         if (a %in% colnames(dt)) {
             data.table::set(
-                dt, j = a,
+                dt,
+                j = a,
                 value = sapply(dt[, get(a)], function(x) {
                     paste(utils::capture.output(
                         status_to_symbol(as.character(x))
@@ -161,10 +162,8 @@ format_seller_list <- function(
 
 #' @noRd
 animal_market_server <- function(
-    id, user_id, greenlist, disease_data, sellers
-) {
+    id, user_id, greenlist, disease_data, sellers) {
     shiny::moduleServer(id, function(input, output, session) {
-
         dt_agents <- data.table::as.data.table(
             sapply(valid_agents(), function(x) character())
         )
@@ -201,25 +200,35 @@ animal_market_server <- function(
             )
         })
 
-        output$my_status <- shiny::renderTable({
-          
-            shiny::req(user_id() %in% greenlist()$id)
+        output$my_status <- shiny::renderTable(
+            {
+                shiny::req(user_id() %in% greenlist()$id)
+                freenr <- relevant_free_obs()
 
-            farm_status(disease_data(), user_id()) |> 
-            tidyr::pivot_longer(cols = dplyr::everything(),
-                                names_to = 'diagnosis',
-                                values_to = 'status') |> 
-              dplyr::group_by(diagnosis) |> 
-              dplyr::summarise(status = paste(status, collapse = "")) 
-        }, sanitize.text.function = function(t) t, align = "c")
+                farm_status(disease_data(), user_id(), freenr) |>
+                    tidyr::pivot_longer(
+                        cols = dplyr::everything(),
+                        names_to = "diagnosis",
+                        values_to = "status"
+                    ) |>
+                    dplyr::group_by(diagnosis) |>
+                    dplyr::summarise(status = paste(status, collapse = ""))
+            },
+            sanitize.text.function = function(t) t,
+            align = "c"
+        )
 
-        shiny::observeEvent(input$select_diseases, {
-            selected_diseases <- input$select_diseases
-            if ("salmonella" %in% selected_diseases)
-                shinyjs::hide("salmonella_warning")
-            else
-                shinyjs::show("salmonella_warning")
-        }, ignoreNULL = FALSE)
+        shiny::observeEvent(input$select_diseases,
+            {
+                selected_diseases <- input$select_diseases
+                if ("salmonella" %in% selected_diseases) {
+                    shinyjs::hide("salmonella_warning")
+                } else {
+                    shinyjs::show("salmonella_warning")
+                }
+            },
+            ignoreNULL = FALSE
+        )
 
         shiny::observeEvent(input$apply_filters, {
             selected_counties <- input$select_counties
@@ -238,15 +247,18 @@ animal_market_server <- function(
             }
 
             selected_diseases <- input$select_diseases
-            if (is.null(selected_diseases))
+            if (is.null(selected_diseases)) {
                 selected_diseases <- character()
+            }
 
             selected_breeds <- input$select_breeds
-            if (is.null(selected_breeds))
+            if (is.null(selected_breeds)) {
                 selected_breeds <- character()
+            }
 
             dt <- format_seller_list(
-                sellers(), free_from = selected_diseases,
+                sellers(),
+                free_from = selected_diseases,
                 counties = selected_counties, types = selected_types,
                 breeds = selected_breeds
             )
@@ -254,7 +266,7 @@ animal_market_server <- function(
             filtered_sellers(dt)
         })
 
-        output$market_table <- shiny::renderDataTable(
+        output$market_table <- DT::renderDT(
             {
                 dt <- filtered_sellers()
 
