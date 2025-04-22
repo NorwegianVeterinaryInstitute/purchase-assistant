@@ -9,21 +9,26 @@ greenlist_status <- function(res, personal = FALSE) {
                 x
             )
         }
-        #ifelse(
+        # ifelse(
         #    x == 0,
         #    "Grønne listen",
         #    "Ukjent"
-        #)
-      
-      if(x ==0){return("Grønne listen")}else{
-        if(x ==1){return("Ukjent")}else{return("Infisert")}
-      }
-      
+        # )
+
+        if (x == 0) {
+            return("Grønne listen")
+        } else {
+            if (x == 1) {
+                return("Ukjent")
+            } else {
+                return("Infisert")
+            }
+        }
     })
 }
 
 #' @noRd
-agent_table <- function(a_d, p_t) {
+agent_table <- function(a_d, p_t, freenr) {
     p_t <- data.table::merge.data.table(
         p_t, a_d[, c("id", "date", "result")],
         by.x = "herd_id",
@@ -34,12 +39,14 @@ agent_table <- function(a_d, p_t) {
     data.table::setorderv(p_t, cols = c("herd_id", "date"), order = c(1, -1))
 
     agent_status <- function(x) {
-        if (length(x) < 4)
+        if (length(x) < freenr) {
             return("Ukjent")
+        }
         x <- x[1:4]
 
-        if (all(x == 0))
+        if (all(x == 0)) {
             return("Fri fra infeksjon")
+        }
 
         "Infisert"
     }
@@ -60,8 +67,9 @@ agent_table <- function(a_d, p_t) {
 
     show_rownames <- nrow(p_t) > 0
 
-    if (nrow(p_t))
+    if (nrow(p_t)) {
         rownames(p_t) <- paste("Besetning", seq_len(nrow(p_t)))
+    }
 
     DT::datatable(
         p_t,
@@ -89,30 +97,29 @@ agent_table <- function(a_d, p_t) {
     ) |> DT::formatStyle(
         "result",
         backgroundColor = DT::styleEqual(
-            c("Fri fra infeksjon", "Ukjent","Infisert"),
-            c("green", "white","red")
+            c("Fri fra infeksjon", "Ukjent", "Infisert"),
+            c("green", "white", "red")
         ),
         color = DT::styleEqual(
-            c("Fri fra infeksjon", "Ukjent","Infisert"),
-            c("white", "black","white")
+            c("Fri fra infeksjon", "Ukjent", "Infisert"),
+            c("white", "black", "white")
         )
     )
 }
 
 #' @noRd
-farm_status <- function(d_d, uid) {
+farm_status <- function(d_d, uid, freenr) {
     names(d_d) <- stringr::str_to_sentence(names(d_d))
 
     as.data.frame(lapply(
-        d_d, function(x) {
-
-            res <- x[x$id == uid, ]
+        seq_along(d_d), function(i) {
+            res <- d_d[[i]][d_d[[i]]$id == uid, ]
 
             if (nrow(res) == 0) {
                 res <- "Unknown"
             } else {
                 res <- ifelse(
-                    length(res$result) < 4,
+                    length(res$result) < freenr[[i]],
                     "Unknown",
                     as.character(sum(res$result))
                 )
@@ -120,39 +127,40 @@ farm_status <- function(d_d, uid) {
 
             utils::capture.output(shiny::strong(status_to_symbol(res)))
         }
-    ))
+    ) |> setNames(names(d_d)))
 }
 
 #' @noRd
 status_to_symbol <- function(x, include_pretext = FALSE, greenlist = TRUE) {
-    if (is.na(x))
+    if (is.na(x)) {
         x <- "Unknown"
+    }
 
-    if (x != "Unknown" && as.numeric(x) > 1)
+    if (x != "Unknown" && as.numeric(x) > 1) {
         x <- "1"
+    }
 
-    res <- switch(
-        x,
+    res <- switch(x,
         "0" = shiny::HTML("&check;"),
         "1" = shiny::HTML("&#9679;"),
         "Unknown" = shiny::HTML("&#9679;"),
     )
 
-    color <- switch(
-        x, "1" = "red", "0" = "green", "Unknown" = "gray"
+    color <- switch(x,
+        "1" = "red",
+        "0" = "green",
+        "Unknown" = "gray"
     )
 
     if (isTRUE(include_pretext)) {
         res <- shiny::tagList(ifelse(
             isTRUE(greenlist),
-            switch(
-                x,
+            switch(x,
                 "1" = "Ikke på grønne listen ",
                 "0" = "Grønne listen ",
                 "Unknown" = "Ukjent "
             ),
-            switch(
-                x,
+            switch(x,
                 "1" = "Infeksjon påvist ",
                 "0" = "Fri fra infeksjon ",
                 "Unknown" = "Ukjent "
@@ -166,13 +174,14 @@ status_to_symbol <- function(x, include_pretext = FALSE, greenlist = TRUE) {
 #' @noRd
 my_results <- function(agent, my_id) {
     id <- result <- date <- NULL
-    get_dataset(agent, latest = FALSE)[id == my_id, list(
+    get_dataset(agent, latest = FALSE, relevant_period()[agent])[id == my_id, list(
         Prøvetakingsdato = as.character(date),
         Prøveresultat = sapply(
-            result[seq_len(min(4, length(result)))], function(x)  {
+            result[seq_len(min(4, length(result)))], function(x) {
                 paste(utils::capture.output(
                     status_to_symbol(
-                        as.character(x), include_pretext = TRUE,
+                        as.character(x),
+                        include_pretext = TRUE,
                         greenlist = FALSE
                     )
                 ), collapse = "")

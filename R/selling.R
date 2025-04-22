@@ -23,7 +23,8 @@ selling_ui <- function(id) {
                                         value = 0,
                                         min = 0,
                                         step = 1
-                                    ), width = 12
+                                    ),
+                                    width = 12
                                 )
                             ),
                             shiny::fluidRow(
@@ -32,7 +33,8 @@ selling_ui <- function(id) {
                                         inputId = ns("select_animal_type"),
                                         label = "Dyretype",
                                         choices = all_animal_types()
-                                    ), width = 12
+                                    ),
+                                    width = 12
                                 )
                             ),
                             shiny::fluidRow(
@@ -41,7 +43,8 @@ selling_ui <- function(id) {
                                         inputId = ns("select_animal_breed"),
                                         label = "Rase",
                                         choices = all_animal_breeds()
-                                    ), width = 12
+                                    ),
+                                    width = 12
                                 )
                             ),
                             shiny::fluidRow(
@@ -52,7 +55,8 @@ selling_ui <- function(id) {
                                             "Legg til i ",
                                             "salgslisten"
                                         )
-                                    ), width = 6
+                                    ),
+                                    width = 6
                                 )
                             ),
                             shiny::fluidRow(
@@ -64,7 +68,8 @@ selling_ui <- function(id) {
                                             " du at din gårds status deles ",
                                             "med potensielle kjøpere."
                                         )
-                                    )), width = 12
+                                    )),
+                                    width = 12
                                 )
                             )
                         ),
@@ -132,18 +137,24 @@ selling_server <- function(id, user_id, greenlist, disease_data) {
             )
         })
 
-        output$my_status <- shiny::renderTable({
-            shiny::req(user_id() %in% greenlist()$id)
+        output$my_status <- shiny::renderTable(
+            {
+                shiny::req(user_id() %in% greenlist()$id)
+                freenr <- relevant_free_obs()
+                farm_status(disease_data(), user_id(), freenr) |>
+                    tidyr::pivot_longer(
+                        cols = dplyr::everything(),
+                        names_to = "diagnosis",
+                        values_to = "status"
+                    ) |>
+                    dplyr::group_by(diagnosis) |>
+                    dplyr::summarise(status = paste(status, collapse = ""))
+            },
+            sanitize.text.function = function(t) t,
+            align = "c"
+        )
 
-            farm_status(disease_data(), user_id())|> 
-              tidyr::pivot_longer(cols = dplyr::everything(),
-                                  names_to = 'diagnosis',
-                                  values_to = 'status') |> 
-              dplyr::group_by(diagnosis) |> 
-              dplyr::summarise(status = paste(status, collapse = ""))  
-        }, sanitize.text.function = function(t) t, align = "c")
-
-        output$selling_table <- DT::renderDataTable(DT::datatable(
+        output$selling_table <- DT::renderDT(DT::datatable(
             selling_table(),
             rownames = FALSE,
             options = list(

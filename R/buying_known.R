@@ -100,7 +100,6 @@ buying_known_ui <- function(id) {
 #' @noRd
 buying_known_server <- function(id, user_id, greenlist,
                                 counties, disease_data) {
-
     shiny::moduleServer(id, function(input, output, session) {
         purchase_table <- shiny::reactiveVal(
             data.frame(
@@ -127,16 +126,23 @@ buying_known_server <- function(id, user_id, greenlist,
             )
         })
 
-        output$my_status <- shiny::renderTable({
-            shiny::req(user_id() %in% greenlist()$id)
+        output$my_status <- shiny::renderTable(
+            {
+                shiny::req(user_id() %in% greenlist()$id)
+                freenr <- relevant_free_obs()
 
-            farm_status(disease_data(), user_id())|> 
-              tidyr::pivot_longer(cols = dplyr::everything(),
-                                  names_to = 'diagnosis',
-                                  values_to = 'status') |> 
-              dplyr::group_by(diagnosis) |> 
-              dplyr::summarise(status = paste(status, collapse = "")) 
-        }, sanitize.text.function = function(t) t, align = "c")
+                farm_status(disease_data(), user_id(), freenr) |>
+                    tidyr::pivot_longer(
+                        cols = dplyr::everything(),
+                        names_to = "diagnosis",
+                        values_to = "status"
+                    ) |>
+                    dplyr::group_by(diagnosis) |>
+                    dplyr::summarise(status = paste(status, collapse = ""))
+            },
+            sanitize.text.function = function(t) t,
+            align = "c"
+        )
 
         output$county_select <- shiny::renderUI({
             g_l <- greenlist()$id
@@ -147,10 +153,11 @@ buying_known_server <- function(id, user_id, greenlist,
             )
 
             choices <-
-                if (input$herd_id %in% p_t$herd_id)
+                if (input$herd_id %in% p_t$herd_id) {
                     p_t[p_t$herd_id == as.numeric(input$herd_id), ]$county
-                else
+                } else {
                     counties()$countyName
+                }
 
             shiny::selectInput(
                 inputId = shiny::NS(id)("county_select_pick"),
@@ -166,7 +173,7 @@ buying_known_server <- function(id, user_id, greenlist,
 
         output$greenlist_table <- DT::renderDT({
             p_t <- data.table::setDT(purchase_table())
-            
+
             g_l <- greenlist()[, c("id", "greenlist")]
             p_t <- data.table::merge.data.table(
                 p_t,
@@ -175,24 +182,25 @@ buying_known_server <- function(id, user_id, greenlist,
                 by.y = "id",
                 all.x = TRUE
             )
-            
-            
+
+
             p_t$greenlist[is.na(p_t$greenlist)] <- 1
-            
-           data.table::set(
+
+            data.table::set(
                 p_t,
                 j = "greenlist",
                 value = greenlist_status(p_t$greenlist)
             )
-            
-            
-            
-            
+
+
+
+
             show_rownames <- nrow(p_t) > 0
-            
-            if (nrow(p_t))
+
+            if (nrow(p_t)) {
                 rownames(p_t) <- paste("Besetning", seq_len(nrow(p_t)))
-            
+            }
+
             print(p_t)
             DT::datatable(
                 p_t,
@@ -216,62 +224,65 @@ buying_known_server <- function(id, user_id, greenlist,
                     "Status"
                 )
             ) |>
-            DT::formatStyle(
-                "greenlist",
-                backgroundColor = DT::styleEqual(
-                    c("Grønne listen", "Ukjent","Infisert"),
-                    c("green", "white","red")
-                ),
-                color = DT::styleEqual(
-                    c("Grønne listen", "Ukjent","Infisert"),
-                    c("white", "black","white")
+                DT::formatStyle(
+                    "greenlist",
+                    backgroundColor = DT::styleEqual(
+                        c("Grønne listen", "Ukjent", "Infisert"),
+                        c("green", "white", "red")
+                    ),
+                    color = DT::styleEqual(
+                        c("Grønne listen", "Ukjent", "Infisert"),
+                        c("white", "black", "white")
+                    )
                 )
-            )
         })
 
-       # output$salmonella_table <- DT::renderDT({
-       #     p_t <- data.table::setDT(purchase_table())
-       #     a_d <- disease_data()[["salmonella"]]
-       #     agent_table(a_d, p_t)
-       # })
+        # output$salmonella_table <- DT::renderDT({
+        #     p_t <- data.table::setDT(purchase_table())
+        #     a_d <- disease_data()[["salmonella"]]
+        #     agent_table(a_d, p_t)
+        # })
 
-      #  output$mycoplasma_table <- DT::renderDT({
-      #      p_t <- data.table::setDT(purchase_table())
-      #      a_d <- disease_data()[["mycoplasma"]]
-      #      agent_table(a_d, p_t)
-      #  })
-      
-        
+        #  output$mycoplasma_table <- DT::renderDT({
+        #      p_t <- data.table::setDT(purchase_table())
+        #      a_d <- disease_data()[["mycoplasma"]]
+        #      agent_table(a_d, p_t)
+        #  })
+
+
         output$bcov_table <- DT::renderDT({
-          p_t <- data.table::setDT(purchase_table())
-          a_d <- disease_data()[["BCoV"]]
-          agent_table(a_d, p_t)
+            p_t <- data.table::setDT(purchase_table())
+            a_d <- disease_data()[["BCoV"]]
+            freenr <- relevant_free_obs()[1]
+            agent_table(a_d, p_t)
         })
-        
+
         output$brsv_table <- DT::renderDT({
-          p_t <- data.table::setDT(purchase_table())
-          a_d <- disease_data()[["BRSV"]]
-          agent_table(a_d, p_t)
+            p_t <- data.table::setDT(purchase_table())
+            a_d <- disease_data()[["BRSV"]]
+            freenr <- relevant_free_obs()[2]
+            agent_table(a_d, p_t)
         })
-        
+
         output$klauvstatus_table <- DT::renderDT({
-          p_t <- data.table::setDT(purchase_table())
-          a_d <- disease_data()[["Klauvstatus"]]
-          agent_table(a_d, p_t)
+            p_t <- data.table::setDT(purchase_table())
+            a_d <- disease_data()[["Klauvstatus"]]
+            freenr <- relevant_free_obs()[3]
+            agent_table(a_d, p_t)
         })
-        
+
         output$jurstatus_table <- DT::renderDT({
-          p_t <- data.table::setDT(purchase_table())
-          a_d <- disease_data()[["Jurstatus"]]
-          agent_table(a_d, p_t)
+            p_t <- data.table::setDT(purchase_table())
+            a_d <- disease_data()[["Jurstatus"]]
+            freenr <- relevant_free_obs()[4]
+            agent_table(a_d, p_t)
         })
 
         shiny::observeEvent(input$add_row, {
             if (!is.null(input$n_animals) &&
-                    as.numeric(input$n_animals) > 0 &&
-                    nchar(input$herd_id) &&
-                    input$herd_id != as.character(user_id())) {
-
+                as.numeric(input$n_animals) > 0 &&
+                nchar(input$herd_id) &&
+                input$herd_id != as.character(user_id())) {
                 g_l <- greenlist()
 
                 in_program <- input$herd_id %in% g_l$id
@@ -331,8 +342,10 @@ buying_known_server <- function(id, user_id, greenlist,
                 session = session,
                 inputId = shiny::NS(id)("confirm_clear"),
                 type = "warning",
-                title = paste("Er du sikker på at du vil tømme tabellen?",
-                              "OBS! Kan ikke angres"),
+                title = paste(
+                    "Er du sikker på at du vil tømme tabellen?",
+                    "OBS! Kan ikke angres"
+                ),
                 danger_mode = TRUE,
                 btn_labels = c("Avbryt", "Bekreft")
             )
