@@ -254,28 +254,29 @@ buying_known_server <- function(id, user_id, greenlist,
             p_t <- data.table::setDT(purchase_table())
             a_d <- disease_data()[["BCoV"]]
             freenr <- relevant_free_obs()[1]
-            agent_table(a_d, p_t)
+            #print(freenr)
+            agent_table(a_d, p_t,freenr)
         })
 
         output$brsv_table <- DT::renderDT({
             p_t <- data.table::setDT(purchase_table())
             a_d <- disease_data()[["BRSV"]]
             freenr <- relevant_free_obs()[2]
-            agent_table(a_d, p_t)
+            agent_table(a_d, p_t,freenr)
         })
 
         output$klauvstatus_table <- DT::renderDT({
             p_t <- data.table::setDT(purchase_table())
             a_d <- disease_data()[["Klauvstatus"]]
             freenr <- relevant_free_obs()[3]
-            agent_table(a_d, p_t)
+            agent_table(a_d, p_t,freenr)
         })
 
         output$jurstatus_table <- DT::renderDT({
             p_t <- data.table::setDT(purchase_table())
             a_d <- disease_data()[["Jurstatus"]]
             freenr <- relevant_free_obs()[4]
-            agent_table(a_d, p_t)
+            agent_table(a_d, p_t,freenr)
         })
 
         shiny::observeEvent(input$add_row, {

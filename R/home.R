@@ -26,7 +26,7 @@ home_ui <- function(id) {
                         home_box(
                             title = "Mine sider",
                             description = paste0(
-                                "Her kan du som er medlem i",
+                                "Her kan du som er medlem i ",
                                 "prøvetakingsprogrammet få en ",
                                 "oversikt over dine egne ",
                                 "prøveresultater og smittestatus i din ",

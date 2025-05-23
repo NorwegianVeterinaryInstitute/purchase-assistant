@@ -41,13 +41,13 @@ agent_table <- function(a_d, p_t, freenr) {
     agent_status <- function(x) {
         if (length(x) < freenr) {
             return("Ukjent")
-        }
-        x <- x[1:4]
-
+        }else{
+        x <- x[1:freenr]
+        print(all(x == 0))
         if (all(x == 0)) {
             return("Fri fra infeksjon")
         }
-
+        }
         "Infisert"
     }
 
